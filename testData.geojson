@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"A",
+        "type":"domestic",
+        "color":"red"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.865966796875,
+          51.11041991029264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"B",
+        "type":"military",
+        "color":"blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.316162109375,
+          49.944150351645455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"C",
+        "type":"infrastructure",
+        "color":"green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.80029296875,
+          49.75997752330658
+        ]
+      }
+    }
+  ]
+}
