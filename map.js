@@ -5,7 +5,7 @@
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
-    layer.bindPopup(feature.properties.name);
+    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.name}</a>`);
     layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
 }
 
