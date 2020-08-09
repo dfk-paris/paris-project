@@ -254,9 +254,9 @@ function setMarker(type, color) {
     return L.icon({
                     iconUrl: svgURL,
 
-                    iconSize:     [12, 12], // size of the icon
-                    iconAnchor:   [12, 12], // point of the icon which will correspond to marker's location
-                    popupAnchor:  [-3, -12] // point from which the popup should open relative to the iconAnchor
+                    iconSize:     [14, 14], // size of the icon
+                    iconAnchor:   [14, 14], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -14] // point from which the popup should open relative to the iconAnchor
                 });
 
 }
