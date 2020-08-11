@@ -296,7 +296,7 @@ var overlayMaps = {
 
 
 //France Polygon
-fetch('http://127.0.0.1:8000/france_1648.geojson')
+fetch('https://vwestric.github.io/paris-project/france_1648.geojson')
   .then(response => response.json())
   .then(data => {
     var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -305,7 +305,7 @@ fetch('http://127.0.0.1:8000/france_1648.geojson')
   });
 
 //France Polygon
-fetch('http://127.0.0.1:8000/hrr_1648.geojson')
+fetch('https://vwestric.github.io/paris-project/hrr_1648.geojson')
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
