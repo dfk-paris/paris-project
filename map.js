@@ -284,7 +284,7 @@ var ewp = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Worl
 
 //Layer Groups
 var baseMaps = {
-    "Open Street Map": osm,
+    "Wikimedia": Wikimedia,
     "Esri World Physical" : ewp
 };
 
