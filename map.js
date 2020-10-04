@@ -267,25 +267,26 @@ function setMarker(type, color) {
 //Init Map
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
-//Add Tile Layer
-//Open Street Map
+//Traditional
+//Wikimedia
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
 	minZoom: 1,
 	maxZoom: 19
 }).addTo(map);
 
-//Terrain
-//Esri World Physical
-var ewp = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
-    maxZoom: 8
+//Minimal
+var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
 });
+
 
 //Layer Groups
 var baseMaps = {
     "Wikimedia": Wikimedia,
-    "Esri World Physical" : ewp
+    "Carto DB" : CartoDB_Positron
 };
 
 var overlayMaps = {
