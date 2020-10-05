@@ -16,10 +16,8 @@ function onEachFeature(feature, layer, lang) {
 }
 
 //Language Variable
-var lang = document.currentScript.attr('lang');   
-if (typeof lang === "undefined" ) {
-   var lang = 'fra';
-}
+var script = document.getElementById('map')
+var lang = script.getAttribute("data-lang");
 
 //Polygon Styles
 var franceStyle = {
