@@ -5,18 +5,18 @@
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer, lang) {
-	if (lang == "fra") {
+	if (lang === "fra") {
 	    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.description.fra}</a>`);
 	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
 	}
-	else if (lang == "de") {
+	else if (lang === "de") {
 	    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.description.de}</a>`);
 	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
 	}
 }
 
 //Language Variable
-var script = document.getElementById('map')
+var script = document.getElementById('map');
 var lang = script.getAttribute("data-lang");
 
 //Polygon Styles
