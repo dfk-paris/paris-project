@@ -4,9 +4,21 @@
 //Prerequisites
 //Function Definitions
 //OnEachFeature Function
-function onEachFeature(feature, layer) {
-    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.name}</a>`);
-    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
+function onEachFeature(feature, layer, lang) {
+	if (lang == "fra") {
+	    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.description.fra}</a>`);
+	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
+	}
+	else if (lang == "de") {
+	    layer.bindPopup(`<a href="${feature.properties.url}">${feature.properties.description.de}</a>`);
+	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
+	}
+}
+
+//Language Variable
+var lang = document.currentScript.attr('lang');   
+if (typeof lang === "undefined" ) {
+   var lang = 'fra';
 }
 
 //Polygon Styles
@@ -328,22 +340,22 @@ fetch('https://vwestric.github.io/paris-project/visits.geojson')
 
 //Layer Group Cities for overlayMaps
 //Sturm Group
-var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
         return feature.properties.visitor=="Sturm";
     }})]);
 
 //Knesebeck Group
-var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
         return feature.properties.visitor=="Knesebeck";
     }})]);
 
 //Corfey Group
-var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
         return feature.properties.visitor=="Corfey";
     }})]);
 
 //Pitzler Group
-var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
         return feature.properties.visitor=="Pitzler";
     }})]);
 
