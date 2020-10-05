@@ -334,7 +334,7 @@ fetch('https://vwestric.github.io/paris-project/hrr_1648.geojson')
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-fetch('https://vwestric.github.io/paris-project/visits.geojson')
+fetch('https://vwestric.github.io/paris-project/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
   .then(data => {
 
