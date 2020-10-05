@@ -17,7 +17,7 @@ function onEachFeature(feature, layer, lang) {
 
 //Language Variable
 var script = document.getElementById('map');
-var lang = script.getAttribute("data-lang");
+var lang = "fra";
 console.log(lang);
 
 //Polygon Styles
