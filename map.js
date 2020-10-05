@@ -339,22 +339,22 @@ fetch('https://vwestric.github.io/paris-project/visitsEuropeGeolocated.geojson')
 
 //Layer Group Cities for overlayMaps
 //Sturm Group
-var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
+var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Sturm";
     }})]);
 
 //Knesebeck Group
-var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
+var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Knesebeck";
     }})]);
 
 //Corfey Group
-var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
+var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Corfey";
     }})]);
 
 //Pitzler Group
-var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer, lang) {
+var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Pitzler";
     }})]);
 
