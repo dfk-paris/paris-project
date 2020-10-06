@@ -314,7 +314,7 @@ var overlayMaps = {
         };
 
 //Image Overlay
-var imageUrl = 'http://0.0.0.0:8000/parisBW.png',
+var imageUrl = 'https://vwestric.github.io/paris-project/parisBW.png',
     imageBounds = [[48.8723,2.3163], [48.8364,2.3693]];
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7).addTo(map);
 map.fitBounds(imageBounds);  
