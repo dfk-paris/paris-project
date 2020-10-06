@@ -45,7 +45,6 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
-          "<b>Paris 1778</b>":"",
           "<b>France 1648</b>":"",
           "<b>SERG 1648</b>":""    
         };
@@ -59,7 +58,6 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
-          "<b>Paris 1778</b>": "",
           "<b>HRR 1648</b>":"",
           "<b>Frankreich 1648</b>":""    
         };
@@ -390,17 +388,6 @@ fetch('https://vwestric.github.io/paris-project/hrr_1648.geojson')
     overlayMaps[hreLabel] = hrr
 
   });
-
-
-//Image Overlay
-var imageUrl = 'https://vwestric.github.io/paris-project/parisBW.png',
-    imageBounds = [[48.8723,2.3163], [48.8364,2.3693]];
-var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7).addTo(map);
-map.fitBounds(imageBounds);  
-imageOverlay.setStyle({
-      opacity: 0.7
-    })
-overlayMaps["<b>Paris 1778</b>"] = imageOverlay
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
