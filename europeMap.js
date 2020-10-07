@@ -71,7 +71,7 @@ function language() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     var lang = urlParams.get("lang")
-    if (lang == "de" || lang == "fra") {
+    if (lang === "de" || lang === "fra") {
 	return lang
     }
     else {
