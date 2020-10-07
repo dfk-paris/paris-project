@@ -2,6 +2,13 @@
 //Victor Westrich
 
 //Prerequisites
+//Language Dictionary
+var translation = {
+	"legendLabel": {
+		"fra": "Voyageurs",
+		"de": "Reisende"
+	}
+}
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
@@ -388,6 +395,53 @@ fetch('https://vwestric.github.io/paris-project/hrr_1648.geojson')
     overlayMaps[hreLabel] = hrr
 
   });
+
+//Legend
+//Get Color For Legend
+function getColor(d) {
+return d === "Sturm" ? '#00cc00' :
+d === "Knesebeck" ? '#ff0066' :
+d === "Corfey" ? '#000099' :
+d === "Pitzler" ? '#ffcc00' :
+d === "Neumann" ? '#ff9900' :
+d === "Harrach" ? '#ff0000' :
+'black';
+}
+
+//Get Icon For Legend
+function getIcon(d) {
+return d === "domestic" ? 'https://vwestric.github.io/paris-project/house.svg' :
+d === "military" ? 'https://vwestric.github.io/paris-project/military.svg' :
+d === "miscellaneous" ? 'https://vwestric.github.io/paris-project/circle.svg' :
+'https://vwestric.github.io/paris-project/circle.svg';
+}
+
+var legend = L.control({position: 'bottomleft'});
+    legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+    labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
+    symbols = ['<strong>'+ 'Symbols'+'</strong>'],
+	travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
+	icons = ["domestic", "military", "miscellaneous"]
+
+    for (var i = 0; i < travelers.length; i++) {
+	div.innerHTML += 
+		labels.push(
+			'<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
+	}
+
+	for (var i = 0; i < icons.length; i++) {
+	div.innerHTML += 
+		symbols.push(
+			'<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
+	}
+
+	div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
+
+	return div;
+	};
+    legend.addTo(map);
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
