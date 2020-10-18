@@ -422,7 +422,7 @@ var legend = L.control({position: 'bottomleft'});
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ 'Symbols'+'</strong>'],
-	travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
+	travelers = ["Pitzler","Harrach","Corfey","Sturm","Neumann","Harrach"];
 	icons = ["domestic", "military", "miscellaneous"]
 
     for (var i = 0; i < travelers.length; i++) {
