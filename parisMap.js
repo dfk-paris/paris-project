@@ -2,13 +2,6 @@
 //Victor Westrich
 
 //Prerequisites
-//Language Dictionary
-var translation = {
-	"legendLabel": {
-		"fra": "Voyageurs",
-		"de": "Reisende"
-	}
-}
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
@@ -28,7 +21,7 @@ function language() {
     const urlParams = new URLSearchParams(queryString);
     var lang = urlParams.get("lang")
     if (lang === "de" || lang === "fra") {
-	return lang
+    return lang
     }
     else {
         return "fra"
@@ -154,7 +147,7 @@ function setMarker(type, color) {
         width="32.8042mm" height="32.8042mm"
         viewBox="0 0 124 124">
         <path id="Spiritual"
-        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="15"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
         d="M 59.00,0.00
            C 59.00,0.00 59.00,8.00 59.00,8.00
              59.00,8.00 51.00,8.00 51.00,8.00
@@ -337,18 +330,18 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 //Traditional
 //Wikimedia
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	minZoom: 15,
-	maxZoom: 19
+    attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+    minZoom: 15,
+    maxZoom: 19
 }).addTo(map);
 
 //Minimal
 //Carto DB
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
     minZoom: 15,
-	maxZoom: 19
+    maxZoom: 19
 });
 
 //Layer Groups
@@ -391,39 +384,86 @@ d === "Harrach" ? '#ff0000' :
 'black';
 }
 
+//Translation for Legend
+var translation = {
+    "legendLabel": {
+        "fra": "Voyageurs",
+        "de": "Reisende"
+    },
+    "symbolsLabel": {
+        "fra": {
+            "Symbols":"Symboles",
+            "domestic":"édifices domestiques",
+            "military":"constructions militaires",
+            "religious":"édifices religieux",
+            "infrastructure":"infrastructure",
+            "public":"édifices publiques",
+            "miscellaneous":"autres"
+
+        },
+        "de":{
+            "Symbols":"Symbole",
+            "domestic":"Wohngebäude",
+            "military":"Militärische Gebäude",
+            "religious":"Religöse Gebäude",
+            "infrastructure":"Infrastruktur",
+            "public":"Öffentliche Gebäude",
+            "miscellaneous":"Sonstige"
+        }
+    }
+}
+
 //Get Icon For Legend
 function getIcon(d) {
-return d === "domestic" ? 'https://vwestric.github.io/paris-project/house.svg' :
-d === "military" ? 'https://vwestric.github.io/paris-project/military.svg' :
-d === "miscellaneous" ? 'https://vwestric.github.io/paris-project/circle.svg' :
+return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/house.svg' :
+d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/military.svg' :
+d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
+d === "infrastructure" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
+d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/public.svg' :
+d === "autres" ? 'https://vwestric.github.io/paris-project/circle.svg' :
+d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/house.svg' :
+d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/military.svg' :
+d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
+d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
+d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/public.svg' :
+d === "Sonstige" ? 'https://vwestric.github.io/paris-project/circle.svg' :
 'https://vwestric.github.io/paris-project/circle.svg';
 }
+
+
 
 var legend = L.control({position: 'bottomleft'});
     legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
-    symbols = ['<strong>'+ 'Symbols'+'</strong>'],
-	travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
-	icons = ["domestic", "military", "miscellaneous"]
+    symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
+    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
+    icons = [
+             translation["symbolsLabel"][lang]["domestic"],
+             translation["symbolsLabel"][lang]["military"],
+             translation["symbolsLabel"][lang]["religious"],
+             translation["symbolsLabel"][lang]["infrastructure"],
+             translation["symbolsLabel"][lang]["public"],
+             translation["symbolsLabel"][lang]["miscellaneous"],
+             ]
 
     for (var i = 0; i < travelers.length; i++) {
-	div.innerHTML += 
-		labels.push(
-			'<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
-	}
+    div.innerHTML += 
+        labels.push(
+            '<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
+    }
 
     for (var i = 0; i < icons.length; i++) {
-	div.innerHTML += 
-		symbols.push(
-			'<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
-	}
+    div.innerHTML += 
+        symbols.push(
+            '<img src="' + getIcon(icons[i]) + '" width=15 height=15> ' + icons[i]);
+    }
 
-	div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
+    div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
 
-	return div;
-	};
+    return div;
+    };
     legend.addTo(map);
 
 //Fetch Data
