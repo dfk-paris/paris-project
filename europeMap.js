@@ -212,7 +212,7 @@ function setMarker(type, color) {
                     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
                 });
 
-    } else if (type=="spiritual") {
+    } else if (type=="religious") {
         var icon = `
         <svg xmlns="http://www.w3.org/2000/svg"
         width="32.8042mm" height="32.8042mm"
