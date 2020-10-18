@@ -461,22 +461,69 @@ d === "Harrach" ? '#ff0000' :
 'black';
 }
 
+//Translation for Legend
+var translation = {
+    "legendLabel": {
+        "fra": "Voyageurs",
+        "de": "Reisende"
+    },
+    "symbolsLabel": {
+        "fra": {
+            "Symbols":"Symboles",
+            "domestic":"édifices domestiques",
+            "military":"constructions militaires",
+            "religious":"édifices religieux",
+            "infrastructure":"infrastructure",
+            "public":"édifices publiques",
+            "miscellaneous":"autres"
+
+        },
+        "de":{
+            "Symbols":"Symbole",
+            "domestic":"Wohngebäude",
+            "military":"Militärische Gebäude",
+            "religious":"Religöse Gebäude",
+            "infrastructure":"Infrastruktur",
+            "public":"Öffentliche Gebäude",
+            "miscellaneous":"Sonstige"
+        }
+    }
+}
+
 //Get Icon For Legend
 function getIcon(d) {
-return d === "domestic" ? 'https://vwestric.github.io/paris-project/house.svg' :
-d === "military" ? 'https://vwestric.github.io/paris-project/military.svg' :
-d === "miscellaneous" ? 'https://vwestric.github.io/paris-project/circle.svg' :
+return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/house.svg' :
+d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/military.svg' :
+d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
+d === "infrastructure" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
+d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/public.svg' :
+d === "autres" ? 'https://vwestric.github.io/paris-project/circle.svg' :
+d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/house.svg' :
+d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/military.svg' :
+d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
+d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
+d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/public.svg' :
+d === "Sonstige" ? 'https://vwestric.github.io/paris-project/circle.svg' :
 'https://vwestric.github.io/paris-project/circle.svg';
 }
+
+
 
 var legend = L.control({position: 'bottomleft'});
     legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
-    symbols = ['<strong>'+ 'Symbols'+'</strong>'],
-	travelers = ["Pitzler","Harrach","Corfey","Sturm","Neumann","Harrach"];
-	icons = ["domestic", "military", "miscellaneous"]
+    symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
+    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
+    icons = [
+             translation["symbolsLabel"][lang]["domestic"],
+             translation["symbolsLabel"][lang]["military"],
+             translation["symbolsLabel"][lang]["religious"],
+             translation["symbolsLabel"][lang]["infrastructure"],
+             translation["symbolsLabel"][lang]["public"],
+             translation["symbolsLabel"][lang]["miscellaneous"],
+             ]
 
     for (var i = 0; i < travelers.length; i++) {
 	div.innerHTML += 
