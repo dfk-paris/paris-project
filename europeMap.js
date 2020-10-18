@@ -4,10 +4,41 @@
 //Prerequisites
 //Language Dictionary
 var translation = {
-	"legendLabel": {
-		"fra": "Voyageurs",
-		"de": "Reisende"
-	}
+    "legendLabel": {
+        "fra": "Voyageurs",
+        "de": "Reisende"
+    },
+    "symbolsLabel": {
+        "fra": {
+            "Symbols":"Symboles",
+            "domestic":"édifices domestiques",
+            "military":"constructions militaires",
+            "religious":"édifices religieux",
+            "infrastructure":"infrastructure",
+            "public":"édifices publiques",
+            "miscellaneous":"autres"
+
+        },
+        "de":{
+            "Symbols":"Symbole",
+            "domestic":"Wohngebäude",
+            "military":"Militärische Gebäude",
+            "religious":"Religöse Gebäude",
+            "infrastructure":"Infrastruktur",
+            "public":"Öffentliche Gebäude",
+            "miscellaneous":"Sonstige"
+        }
+    },
+    "overlayLabel":{
+	    "fra": {
+	    	"hre": "<b>Saint-Empire 1700</b>",
+		"france": "<b>France 1700</b>"
+	    },
+	    "de": {
+	    	"hre": "<b>HRR 1700</b>",
+		"france": "<b>Frankreich 1700</b>"
+	    }
+    }
 }
 //Function Definitions
 //OnEachFeature Function
@@ -71,7 +102,6 @@ function overlayNames(lang) {
         return overlayMaps
     }
 }
-
 
 //Function for Language Variable (from URL Parameters)
 function language() {
@@ -428,7 +458,16 @@ var baseMaps = {
 };
 
 //Overlay Maps
-var overlayMaps = overlayNames(lang)
+var overlayMaps = {
+          "Sturm":"",
+          "Knesebeck":"",
+          "Corfey":"",
+          "Pitzler":"",
+          "Neumann":"",
+          "Harrach":"",
+          translation["overlayLabel"][lang]["hre"]:"",
+          translation["overlayLabel"][lang]["france"]:""    
+        };
 
 
 //France Polygon
@@ -459,35 +498,6 @@ d === "Pitzler" ? '#ffcc00' :
 d === "Neumann" ? '#ff9900' :
 d === "Harrach" ? '#ff0000' :
 'black';
-}
-
-//Translation for Legend
-var translation = {
-    "legendLabel": {
-        "fra": "Voyageurs",
-        "de": "Reisende"
-    },
-    "symbolsLabel": {
-        "fra": {
-            "Symbols":"Symboles",
-            "domestic":"édifices domestiques",
-            "military":"constructions militaires",
-            "religious":"édifices religieux",
-            "infrastructure":"infrastructure",
-            "public":"édifices publiques",
-            "miscellaneous":"autres"
-
-        },
-        "de":{
-            "Symbols":"Symbole",
-            "domestic":"Wohngebäude",
-            "military":"Militärische Gebäude",
-            "religious":"Religöse Gebäude",
-            "infrastructure":"Infrastruktur",
-            "public":"Öffentliche Gebäude",
-            "miscellaneous":"Sonstige"
-        }
-    }
 }
 
 //Get Icon For Legend
