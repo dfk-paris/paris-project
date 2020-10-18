@@ -435,7 +435,7 @@ var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
 	minZoom: 1,
 	maxZoom: 19
-}).addTo(map);
+});
 
 
 //Minimal
@@ -445,7 +445,7 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
 	subdomains: 'abcd',
     	minZoom: 1,
 	maxZoom: 19
-});
+}).addTo(map);
 
 //Overlay Name
 var franceLabel = overlayName("france", lang);
