@@ -111,7 +111,7 @@ function setMarker(type, color) {
          width="246.914mm" height="246.914mm"
          viewBox="0 0 700 700">
         <path id="House"
-            fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+            fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="25"
             d="M 108.00,313.00
                C 108.00,313.00 108.00,539.00 108.00,539.00
                  108.03,559.04 117.81,572.97 139.00,573.00
@@ -149,8 +149,18 @@ function setMarker(type, color) {
                  75.30,281.22 65.33,288.76 62.56,296.00
                  57.06,310.42 66.12,326.26 82.00,326.96
                  94.49,327.51 99.82,321.18 108.00,313.00 Z" />
-                </svg>
-        `;
+                </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
 
     } else if (type=="military") {
         var icon = `
@@ -158,7 +168,7 @@ function setMarker(type, color) {
          width="38.0852mm" height="31.2087mm"
          viewBox="0 0 144 118">
           <path id="Military"
-            fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+            fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
             d="M 22.00,67.00
                C 19.02,65.24 16.95,64.03 15.09,60.96
                  13.45,58.27 13.53,55.27 10.72,53.65
@@ -190,7 +200,17 @@ function setMarker(type, color) {
                M 58.31,88.07
                C 53.72,92.88 57.90,97.58 61.86,95.72
                  66.13,93.71 65.64,86.13 58.31,88.07 Z" />
-                </svg>`
+                </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
 
     } else if (type=="spiritual") {
         var icon = `
@@ -198,7 +218,7 @@ function setMarker(type, color) {
         width="32.8042mm" height="32.8042mm"
         viewBox="0 0 124 124">
         <path id="Spiritual"
-        fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="15"
         d="M 59.00,0.00
            C 59.00,0.00 59.00,8.00 59.00,8.00
              59.00,8.00 51.00,8.00 51.00,8.00
@@ -234,14 +254,25 @@ function setMarker(type, color) {
              58.02,94.14 57.80,88.63 62.00,88.63
              66.49,88.63 65.99,95.03 66.00,98.00
              66.00,98.00 66.00,117.00 66.00,117.00 Z" />
-            </svg>`
+            </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
 
     } else if (type=="public") {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
          width="26.1905mm" height="26.448mm"
          viewBox="0 0 99 100">
         <path id="Public"
-        fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="5"
         d="M 1.00,29.00
            C 5.87,30.93 24.62,30.00 31.00,30.00
              31.00,30.00 98.00,30.00 98.00,30.00
@@ -279,14 +310,24 @@ function setMarker(type, color) {
              0.00,100.00 99.00,100.00 99.00,100.00
              99.00,100.00 97.00,88.00 97.00,88.00
              97.00,88.00 2.00,88.00 2.00,88.00 Z" />
-            </svg>`
-    
+            </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
     } else if (type=="infrastructure") {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
      width="37.5562mm" height="17.7202mm"
      viewBox="0 0 142 67">
     <path id="Infrastructure"
-        fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
         d="M 0.00,1.00
            C 0.00,1.00 0.00,67.00 0.00,67.00
              0.00,67.00 20.00,67.00 20.00,67.00
@@ -307,13 +348,24 @@ function setMarker(type, color) {
              57.00,1.00 27.00,1.00 27.00,1.00
              27.00,1.00 14.00,0.03 14.00,0.03
              14.00,0.03 0.00,1.00 0.00,1.00 Z" />
-    </svg>`
+    </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
     } else {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
-     width="75.6614mm" height="76.9841mm"
+     width="25.6614mm" height="25.9841mm"
      viewBox="0 0 286 291">
     <path id="Circle"
-        fill="${color}" fill-opacity="0.7" stroke="black" stroke-width="1"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="15"
         d="M 141.00,0.86
            C 141.00,0.86 128.00,0.86 128.00,0.86
              119.45,1.99 109.23,4.24 101.00,6.72
@@ -326,20 +378,21 @@ function setMarker(type, color) {
              225.20,25.61 210.99,16.80 195.00,10.40
              179.50,4.20 166.58,1.68 150.00,0.86
              150.00,0.86 141.00,0.86 141.00,0.86 Z" />
-    </svg>`
-    }
+    </svg>`;
 
     var svgURL = "data:image/svg+xml;base64," + btoa(icon);
 
     return L.icon({
                     iconUrl: svgURL,
 
-                    iconSize:     [17, 17], // size of the icon
-                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
-                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                    iconSize:     [13, 13], // size of the icon
+                    iconAnchor:   [13, 13], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -13] // point from which the popup should open relative to the iconAnchor
                 });
+    }
 
 }
+
 
 
 //Map
