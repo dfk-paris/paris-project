@@ -405,7 +405,7 @@ var legend = L.control({position: 'bottomleft'});
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ 'Symbols'+'</strong>'],
-	travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
+	travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
 	icons = ["domestic", "military", "miscellaneous"]
 
     for (var i = 0; i < travelers.length; i++) {
@@ -414,7 +414,7 @@ var legend = L.control({position: 'bottomleft'});
 			'<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
 	}
 
-	for (var i = 0; i < icons.length; i++) {
+    for (var i = 0; i < icons.length; i++) {
 	div.innerHTML += 
 		symbols.push(
 			'<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
