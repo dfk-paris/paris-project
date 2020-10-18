@@ -26,18 +26,18 @@ function onEachFeature(feature, layer) {
 function overlayName(type, lang) {
     if (lang==="fra") {
         if (type==="hrr") {
-            return "<b>SERG 1648</b>"
+            return "<b>Saint-Empire 1700</b>"
         }
         else if (type==="france") {
-            return "<b>France 1648</b>"
+            return "<b>France 1700</b>"
         }
     }
     else if (lang==="de"){
         if (type==="hrr") {
-            return "<b>HRR 1648</b>"
+            return "<b>HRR 1700</b>"
         }
         else if (type==="france") {
-            return "<b>Frankreich 1648</b>"
+            return "<b>Frankreich 1700</b>"
         }
     }
 }
@@ -52,8 +52,8 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
-          "<b>France 1648</b>":"",
-          "<b>SERG 1648</b>":""    
+          "<b>France 1700</b>":"",
+          "<b>Saint-Empire 1700</b>":""    
         };
         return overlayMaps
     }
@@ -65,8 +65,8 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
-          "<b>HRR 1648</b>":"",
-          "<b>Frankreich 1648</b>":""    
+          "<b>HRR 1700</b>":"",
+          "<b>Frankreich 1700</b>":""    
         };
         return overlayMaps
     }
