@@ -295,7 +295,7 @@ var hreLabel = overlayName("hrr", lang);
 //Layer Groups
 //Base Maps
 var baseMaps = {
-    "Wikimedia": Wikimedia,
+    "Stadia AlidadeSmooth": Stadia_AlidadeSmooth,
     "Carto DB" : CartoDB_Positron
 };
 
