@@ -458,16 +458,7 @@ var baseMaps = {
 };
 
 //Overlay Maps
-var overlayMaps = {
-          "Sturm":"",
-          "Knesebeck":"",
-          "Corfey":"",
-          "Pitzler":"",
-          "Neumann":"",
-          "Harrach":"",
-          translation["overlayLabel"][lang]["hre"]:"",
-          translation["overlayLabel"][lang]["france"]:""    
-        };
+var overlayMaps = overlayNames(lang);
 
 
 //France Polygon
