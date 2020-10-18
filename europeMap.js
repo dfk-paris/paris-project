@@ -92,13 +92,13 @@ var lang = language()
 //Polygon Styles
 var franceStyle = {
     "color": "#013896",
-    "weight": 2,
+    "weight": 1,
     "opacity": 0.65
 };
 
 var hrrStyle = {
     "color": "#860018",
-    "weight": 2,
+    "weight": 1,
     "opacity": 0.65
 };
 
@@ -379,7 +379,7 @@ var overlayMaps = overlayNames(lang)
 
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/france_1648.geojson')
+fetch('https://vwestric.github.io/paris-project/france1700.geojson')
   .then(response => response.json())
   .then(data => {
     var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -388,7 +388,7 @@ fetch('https://vwestric.github.io/paris-project/france_1648.geojson')
   });
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/hrr_1648.geojson')
+fetch('https://vwestric.github.io/paris-project/hrr1700.geojson')
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
