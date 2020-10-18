@@ -248,7 +248,7 @@ function setMarker(type, color) {
         width="32.8042mm" height="32.8042mm"
         viewBox="0 0 124 124">
         <path id="Spiritual"
-        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="15"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
         d="M 59.00,0.00
            C 59.00,0.00 59.00,8.00 59.00,8.00
              59.00,8.00 51.00,8.00 51.00,8.00
