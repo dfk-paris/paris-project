@@ -223,10 +223,11 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
 //Traditional
 //Wikimedia
-var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-	maxZoom: 20,
-	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-}).addTo(map);
+var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+	minZoom: 1,
+	maxZoom: 19
+});
 
 // array of coordinates
 var mylatlngs = [[
@@ -295,7 +296,7 @@ var hreLabel = overlayName("hrr", lang);
 //Layer Groups
 //Base Maps
 var baseMaps = {
-    "Stadia AlidadeSmooth": Stadia_AlidadeSmooth,
+    "Wikimedia": Wikimedia,
     "Carto DB" : CartoDB_Positron
 };
 
