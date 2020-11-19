@@ -392,6 +392,61 @@ function setMarker(type, color) {
                     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
                 });
 
+    } else if (type=="geographic") {
+        var icon = `<svg xmlns="http://www.w3.org/2000/svg"
+     width="37.5562mm" height="17.7202mm"
+     viewBox="0 0 142 67">
+    <path id="Geographic"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
+	C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+	c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
+    </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
+    } else if (type=="garden") {
+        var icon = `<svg xmlns="http://www.w3.org/2000/svg"
+     width="37.5562mm" height="17.7202mm"
+     viewBox="0 0 142 67">
+    <path id="Garden"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
+           d="M 72.00,259.00
+           C 72.00,259.00 98.00,259.00 98.00,259.00
+             98.00,259.00 98.00,162.00 98.00,162.00
+             107.98,161.18 119.39,157.03 128.00,151.99
+             150.85,138.61 166.68,113.80 167.00,87.00
+             167.18,70.92 166.38,58.80 159.03,44.00
+             145.79,17.35 117.75,0.05 88.00,0.00
+             88.00,0.00 79.00,0.00 79.00,0.00
+             55.01,0.04 30.63,11.85 16.13,31.00
+             6.55,43.66 0.19,60.01 0.00,76.00
+             0.00,76.00 0.00,85.00 0.00,85.00
+             0.04,108.79 11.26,131.36 30.00,145.98
+             38.36,152.51 46.01,156.10 56.00,159.33
+             59.06,160.32 68.85,162.02 70.40,163.59
+             72.33,165.56 71.99,169.43 72.00,172.00
+             72.00,172.00 72.00,259.00 72.00,259.00 Z" />
+    </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
     } else {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
      width="25.6614mm" height="25.9841mm"
