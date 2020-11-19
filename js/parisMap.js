@@ -524,7 +524,7 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-fetch('https://vwestric.github.io/paris-project/js/visitsParisGeolocated.geojson')
+fetch('https://vwestric.github.io/paris-project/geojson/visitsParisGeolocated.geojson')
   .then(response => response.json())
   .then(data => {
 
