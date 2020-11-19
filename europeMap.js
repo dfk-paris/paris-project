@@ -463,7 +463,7 @@ var overlayMaps = overlayNames(lang);
 
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/france1700.geojson')
+fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
   .then(response => response.json())
   .then(data => {
     var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -472,7 +472,7 @@ fetch('https://vwestric.github.io/paris-project/france1700.geojson')
   });
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/hrr1700.geojson')
+fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
@@ -547,7 +547,7 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-fetch('https://vwestric.github.io/paris-project/visitsEuropeGeolocated.geojson')
+fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
   .then(data => {
 
