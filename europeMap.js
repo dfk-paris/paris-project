@@ -494,19 +494,19 @@ d === "Harrach" ? '#ff0000' :
 
 //Get Icon For Legend
 function getIcon(d) {
-return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/house.svg' :
-d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/military.svg' :
-d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
-d === "infrastructure" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
-d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/public.svg' :
-d === "autres" ? 'https://vwestric.github.io/paris-project/circle.svg' :
-d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/house.svg' :
-d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/military.svg' :
-d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/spiritual.svg' :
-d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/bridge.svg' :
-d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/public.svg' :
-d === "Sonstige" ? 'https://vwestric.github.io/paris-project/circle.svg' :
-'https://vwestric.github.io/paris-project/circle.svg';
+return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
+d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
+d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
+d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
+d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
+d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
+d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
+d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
+d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
+d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
+'https://vwestric.github.io/paris-project/svg/circle.svg';
 }
 
 
