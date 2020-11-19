@@ -289,6 +289,48 @@ function setMarker(type, color) {
                     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
                 });
 
+    } else if (type=="geographic") {
+        var icon = `<svg xmlns="http://www.w3.org/2000/svg"
+     width="37.5562mm" height="17.7202mm"
+     viewBox="0 0 142 67">
+    <path id="Geographic"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
+	C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+	c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
+    </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
+    } else if (type=="garden") {
+        var icon = `<svg xmlns="http://www.w3.org/2000/svg"
+     width="37.5562mm" height="17.7202mm"
+     viewBox="0 0 142 67">
+    <path id="Garden"
+        fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
+	C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+	c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
+    </svg>`;
+
+    var svgURL = "data:image/svg+xml;base64," + btoa(icon);
+
+    return L.icon({
+                    iconUrl: svgURL,
+
+                    iconSize:     [17, 17], // size of the icon
+                    iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+                    popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+                });
+
     } else {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
      width="25.6614mm" height="25.9841mm"
