@@ -16,6 +16,8 @@ var translation = {
             "religious":"édifices religieux",
             "infrastructure":"infrastructure",
             "public":"édifices publiques",
+	    "garden":"jardins",
+	    "geographic":"villes",
             "miscellaneous":"autres"
 
         },
@@ -26,6 +28,8 @@ var translation = {
             "religious":"Religöse Gebäude",
             "infrastructure":"Infrastruktur",
             "public":"Öffentliche Gebäude",
+            "garden":"Gärten",
+	    "geographic":"Städte",
             "miscellaneous":"Sonstige"
         }
     },
@@ -556,12 +560,16 @@ d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg
 d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "villes" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
 d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
 d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "Städte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 'https://vwestric.github.io/paris-project/svg/circle.svg';
 }
@@ -581,6 +589,8 @@ var legend = L.control({position: 'bottomleft'});
              translation["symbolsLabel"][lang]["religious"],
              translation["symbolsLabel"][lang]["infrastructure"],
              translation["symbolsLabel"][lang]["public"],
+	     translation["symbolsLabel"][lang]["garden"],
+	     translation["symbolsLabel"][lang]["geographic"],
              translation["symbolsLabel"][lang]["miscellaneous"],
              ]
 
