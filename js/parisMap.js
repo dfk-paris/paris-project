@@ -420,7 +420,7 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 //Wikimedia
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	minZoom: 1,
+	minZoom: 12,
 	maxZoom: 19
 });
 
@@ -430,7 +430,7 @@ var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd',
-    minZoom: 15,
+    minZoom: 12,
     maxZoom: 19
 }).addTo(map);
 
