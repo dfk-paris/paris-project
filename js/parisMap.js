@@ -416,15 +416,15 @@ function setMarker(type, color) {
 //Init Map
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
-//Topographic
-//Esri World Shaded Relief
-var Esri_WorldShadedRelief = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
-	maxZoom: 13
+//Minial
+var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
 });
 
 
-//Minimal
+//Traditional
 //Carto DB
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -437,8 +437,9 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
 //Base Maps Container
 var baseMaps = {
     "Carto DB" : CartoDB_Positron,
-    "Esri World Shaded Relief": Esri_WorldShadedRelief
+    "Carto DB No Labels": CartoDB_PositronNoLabels
 };
+
 //Overlay Maps Container
 var overlayMaps = {
           "Sturm":"",
@@ -490,7 +491,6 @@ d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/pu
 d === "Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
 d === "Städte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
-'https://vwestric.github.io/paris-project/svg/circle.svg';
 'https://vwestric.github.io/paris-project/svg/circle.svg';
 }
 
