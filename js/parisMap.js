@@ -416,7 +416,8 @@ function setMarker(type, color) {
 //Init Map
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
-//Minial
+//Minimal
+//Carto DB No Labels
 var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 	subdomains: 'abcd',
