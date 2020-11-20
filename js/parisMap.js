@@ -417,12 +417,11 @@ function setMarker(type, color) {
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
 //Traditional
-//Wikimedia
-var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	minZoom: 12,
-	maxZoom: 19
-});
+//Stadia Alidade Smooth
+var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
 
 
 //Minimal
@@ -432,12 +431,12 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
     subdomains: 'abcd',
     minZoom: 12,
     maxZoom: 19
-}).addTo(map);
+});
 
 //Layer Groups
 //Base Maps Container
 var baseMaps = {
-    "Wikimedia": Wikimedia,
+    "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
     "Carto DB" : CartoDB_Positron
 };
 
@@ -455,7 +454,7 @@ var overlayMaps = {
 //Image Overlay
 var imageUrl = 'https://vwestric.github.io/paris-project/raster/parisBW.png',
     imageBounds = [[48.876,2.303], [48.831,2.386]];
-var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7).addTo(map);
+var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7);
 map.fitBounds(imageBounds);  
 imageOverlay.setStyle({
       opacity: 0.7
