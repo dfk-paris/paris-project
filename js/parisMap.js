@@ -2,6 +2,40 @@
 //Victor Westrich
 
 //Prerequisites
+//Language Dictionary
+//Translation for Legend
+var translation = {
+    "legendLabel": {
+        "fra": "Voyageurs",
+        "de": "Reisende"
+    },
+    "symbolsLabel": {
+        "fra": {
+            "Symbols":"Symboles",
+            "domestic":"édifices domestiques",
+            "military":"constructions militaires",
+            "religious":"édifices religieux",
+            "infrastructure":"infrastructure",
+            "public":"édifices publiques",
+	    "garden":"jardins",
+	    "geographic":"villes",
+            "miscellaneous":"autres"
+
+        },
+        "de":{
+            "Symbols":"Symbole",
+            "domestic":"Wohngebäude",
+            "military":"Militärische Gebäude",
+            "religious":"Religöse Gebäude",
+            "infrastructure":"Infrastruktur",
+            "public":"Öffentliche Gebäude",
+            "garden":"Gärten",
+	    "geographic":"Städte",
+            "miscellaneous":"Sonstige"
+        }
+    }
+}
+
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
@@ -440,35 +474,6 @@ d === "Harrach" ? '#ff0000' :
 'black';
 }
 
-//Translation for Legend
-var translation = {
-    "legendLabel": {
-        "fra": "Voyageurs",
-        "de": "Reisende"
-    },
-    "symbolsLabel": {
-        "fra": {
-            "Symbols":"Symboles",
-            "domestic":"édifices domestiques",
-            "military":"constructions militaires",
-            "religious":"édifices religieux",
-            "infrastructure":"infrastructure",
-            "public":"édifices publiques",
-            "miscellaneous":"autres"
-
-        },
-        "de":{
-            "Symbols":"Symbole",
-            "domestic":"Wohngebäude",
-            "military":"Militärische Gebäude",
-            "religious":"Religöse Gebäude",
-            "infrastructure":"Infrastruktur",
-            "public":"Öffentliche Gebäude",
-            "miscellaneous":"Sonstige"
-        }
-    }
-}
-
 //Get Icon For Legend
 function getIcon(d) {
 return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
@@ -476,13 +481,18 @@ d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg
 d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "villes" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
 d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
 d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "Städte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
+'https://vwestric.github.io/paris-project/svg/circle.svg';
 'https://vwestric.github.io/paris-project/svg/circle.svg';
 }
 
@@ -501,6 +511,8 @@ var legend = L.control({position: 'bottomleft'});
              translation["symbolsLabel"][lang]["religious"],
              translation["symbolsLabel"][lang]["infrastructure"],
              translation["symbolsLabel"][lang]["public"],
+	     translation["symbolsLabel"][lang]["garden"],
+	     translation["symbolsLabel"][lang]["geographic"],
              translation["symbolsLabel"][lang]["miscellaneous"],
              ]
 
