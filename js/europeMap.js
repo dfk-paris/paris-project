@@ -491,31 +491,31 @@ function setMarker(type, color) {
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
 //Traditional
-//Wikimedia
-var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	minZoom: 1,
-	maxZoom: 19
-});
+//Traditional
+//Stadia Alidade Smooth
+var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
 
 
 //Minimal
 //Carto DB
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
-    	minZoom: 1,
-	maxZoom: 19
-}).addTo(map);
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    minZoom: 12,
+    maxZoom: 19
+});
 
 //Overlay Name
 var franceLabel = overlayName("france", lang);
 var hreLabel = overlayName("hrr", lang);
 
 //Layer Groups
-//Base Maps
+//Base Maps Container
 var baseMaps = {
-    "Wikimedia": Wikimedia,
+    "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
     "Carto DB" : CartoDB_Positron
 };
 
