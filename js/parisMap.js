@@ -416,12 +416,12 @@ function setMarker(type, color) {
 //Init Map
 var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 
-//Traditional
-//Stadia Alidade Smooth
-var Stadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-	maxZoom: 20,
-	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-}).addTo(map);
+//Topographic
+//Esri World Shaded Relief
+var Esri_WorldShadedRelief = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
+	maxZoom: 13
+});
 
 
 //Minimal
@@ -431,15 +431,14 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
     subdomains: 'abcd',
     minZoom: 12,
     maxZoom: 19
-});
+}).addTo(map);
 
 //Layer Groups
 //Base Maps Container
 var baseMaps = {
-    "Stadia Alidade Smooth": Stadia_AlidadeSmooth,
-    "Carto DB" : CartoDB_Positron
+    "Carto DB" : CartoDB_Positron,
+    "Esri World Shaded Relief": Esri_WorldShadedRelief
 };
-
 //Overlay Maps Container
 var overlayMaps = {
           "Sturm":"",
