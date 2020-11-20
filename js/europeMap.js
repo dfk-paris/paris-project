@@ -415,11 +415,11 @@ function setMarker(type, color) {
 
     } else if (type=="garden") {
         var icon = `<svg xmlns="http://www.w3.org/2000/svg"
-     width="37.5562mm" height="17.7202mm"
-     viewBox="0 0 142 67">
-    <path id="Garden"
+     width="44.1682mm" height="68.5185mm"
+     viewBox="0 0 167 259">
+  <path id="Garden"
         fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
-           d="M 72.00,259.00
+        d="M 72.00,259.00
            C 72.00,259.00 98.00,259.00 98.00,259.00
              98.00,259.00 98.00,162.00 98.00,162.00
              107.98,161.18 119.39,157.03 128.00,151.99
