@@ -501,6 +501,7 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 	subdomains: 'abcd',
+	minZoom:6,
 	maxZoom: 19
 });
 
@@ -510,6 +511,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd',
+    minZoom:6,
     maxZoom: 19
 }).addTo(map);
 
