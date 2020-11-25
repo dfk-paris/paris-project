@@ -41,7 +41,11 @@ var translation = {
 	    "de": {
 	    	"hre": "<b>HRR 1700</b>",
 		"france": "<b>Frankreich 1700</b>"
-	    }
+    	}
+    },
+    "baseLayer": {
+        "fra": "<b>Des endroits</b>",
+        "de": "<b>Orte</b>"
     }
 }
 //Function Definitions
@@ -79,7 +83,7 @@ function overlayName(type, lang) {
     }
 }
 
-//Function to Define Overlay Name
+//Function to Define Overlay Names
 function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
@@ -89,6 +93,7 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
+          "<b>Des endroits</b>":"",
           "<b>France 1700</b>":"",
           "<b>Saint-Empire 1700</b>":""    
         };
@@ -102,6 +107,7 @@ function overlayNames(lang) {
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
+          "<b>Orte</b>":"",
           "<b>HRR 1700</b>":"",
           "<b>Frankreich 1700</b>":""    
         };
@@ -504,7 +510,6 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd',
-    minZoom: 12,
     maxZoom: 19
 }).addTo(map);
 
@@ -619,6 +624,11 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
   .then(data => {
 
 //Layer Group Cities for overlayMaps
+//Base Group
+var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+        return feature.properties.visitor=="All";
+    }})]);
+	
 //Sturm Group
 var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Sturm";
@@ -650,6 +660,7 @@ var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filte
     }})]);
 
 //Add Layer Group Travelogues to overlayMaps
+overlayMaps[translation["baseLayer"][lang]] = all
 overlayMaps["Sturm"] = sturm
 overlayMaps["Knesebeck"] = knesebeck
 overlayMaps["Corfey"] = corfey
