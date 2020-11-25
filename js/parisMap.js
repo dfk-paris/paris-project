@@ -33,6 +33,10 @@ var translation = {
 	    "geographic":"Städte",
             "miscellaneous":"Sonstige"
         }
+    },
+    "baseLayer": {
+        "fra": "<b>Des endroits</b>",
+        "de": "<b>Orte</b>"
     }
 }
 
@@ -441,16 +445,39 @@ var baseMaps = {
     "Carto DB No Labels": CartoDB_PositronNoLabels
 };
 
-//Overlay Maps Container
-var overlayMaps = {
+//Function to Define Overlay Name
+function overlayNames(lang) {
+    if (lang==="fra") {
+        var overlayMaps = {
           "Sturm":"",
           "Knesebeck":"",
           "Corfey":"",
           "Pitzler":"",
           "Neumann":"",
           "Harrach":"",
-          "<b>Paris 1778</b>":"" 
+          "<b>Des endroits</b>":"",
+	  "<b>Paris 1778</b>":""  
         };
+        return overlayMaps
+    }
+    else if (lang==="de"){
+        var overlayMaps = {
+          "Sturm":"",
+          "Knesebeck":"",
+          "Corfey":"",
+          "Pitzler":"",
+          "Neumann":"",
+          "Harrach":"",
+          "<b>Orte</b>":"",
+	  "<b>Paris 1778</b>":""  
+        };
+        return overlayMaps
+    }
+}
+
+//Overlay Maps Container
+var overlayMaps = overlayNames(lang);
+
 
 //Image Overlay
 var imageUrl = 'https://vwestric.github.io/paris-project/raster/parisBW.png',
@@ -540,6 +567,11 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsParisGeolocated.ge
   .then(data => {
 
 //Layer Group Cities for overlayMaps
+//Base Group
+var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+        return feature.properties.visitor=="All";
+    }})]).addTo(map);
+	
 //Sturm Group
 var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Sturm";
@@ -571,6 +603,7 @@ var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filte
     }})]);
 
 //Add Layer Group Travelogues to overlayMaps
+overlayMaps[translation["baseLayer"][lang]] = all
 overlayMaps["Sturm"] = sturm
 overlayMaps["Knesebeck"] = knesebeck
 overlayMaps["Corfey"] = corfey
