@@ -52,8 +52,8 @@ var translation = {
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
 	if (lang === "fra") {
-	    //layer.bindPopup(feature.properties.description.fra);
-	    layer.bindPopup('<iframe src="https://adwmainz.pages.gitlab.rlp.net/regesta-imperii/lab/landing/"></iframe>')
+	    layer.bindPopup(feature.properties.description.fra);
+	    //layer.bindPopup('<iframe src="https://adwmainz.pages.gitlab.rlp.net/regesta-imperii/lab/landing/"></iframe>')
 	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
 	}
 	else if (lang === "de") {
@@ -587,7 +587,7 @@ var legend = L.control({position: 'bottomleft'});
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
-    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
+    travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
     icons = [
              translation["symbolsLabel"][lang]["domestic"],
              translation["symbolsLabel"][lang]["military"],
