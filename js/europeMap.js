@@ -627,7 +627,7 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
 //Base Group
 var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="All";
-    }})]);
+    }})]).addTo(map);
 	
 //Sturm Group
 var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
