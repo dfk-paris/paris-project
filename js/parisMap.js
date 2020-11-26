@@ -44,11 +44,11 @@ var translation = {
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
     if (lang === "fra") {
-        layer.bindPopup(feature.properties.description.fra);
+	    layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
         layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
     }
     else if (lang === "de") {
-        layer.bindPopup(feature.properties.description.de);
+	    layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
         layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
     }
 }
