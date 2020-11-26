@@ -87,12 +87,12 @@ function overlayName(type, lang) {
 function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
+	  "Pitzler":"",
+	  "Harrach":"",	
+	  "Corfey":"",
+	  "Knesebeck":"",
           "Sturm":"",
-          "Knesebeck":"",
-          "Corfey":"",
-          "Pitzler":"",
-          "Neumann":"",
-          "Harrach":"",
+          "Neumann":"",   
           "<b>Des endroits</b>":"",
           "<b>France 1700</b>":"",
           "<b>Saint-Empire 1700</b>":""    
@@ -101,12 +101,12 @@ function overlayNames(lang) {
     }
     else if (lang==="de"){
         var overlayMaps = {
+	  "Pitzler":"",
+	  "Harrach":"",	
+	  "Corfey":"",
+	  "Knesebeck":"",
           "Sturm":"",
-          "Knesebeck":"",
-          "Corfey":"",
-          "Pitzler":"",
-          "Neumann":"",
-          "Harrach":"",
+          "Neumann":"",          
           "<b>Orte</b>":"",
           "<b>HRR 1700</b>":"",
           "<b>Frankreich 1700</b>":""    
@@ -588,7 +588,7 @@ var legend = L.control({position: 'bottomleft'});
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
-    travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
+    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
     icons = [
              translation["symbolsLabel"][lang]["domestic"],
              translation["symbolsLabel"][lang]["military"],
@@ -662,12 +662,12 @@ var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filte
 
 //Add Layer Group Travelogues to overlayMaps
 overlayMaps[translation["baseLayer"][lang]] = all
-overlayMaps["Sturm"] = sturm
-overlayMaps["Knesebeck"] = knesebeck
-overlayMaps["Corfey"] = corfey
 overlayMaps["Pitzler"] = pitzler
-overlayMaps["Neumann"] = neumann
 overlayMaps["Harrach"] = harrach
+overlayMaps["Corfey"] = corfey
+overlayMaps["Knesebeck"] = knesebeck
+overlayMaps["Sturm"] = sturm
+overlayMaps["Neumann"] = neumann
 
 
 //Add layer control to map
