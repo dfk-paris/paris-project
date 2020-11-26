@@ -15,7 +15,7 @@ var translation = {
             "military":"constructions militaires",
             "religious":"édifices religieux",
             "infrastructure":"infrastructure",
-            "public":"édifices publiques",
+            "public":"édifices publics",
 	    "garden":"jardins",
 	    "geographic":"villes",
             "miscellaneous":"autres"
@@ -435,11 +435,12 @@ function overlayName(type, lang) {
 function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
-          "Knesebeck":"",
-          "Corfey":"",
-          "Pitzler":"",
-          "Neumann":"",
-          "Harrach":"",
+	  "Pitzler":"",
+	  "Harrach":"",	
+	  "Corfey":"",
+	  "Knesebeck":"",
+          "Sturm":"",
+          "Neumann":"", 
           "<b>Des endroits</b>":"",
           "<b>France 1700</b>":"",
           "<b>Saint-Empire 1700</b>":""    
@@ -448,11 +449,12 @@ function overlayNames(lang) {
     }
     else if (lang==="de"){
         var overlayMaps = {
-          "Knesebeck":"",
-          "Corfey":"",
-          "Pitzler":"",
-          "Neumann":"",
-          "Harrach":"",
+	  "Pitzler":"",
+	  "Harrach":"",	
+	  "Corfey":"",
+	  "Knesebeck":"",
+          "Sturm":"",
+          "Neumann":"", 
           "<b>Orte</b>":"",
           "<b>HRR 1700</b>":"",
           "<b>Frankreich 1700</b>":""    
@@ -506,12 +508,11 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 
 
 //Traditional
-//Carto DB
-var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
-    subdomains: 'abcd',
-    minZoom:6,
-    maxZoom: 19
+//Wikimedia
+var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
+	minZoom: 6,
+	maxZoom: 19
 }).addTo(map);
 
 //Overlay Name
@@ -521,7 +522,7 @@ var hreLabel = overlayName("hrr", lang);
 //Layer Groups
 //Base Maps Container
 var baseMaps = {
-    "Carto DB" : CartoDB_Positron,
+    "Wikimedia" : Wikimedia,
     "Carto DB No Labels": CartoDB_PositronNoLabels
 };
 
@@ -566,7 +567,7 @@ return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project
 d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
 d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
 d === "jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
 d === "villes" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
@@ -589,7 +590,7 @@ var legend = L.control({position: 'bottomleft'});
     var div = L.DomUtil.create('div', 'info legend'),
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
-    travelers = ["Sturm","Knesebeck","Corfey","Pitzler","Neumann","Harrach"];
+    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
     icons = [
              translation["symbolsLabel"][lang]["domestic"],
              translation["symbolsLabel"][lang]["military"],
@@ -677,7 +678,7 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
     
     overlayMaps[translation["baseLayer"][lang]] = all
     //Add layer control to map
-    L.control.layers(baseMaps, overlayMaps).addTo(map);
+    L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
 
 });
