@@ -16,7 +16,7 @@ var translation = {
             "military":"constructions militaires",
             "religious":"édifices religieux",
             "infrastructure":"infrastructure",
-            "public":"édifices publiques",
+            "public":"édifices publics",
 	    "garden":"jardins",
 	    "geographic":"villes",
             "miscellaneous":"autres"
@@ -425,23 +425,23 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
 	subdomains: 'abcd',
+    	minZoom: 12,
 	maxZoom: 19
 });
 
 
 //Traditional
-//Carto DB
-var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
-    subdomains: 'abcd',
-    minZoom: 12,
-    maxZoom: 19
+//Wikimedia
+var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
+	minZoom: 12,
+	maxZoom: 19
 }).addTo(map);
 
 //Layer Groups
 //Base Maps Container
 var baseMaps = {
-    "Carto DB" : CartoDB_Positron,
+    "Wikimedia" : Wikimedia,
     "Carto DB No Labels": CartoDB_PositronNoLabels
 };
 
@@ -507,7 +507,7 @@ return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project
 d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
 d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-d === "édifices publiques" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
+d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
 d === "jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
 d === "villes" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
@@ -613,7 +613,7 @@ overlayMaps["Harrach"] = harrach
 
 
 //Add layer control to map
-L.control.layers(baseMaps, overlayMaps).addTo(map);
+L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
 
 });
