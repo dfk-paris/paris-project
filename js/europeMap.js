@@ -11,25 +11,25 @@ var translation = {
     "symbolsLabel": {
         "fra": {
             "Symbols":"Symboles",
-            "geographic":"villes",
-            "infrastructure":"infrastructure",
             "public":"édifices publics",
-            "domestic":"édifices domestiques",
             "religious":"édifices religieux",
+            "domestic":"édifices domestiques",
+            "infrastructure":"infrastructure",
             "military":"constructions militaires",
-	        "garden":"jardins",
+            "garden":"parcs et jardins",
+            "geographic":"autres lieux",
             "miscellaneous":"autres"
 
         },
         "de":{
             "Symbols":"Symbole",
-            "geographic":"Städte",
-            "infrastructure":"Infrastruktur",
             "public":"Öffentliche Gebäude",
-            "domestic":"Wohngebäude",
             "religious":"Religöse Gebäude",
-            "military":"Militärische Gebäude",
-            "garden":"Gärten",
+            "domestic":"Wohngebäude",
+            "infrastructure":"Infrastruktur",
+            "military":"Militäreinrichtungen",
+            "garden":"Parks und Gärten",
+            "geographic":"Andere Orte",
             "miscellaneous":"Sonstige"
         }
     },
@@ -564,16 +564,16 @@ d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg
 d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-d === "jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-d === "villes" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
+d === "parcs et jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "autres lieux" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
-d === "Militärische Gebäude" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
+d === "Militäreinrichtungen" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
 d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
 d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-d === "Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-d === "Städte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
+d === "Parks und Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
+d === "Andere Orte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 'https://vwestric.github.io/paris-project/svg/circle.svg';
 }
