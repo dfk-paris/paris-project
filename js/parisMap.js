@@ -12,25 +12,25 @@ var translation = {
     "symbolsLabel": {
         "fra": {
             "Symbols":"Symboles",
-            "domestic":"édifices domestiques",
-            "military":"constructions militaires",
-            "religious":"édifices religieux",
+            "geographic":"villes",
             "infrastructure":"infrastructure",
             "public":"édifices publics",
-	    "garden":"jardins",
-	    "geographic":"villes",
+            "domestic":"édifices domestiques",
+            "religious":"édifices religieux",
+            "military":"constructions militaires",
+	        "garden":"jardins",
             "miscellaneous":"autres"
 
         },
         "de":{
             "Symbols":"Symbole",
-            "domestic":"Wohngebäude",
-            "military":"Militärische Gebäude",
-            "religious":"Religöse Gebäude",
+            "geographic":"Städte",
             "infrastructure":"Infrastruktur",
             "public":"Öffentliche Gebäude",
+            "domestic":"Wohngebäude",
+            "religious":"Religöse Gebäude",
+            "military":"Militärische Gebäude",
             "garden":"Gärten",
-	    "geographic":"Städte",
             "miscellaneous":"Sonstige"
         }
     },
