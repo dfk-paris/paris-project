@@ -156,8 +156,8 @@ function numberedMarker(svg) {
     return L.icon({
                     iconUrl: svgURL,
 
-                    iconSize:     [18, 18], // size of the icon
-                    iconAnchor:   [17, 37], // point of the icon which will correspond to marker's location
+                    iconSize:     [20, 20], // size of the icon
+                    iconAnchor:   [18, 38], // point of the icon which will correspond to marker's location
                     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
                 });
 
@@ -522,7 +522,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 	subdomains: 'abcd',
 	minZoom:6,
 	maxZoom: 19
-});
+}).addTo(map);
 
 
 //Traditional
@@ -531,7 +531,7 @@ var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
 	minZoom: 6,
 	maxZoom: 19
-}).addTo(map);
+});
 
 //Overlay Name
 var franceLabel = overlayName("france", lang);
@@ -653,53 +653,54 @@ overlayMaps[translation["baseLayer"][lang]] = all
 
 
 //Add layer control to map
-L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+//L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+    //Fetch Data for Numbered Icons
+    fetch('https://vwestric.github.io/paris-project/geojson/numberedFeatureCollection.geojson')
+      .then(response => response.json())
+      .then(data => {
+
+    //Layer Group Cities for overlayMaps
+    //Knesebeck Group
+    var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Knesebeck";
+        }})]);
+
+    //Corfey Group
+    var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Corfey";
+        }})]);
+
+    //Pitzler Group
+    var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Pitzler";
+        }})]);
+
+    //Neumann Group
+    var neumann = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Neumann";
+        }})]);
+
+    //Harrach Group
+    var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Harrach";
+        }})]);
+
+    //Add Layer Group Travelogues to overlayMaps
+    overlayMaps["Knesebeck"] = knesebeck
+    overlayMaps["Corfey"] = corfey
+    overlayMaps["Pitzler"] = pitzler
+    overlayMaps["Neumann"] = neumann
+    overlayMaps["Harrach"] = harrach
+
+
+    //Add layer control to map
+    L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+
+
+    });
 
 
 });
 
-//Fetch Data for Numbered Icons
-fetch('https://vwestric.github.io/paris-project/geojson/numberedFeatureCollection.geojson')
-  .then(response => response.json())
-  .then(data => {
 
-//Layer Group Cities for overlayMaps
-//Knesebeck Group
-var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
-        return feature.properties.visitor=="Knesebeck";
-    }})]);
-
-//Corfey Group
-var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
-        return feature.properties.visitor=="Corfey";
-    }})]);
-
-//Pitzler Group
-var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
-        return feature.properties.visitor=="Pitzler";
-    }})]);
-
-//Neumann Group
-var neumann = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
-        return feature.properties.visitor=="Neumann";
-    }})]);
-
-//Harrach Group
-var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
-        return feature.properties.visitor=="Harrach";
-    }})]);
-
-//Add Layer Group Travelogues to overlayMaps
-overlayMaps["Knesebeck"] = knesebeck
-overlayMaps["Corfey"] = corfey
-overlayMaps["Pitzler"] = pitzler
-overlayMaps["Neumann"] = neumann
-overlayMaps["Harrach"] = harrach
-
-
-//Add layer control to map
-L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-
-
-});
 
