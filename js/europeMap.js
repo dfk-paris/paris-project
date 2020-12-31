@@ -44,8 +44,8 @@ var translation = {
     	}
     },
     "baseLayer": {
-        "fra": "<b>Des endroits</b>",
-        "de": "<b>Orte</b>"
+        "fra": "<b>Tous les voyageurs</b>",
+        "de": "<b>Alle Reisende</b>"
     }
 }
 //Function Definitions
@@ -91,7 +91,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"",   
-          "<b>Des endroits</b>":"",
+          "<b>Tous les voyageurs</b>":"",
           "<b>France 1700</b>":"",
           "<b>Saint-Empire 1700</b>":""    
         };
@@ -105,7 +105,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"",          
-          "<b>Orte</b>":"",
+          "<b>Alle Reisende</b>":"",
           "<b>HRR 1700</b>":"",
           "<b>Frankreich 1700</b>":""    
         };
