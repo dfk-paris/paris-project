@@ -35,8 +35,8 @@ var translation = {
         }
     },
     "baseLayer": {
-        "fra": "<b>Des endroits</b>",
-        "de": "<b>Orte</b>"
+        "fra": "<b>Tous les voyageurs</b>",
+        "de": "<b>Alle Reisende</b>"
     }
 }
 
@@ -455,7 +455,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"", 
-          "<b>Des endroits</b>":"",
+          "<b>Tous les voyageurs</b>":"",
 	  "<b>Paris 1778</b>":""  
         };
         return overlayMaps
@@ -468,7 +468,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"", 
-          "<b>Orte</b>":"",
+          "<b>Alle Reisende</b>":"",
 	  "<b>Paris 1778</b>":""  
         };
         return overlayMaps
