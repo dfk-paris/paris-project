@@ -4,10 +4,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvv",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -20,10 +21,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvk",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -36,10 +38,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfv9",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -52,10 +55,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvw",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -68,10 +72,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvz",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -84,10 +89,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfv8",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -100,10 +106,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfww",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -116,10 +123,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1r",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -132,10 +140,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1s",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -148,6 +157,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1t",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -164,6 +174,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1v",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -180,6 +191,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1w",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -196,6 +208,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwn",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -212,6 +225,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg2b",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -228,6 +242,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg2c",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">15</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.42938,
+                    50.92814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfx7",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -244,6 +276,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg2m",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -260,6 +293,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg2n",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -276,6 +310,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxb",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -292,6 +327,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfx6",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -308,6 +344,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg2r",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -324,6 +361,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzm",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -340,6 +378,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzh",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -356,6 +395,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfz5",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -372,6 +412,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0r",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -388,6 +429,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzk",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -404,6 +446,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg31",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -420,6 +463,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzg",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -436,6 +480,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxn",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -452,6 +497,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1d",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -468,6 +514,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1c",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">31</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.985278,
+                    49.776667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfz4",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -484,6 +548,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfz3",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -500,6 +565,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxbt",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -516,6 +582,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfz2",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -532,6 +599,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0q",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">36</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35387,
+                    48.93564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg1b",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -548,6 +633,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">38</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph9n",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -564,6 +667,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1gp",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">40</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.81806,
+                    49.42559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0k",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -580,6 +701,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfz2",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -596,6 +718,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0h",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -612,6 +735,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phb5",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -628,6 +752,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phb7",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -644,6 +769,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -660,6 +786,41 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfk9",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">47</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.21873,
+                    48.83784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">48</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfk5",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -676,6 +837,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0q",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">50</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35387,
+                    48.93564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q0mt",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -692,6 +871,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9w",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -708,6 +888,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -724,6 +905,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phb7",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -740,6 +922,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0x",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -756,6 +939,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfk5",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -772,6 +956,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">57</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0x",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -788,6 +990,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">59</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q0nr",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -804,6 +1024,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9t",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -820,6 +1041,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phbg",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -836,6 +1058,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzj",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -852,6 +1075,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph8g",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -868,6 +1092,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phb4",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -884,6 +1109,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0n6",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -900,6 +1126,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph28",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -916,6 +1143,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3n",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -932,6 +1160,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph2z",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -948,6 +1177,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph2x",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -964,6 +1194,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph34",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -980,6 +1211,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph36",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -996,6 +1228,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph3g",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1012,6 +1245,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph3k",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1028,6 +1262,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph3j",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1044,6 +1279,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg37",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1060,6 +1296,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phbf",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1076,6 +1313,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9q",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1092,6 +1330,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1dc",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">79</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.11321,
+                    46.48286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph2j",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1108,6 +1364,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0nt",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1124,6 +1381,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phbc",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">82</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.14265,
+                    45.76806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3qkp8",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1140,6 +1415,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9s",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1156,6 +1432,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3p",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">85</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5805,
+                    44.84044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph91",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1172,6 +1466,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph94",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1188,6 +1483,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph8p",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">88</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.07813,
+                    44.5136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph8t",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1204,6 +1517,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph8x",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1220,6 +1534,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0mm",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1236,6 +1551,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph8s",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1252,6 +1568,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0w",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1268,6 +1585,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0np",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">94</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.10702,
+                    44.04022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph8q",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1284,6 +1619,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph98",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1300,6 +1636,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0nn",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1316,6 +1653,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9c",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">98</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.44165,
+                    43.21064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph8w",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1332,6 +1687,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph93",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1348,6 +1704,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph97",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1364,6 +1721,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0nd",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1380,6 +1738,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph8d",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1396,6 +1755,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0p4",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1412,6 +1772,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0nf",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1428,6 +1789,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0p5",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1444,6 +1806,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0pb",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1460,6 +1823,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1fc",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">108</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.56799,
+                    43.93949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfxz",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1476,6 +1857,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0nc",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">110</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.64417,
+                    43.80806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q0pw",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1492,6 +1891,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0mw",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1508,6 +1908,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0pt",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1524,6 +1925,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxp",
+                "visitor": "Corfey",
+                "color": "#6699ff",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#6699ff\" stroke=\"#6699ff\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">114</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.44973,
+                    43.5283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg05",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1540,6 +1959,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0pq",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1556,6 +1976,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0pm",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1572,6 +1993,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q0n7",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1588,6 +2010,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg05",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1604,6 +2027,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qknv",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1620,6 +2044,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq6",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1636,6 +2061,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkmn",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1652,6 +2078,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq4",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1668,6 +2095,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph7r",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1684,6 +2112,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3p",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">32</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5805,
+                    44.84044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3ph2g",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1700,6 +2146,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3k",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1716,6 +2163,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph83",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1732,6 +2180,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxc1",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1748,6 +2197,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph2b",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1764,6 +2214,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxbv",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1780,6 +2231,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph2p",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">40</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.99528,
+                    47.12861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg3n",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1796,6 +2265,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph28",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1812,6 +2282,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph1t",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1828,6 +2299,58 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">45</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfk9",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">46</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.21873,
+                    48.83784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">47</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1844,6 +2367,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">49</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1860,6 +2401,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Harrach",
+                "color": "#ff0000",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0000\" stroke=\"#ff0000\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">51</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3qkrk",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1876,6 +2435,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph24",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1892,6 +2452,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3r",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1908,6 +2469,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3z",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1924,6 +2486,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph84",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1940,6 +2503,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph85",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1956,6 +2520,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph80",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1972,6 +2537,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph7z",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -1988,6 +2554,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph81",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2004,6 +2571,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkrv",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2020,6 +2588,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph25",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2036,6 +2605,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px8x",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2052,6 +2622,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph21",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2068,6 +2639,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3m",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2084,6 +2656,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq2",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2100,6 +2673,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq0",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2116,6 +2690,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkpz",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2132,6 +2707,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq3",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2148,6 +2724,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1dg",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2164,6 +2741,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkpv",
                 "visitor": "Harrach",
                 "color": "#ff0000",
                 "type": "",
@@ -2180,10 +2758,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfv7",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2196,10 +2775,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxdb",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2212,10 +2792,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvf",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2228,10 +2809,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxd5",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2244,10 +2826,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfvf",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2260,10 +2843,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxd0",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2276,10 +2860,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1gw",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2292,10 +2877,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcx",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2308,10 +2894,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcv",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -2324,6 +2911,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcw",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2340,6 +2928,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxct",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2356,6 +2945,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcs",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2372,6 +2962,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcq",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2388,6 +2979,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3rc22",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2404,6 +2996,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3rc23",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2420,6 +3013,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfws",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2436,6 +3030,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcg",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2452,6 +3047,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcf",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2468,6 +3064,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxcc",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">19</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.2822,
+                    52.1908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pxcd",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2484,6 +3098,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pxc5",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2500,6 +3115,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwm",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2516,6 +3132,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px8z",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2532,6 +3149,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px90",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2548,6 +3166,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg3w",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2564,6 +3183,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwx",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2580,6 +3200,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px93",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2596,6 +3217,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg1v",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2612,6 +3234,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1g3",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2628,6 +3251,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px94",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2644,6 +3268,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwn",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2660,6 +3285,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxb",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2676,6 +3302,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzn",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2692,6 +3319,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxv",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2708,6 +3336,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxq",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2724,6 +3353,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px98",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2740,6 +3370,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px99",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2756,6 +3387,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px95",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2772,6 +3404,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px96",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2788,6 +3421,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3px97",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2804,6 +3438,41 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0q",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">41</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35387,
+                    48.93564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">42</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2820,6 +3489,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfts",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2836,6 +3506,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2852,6 +3523,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3phb7",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2868,6 +3540,41 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfk9",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">47</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.21873,
+                    48.83784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">48</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q1bg",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2884,6 +3591,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfjv",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2900,6 +3608,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bh",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2916,6 +3625,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bk",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2932,6 +3642,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph9n",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2948,6 +3659,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bm",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2964,6 +3676,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bn",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2980,6 +3693,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bp",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">56</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.28757,
+                    49.84889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q1bq",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -2996,6 +3727,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1bc",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ff0066\" stroke=\"#ff0066\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">58</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.23472,
+                    50.17596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q1bb",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3012,6 +3761,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1b6",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3028,6 +3778,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1b8",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3044,6 +3795,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3r320",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3060,6 +3812,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1b5",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3076,6 +3829,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1b4",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3092,6 +3846,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfx7",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3108,6 +3863,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwn",
                 "visitor": "Knesebeck",
                 "color": "#ff0066",
                 "type": "",
@@ -3124,10 +3880,28 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qknc",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46694,
+                    49.4891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3r30m",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3140,10 +3914,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkn9",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3156,10 +3931,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qknb",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3172,10 +3948,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3q1dg",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3188,10 +3965,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkq3",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3204,10 +3982,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph21",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3220,10 +3999,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3ph25",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3236,6 +4016,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3252,6 +4050,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3268,6 +4067,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3284,6 +4084,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3300,6 +4101,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3316,6 +4118,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">15</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3332,6 +4152,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">17</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3348,6 +4186,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">19</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3364,6 +4220,41 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">21</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfk9",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">22</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.21873,
+                    48.83784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfk5",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3380,6 +4271,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkn0",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">24</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.273194,
+                    48.822639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3396,6 +4305,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">26</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3412,6 +4339,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">28</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3428,6 +4373,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">30</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3444,6 +4407,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">32</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3460,6 +4441,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">34</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfjv",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3476,6 +4475,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">36</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3phbj",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3492,6 +4509,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">38</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3508,6 +4543,41 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">40</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q1bc",
+                "visitor": "Neumann",
+                "color": "#cc6600",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#cc6600\" stroke=\"#cc6600\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">41</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.23472,
+                    50.17596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3q1c5",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3524,6 +4594,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfx7",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3540,6 +4611,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qwgg",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3556,6 +4628,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qwgf",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3572,6 +4645,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkn4",
                 "visitor": "Neumann",
                 "color": "#cc6600",
                 "type": "",
@@ -3588,10 +4662,28 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">1</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfs0",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">2</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3604,10 +4696,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pftx",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">3</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3620,10 +4713,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfts",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">4</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3636,10 +4730,62 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3qkrw",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">5</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.425325,
+                    48.843437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0q",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">6</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35387,
+                    48.93564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg0p",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">7</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20289,
+                    48.84598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfk4",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">8</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3652,10 +4798,11 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfk5",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
-                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"80\" y=\"225\" font-family=\"Verdana\" font-size=\"195\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"9\" y=\"190\" font-family=\"Verdana\" font-size=\"125\"  font-weight=\"bold\" fill=\"white\">9</text>\n</svg>\n        "
             },
             "geometry": {
                 "type": "Point",
@@ -3668,6 +4815,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0g",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">10</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfxx",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3684,6 +4849,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzf",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3700,6 +4866,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzb",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3716,6 +4883,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg04",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3732,6 +4900,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfzx",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3748,6 +4917,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0z",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3764,6 +4934,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0w",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3780,6 +4951,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0j",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3796,6 +4968,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxz",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3812,6 +4985,24 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxp",
+                "visitor": "Pitzler",
+                "color": "#ffcc00",
+                "type": "",
+                "label": "\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n     width=\"75.6614mm\" height=\"76.9841mm\"\n     viewBox=\"0 0 286 291\">\n  <path id=\"NumberedCircle\"\n        fill=\"#ffcc00\" stroke=\"#ffcc00\" stroke-width=\"1\"\n        d=\"M 141.00,0.86\n           C 141.00,0.86 128.00,0.86 128.00,0.86\n             119.45,1.99 109.23,4.24 101.00,6.72\n             66.55,17.10 37.18,41.99 19.43,73.00\n             -25.51,151.50 12.58,256.27 100.00,283.97\n             118.46,289.82 138.78,291.67 158.00,289.83\n             174.67,288.24 192.10,282.80 207.00,275.24\n             221.99,267.65 236.58,256.46 247.83,244.00\n             301.30,184.80 297.50,90.91 238.00,37.17\n             225.20,25.61 210.99,16.80 195.00,10.40\n             179.50,4.20 166.58,1.68 150.00,0.86\n             150.00,0.86 141.00,0.86 141.00,0.86 Z\" />\n  <text x=\"7\" y=\"220\" font-family=\"Verdana\" font-size=\"195\" font-weight=\"bold\" fill=\"white\">20</text>\n</svg>\n        "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.44973,
+                    43.5283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pg05",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3828,6 +5019,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pg0s",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3844,6 +5036,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfwj",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
@@ -3860,6 +5053,7 @@
         {
             "type": "Feature",
             "properties": {
+                "id": "textgrid:3pfxs",
                 "visitor": "Pitzler",
                 "color": "#ffcc00",
                 "type": "",
