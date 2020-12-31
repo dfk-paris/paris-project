@@ -34,31 +34,31 @@ var translation = {
         }
     },
     "overlayLabel":{
-	    "fra": {
-	    	"hre": "<b>Saint-Empire 1700</b>",
-		"france": "<b>France 1700</b>"
-	    },
-	    "de": {
-	    	"hre": "<b>HRR 1700</b>",
-		"france": "<b>Frankreich 1700</b>"
-    	}
+        "fra": {
+            "hre": "<b>Saint-Empire 1700</b>",
+        "france": "<b>France 1700</b>"
+        },
+        "de": {
+            "hre": "<b>HRR 1700</b>",
+        "france": "<b>Frankreich 1700</b>"
+        }
     },
     "baseLayer": {
-        "fra": "<b>Des endroits</b>",
-        "de": "<b>Orte</b>"
+        "fra": "<b>Tous les voyageurs</b>",
+        "de": "<b>Alle Reisende</b>"
     }
 }
 //Function Definitions
 //OnEachFeature Function
 function onEachFeature(feature, layer) {
-	if (lang === "fra") {
-	    layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
-	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
-	}
-	else if (lang === "de") {
-	    layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
-	    layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
-	}
+    if (lang === "fra") {
+        layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
+        layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
+    }
+    else if (lang === "de") {
+        layer.on('click', function() { openPlaceName('plc:'+feature.properties.id) });
+        layer.setIcon(setMarker(feature.properties.type, feature.properties.color))
+    }
 }
 
 //OnEachFeature Function
@@ -95,12 +95,12 @@ function overlayName(type, lang) {
 function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
-	  "Pitzler":"",
-	  "Harrach":"",	
-	  "Corfey":"",
-	  "Knesebeck":"",
+      "Pitzler":"",
+      "Harrach":"", 
+      "Corfey":"",
+      "Knesebeck":"",
           "Neumann":"",   
-          "<b>Des endroits</b>":"",
+          "<b>Tous les voyageurs</b>":"",
           "<b>France 1700</b>":"",
           "<b>Saint-Empire 1700</b>":""    
         };
@@ -108,12 +108,12 @@ function overlayNames(lang) {
     }
     else if (lang==="de"){
         var overlayMaps = {
-	  "Pitzler":"",
-	  "Harrach":"",	
-	  "Corfey":"",
-	  "Knesebeck":"",
+      "Pitzler":"",
+      "Harrach":"", 
+      "Corfey":"",
+      "Knesebeck":"",
           "Neumann":"",          
-          "<b>Orte</b>":"",
+          "<b>Alle Reisende</b>":"",
           "<b>HRR 1700</b>":"",
           "<b>Frankreich 1700</b>":""    
         };
@@ -127,7 +127,7 @@ function language() {
     const urlParams = new URLSearchParams(queryString);
     var lang = urlParams.get("lang")
     if (lang === "de" || lang === "fra") {
-	return lang
+    return lang
     }
     else {
         return "fra"
@@ -428,7 +428,7 @@ function setMarker(type, color) {
     <path id="Geographic"
         fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="17"
         d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
-	   C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+       C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
            c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
     </svg>`;
 
@@ -518,19 +518,19 @@ var map = L.map('mapid').setView([48.856667, 2.351667], 5);
 //Minimal
 //Carto DB No Labels
 var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
-	subdomains: 'abcd',
-	minZoom:6,
-	maxZoom: 19
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
+    subdomains: 'abcd',
+    minZoom:6,
+    maxZoom: 19
 }).addTo(map);
 
 
 //Traditional
 //Wikimedia
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
-	minZoom: 6,
-	maxZoom: 19
+    attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
+    minZoom: 6,
+    maxZoom: 19
 });
 
 //Overlay Name
@@ -614,27 +614,27 @@ var legend = L.control({position: 'bottomleft'});
              translation["symbolsLabel"][lang]["religious"],
              translation["symbolsLabel"][lang]["infrastructure"],
              translation["symbolsLabel"][lang]["public"],
-	     translation["symbolsLabel"][lang]["garden"],
-	     translation["symbolsLabel"][lang]["geographic"],
+         translation["symbolsLabel"][lang]["garden"],
+         translation["symbolsLabel"][lang]["geographic"],
              translation["symbolsLabel"][lang]["miscellaneous"],
              ]
 
     for (var i = 0; i < travelers.length; i++) {
-	div.innerHTML += 
-		labels.push(
-			'<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
-	}
+    div.innerHTML += 
+        labels.push(
+            '<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
+    }
 
-	for (var i = 0; i < icons.length; i++) {
-	div.innerHTML += 
-		symbols.push(
-			'<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
-	}
+    for (var i = 0; i < icons.length; i++) {
+    div.innerHTML += 
+        symbols.push(
+            '<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
+    }
 
-	div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
+    div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
 
-	return div;
-	};
+    return div;
+    };
     legend.addTo(map);
 
 //Fetch Data for Base Layer Icons
