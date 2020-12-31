@@ -638,7 +638,7 @@ var legend = L.control({position: 'bottomleft'});
     legend.addTo(map);
 
 //Fetch Data for Base Layer Icons
-fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
+fetch('https://vwestric.github.io/paris-project/geojson/itinerary.geojson')
   .then(response => response.json())
   .then(data => {
 
