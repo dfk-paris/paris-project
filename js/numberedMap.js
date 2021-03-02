@@ -726,7 +726,7 @@ overlayMaps[translation["baseLayer"][lang]] = all
             return feature.properties.visitor=="Neumann";
         }}));
 
-    overlayMaps["Harrach"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+    overlayMaps["Harrach"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
             return feature.properties.visitor=="Harrach";
         }}));
 
