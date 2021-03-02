@@ -655,8 +655,6 @@ overlayMaps[translation["baseLayer"][lang]] = all
 
 
 
-//Add layer control to map
-//L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
     //Fetch Data for Numbered Icons
     fetch('https://vwestric.github.io/paris-project/geojson/numberedFeatureCollection.geojson')
       .then(response => response.json())
@@ -694,16 +692,10 @@ overlayMaps[translation["baseLayer"][lang]] = all
     overlayMaps["Pitzler"] = pitzler
     overlayMaps["Neumann"] = neumann
     overlayMaps["Harrach"] = harrach
-
-
-    //Add layer control to map
-    //L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-
-
+	    
     });
 
-//L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-    //Fetch Data for Numbered Icons
+    //Fetch Data for Actual Icons
     fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
       .then(response => response.json())
       .then(data => {
@@ -730,7 +722,7 @@ overlayMaps[translation["baseLayer"][lang]] = all
             return feature.properties.visitor=="Harrach";
         }}));
 
-    //Add Layer Group Travelogues to overlayMaps
+    //Update Layer Groups
     //overlayMaps["Knesebeck"] = knesebeck
     //overlayMaps["Corfey"] = corfey
     //overlayMaps["Pitzler"] = pitzler
