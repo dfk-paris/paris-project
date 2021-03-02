@@ -480,7 +480,7 @@ var overlayMaps = overlayNames(lang);
 
 
 //Image Overlay
-var imageUrl = 'https://vwestric.github.io/paris-project/raster/parisBW.png',
+var imageUrl = 'https://vwestric.github.io/paris-project/raster/ParisGrey.png',
     imageBounds = [[48.876,2.303], [48.831,2.386]];
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7);
 map.fitBounds(imageBounds);  
