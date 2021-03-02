@@ -487,7 +487,7 @@ map.fitBounds(imageBounds);
 imageOverlay.setStyle({
       opacity: 0.7
     })
-overlayMaps["<b>Paris 1778</b>"] = imageOverlay
+overlayMaps["<b>Paris 1735</b>"] = imageOverlay
 
 //Legend
 //Get Color For Legend
