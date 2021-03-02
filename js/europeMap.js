@@ -588,11 +588,11 @@ var legend = L.control({position: 'bottomleft'});
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
     travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
     icons = [
+	     translation["symbolsLabel"][lang]["public"],
+	     translation["symbolsLabel"][lang]["religious"],
              translation["symbolsLabel"][lang]["domestic"],
+	     translation["symbolsLabel"][lang]["infrastructure"],
              translation["symbolsLabel"][lang]["military"],
-             translation["symbolsLabel"][lang]["religious"],
-             translation["symbolsLabel"][lang]["infrastructure"],
-             translation["symbolsLabel"][lang]["public"],
 	     translation["symbolsLabel"][lang]["garden"],
 	     translation["symbolsLabel"][lang]["geographic"],
              translation["symbolsLabel"][lang]["miscellaneous"],
