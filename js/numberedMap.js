@@ -164,6 +164,8 @@ function numberedMarker(svg) {
 }
 
 //Marker Function
+
+
 function setMarker(type, color) {
 
     if (type=="domestic") {  
@@ -521,7 +523,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
     subdomains: 'abcd',
     minZoom:6,
-    maxZoom: 19
+    maxZoom: 16
 }).addTo(map);
 
 
@@ -530,7 +532,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
     attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
     minZoom: 6,
-    maxZoom: 19
+    maxZoom: 16
 });
 
 //Overlay Name
@@ -652,6 +654,7 @@ var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:fu
 overlayMaps[translation["baseLayer"][lang]] = all
 
 
+
 //Add layer control to map
 //L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
     //Fetch Data for Numbered Icons
@@ -694,11 +697,52 @@ overlayMaps[translation["baseLayer"][lang]] = all
 
 
     //Add layer control to map
-    L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+    //L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
 
     });
 
+//L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+    //Fetch Data for Numbered Icons
+    fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
+      .then(response => response.json())
+      .then(data => {
+
+    //Layer Group Cities for overlayMaps
+    //Knesebeck Group
+    overlayMaps["Knesebeck"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+            return feature.properties.visitor=="Knesebeck";
+        }}));
+
+    overlayMaps["Corfey"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+            return feature.properties.visitor=="Corfey";
+        }}));
+
+    overlayMaps["Pitzler"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+            return feature.properties.visitor=="Pitzler";
+        }}));
+
+    overlayMaps["Neumann"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+            return feature.properties.visitor=="Neumann";
+        }}));
+
+    overlayMaps["Harrach"].addLayer(L.geoJSON(data, {onEachFeature: onEachFeatureNumbered, filter:function(feature, layer) {
+            return feature.properties.visitor=="Harrach";
+        }}));
+
+    //Add Layer Group Travelogues to overlayMaps
+    //overlayMaps["Knesebeck"] = knesebeck
+    //overlayMaps["Corfey"] = corfey
+    //overlayMaps["Pitzler"] = pitzler
+    //overlayMaps["Neumann"] = neumann
+    //overlayMaps["Harrach"] = harrach
+
+
+    //Add layer control to map
+    L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
+
+
+    });
 
 });
 
