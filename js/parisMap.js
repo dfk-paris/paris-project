@@ -426,7 +426,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
 	subdomains: 'abcd',
     	minZoom: 12,
-	maxZoom: 19
+	maxZoom: 17
 });
 
 
@@ -435,7 +435,7 @@ var CartoDB_PositronNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/li
 var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
 	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>. Icons: <a href="https://thenounproject.com/">The Noun Project</a>',
 	minZoom: 12,
-	maxZoom: 19
+	maxZoom: 17
 }).addTo(map);
 
 //Layer Groups
@@ -532,11 +532,11 @@ var legend = L.control({position: 'bottomleft'});
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
     travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
     icons = [
+	     translation["symbolsLabel"][lang]["public"],
+	     translation["symbolsLabel"][lang]["religious"],
              translation["symbolsLabel"][lang]["domestic"],
+	     translation["symbolsLabel"][lang]["infrastructure"],
              translation["symbolsLabel"][lang]["military"],
-             translation["symbolsLabel"][lang]["religious"],
-             translation["symbolsLabel"][lang]["infrastructure"],
-             translation["symbolsLabel"][lang]["public"],
 	     translation["symbolsLabel"][lang]["garden"],
 	     translation["symbolsLabel"][lang]["geographic"],
              translation["symbolsLabel"][lang]["miscellaneous"],
