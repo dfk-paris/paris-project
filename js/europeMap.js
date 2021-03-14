@@ -616,61 +616,66 @@ var legend = L.control({position: 'bottomleft'});
 	};
     legend.addTo(map);
 
+map.setMaxZoom(18)
+
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
 fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
   .then(data => {
 
-//Layer Group Cities for overlayMaps
-//Base Group
-var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="All";
-    }})]).addTo(map);
-	
-//Sturm Group
-var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Sturm";
-    }})]);
+    // returns a function to render the marker cluster icons
+    const iconCreateFunctionFor = (name) => {
+      return (cluster) => {
+        var childCount = cluster.getChildCount();
 
-//Knesebeck Group
-var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Knesebeck";
-    }})]);
+        var c = ' marker-cluster-';
+        if (childCount < 10) {
+          c += 'small';
+        } else if (childCount < 100) {
+          c += 'medium';
+        } else {
+          c += 'large';
+        }
 
-//Corfey Group
-var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Corfey";
-    }})]);
+        c += ' marker-cluster-' + name
 
-//Pitzler Group
-var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Pitzler";
-    }})]);
+        return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+      }
+    }
 
-//Neumann Group
-var neumann = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Neumann";
-    }})]);
+    // builds a marker cluster by filtering the data and setting options
+    const buildCluster = (data, id, name) => {
+      var cluster = L.markerClusterGroup({
+        iconCreateFunction: iconCreateFunctionFor(id),
+        disableClusteringAtZoom: 14
+      })
+      var opts = {
+        onEachFeature: onEachFeature,
+        filter: function(feature, layer) {
+          return feature.properties.visitor == name;
+        }
+      }
+      L.geoJSON(data, opts).addTo(cluster)
+      return cluster
+    }
 
-//Harrach Group
-var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Harrach";
-    }})]);
+    //Add Marker Cluster (Layer Group) Travelogues to overlayMaps
+    overlayMaps[translation["baseLayer"][lang]] = buildCluster(data, 'all', 'All')
+    overlayMaps["Pitzler"] = buildCluster(data, 'pitzler', 'Pitzler')
+    overlayMaps["Harrach"] = buildCluster(data, 'harrach', 'Harrach')
+    overlayMaps["Corfey"] = buildCluster(data, 'corfey', 'Corfey')
+    overlayMaps["Knesebeck"] = buildCluster(data, 'knesebeck', 'Knesebeck')
+    overlayMaps["Sturm"] = buildCluster(data, 'sturm', 'Sturm')
+    overlayMaps["Neumann"] = buildCluster(data, 'neumann', 'Neumann')
 
-//Add Layer Group Travelogues to overlayMaps
-overlayMaps[translation["baseLayer"][lang]] = all
-overlayMaps["Pitzler"] = pitzler
-overlayMaps["Harrach"] = harrach
-overlayMaps["Corfey"] = corfey
-overlayMaps["Knesebeck"] = knesebeck
-overlayMaps["Sturm"] = sturm
-overlayMaps["Neumann"] = neumann
+    //Add layer control to map
+    const control = L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
-
-//Add layer control to map
-L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-
+    // workaround: click initial active layer control checkbox, simply adding that
+    // layer to the map gitches out
+    control._layerControlInputs[8].checked = true
+    control._onInputClick()
 
 });
 
