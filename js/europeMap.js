@@ -492,7 +492,15 @@ function setMarker(type, color) {
 
 //Map
 //Init Map
-var map = L.map('mapid').setView([48.856667, 2.351667], 5);
+// we disable animations on the initial page load to fix a conflict with
+// the marker cluster lib
+var map = L.
+  map('mapid', {
+    minZoom: 6,
+    maxZoom: 18,
+  }).
+  setView([48.856667, 2.351667], 1, {zoomAnimation: false});
+
 
 //Minimal
 //Carto DB No Labels
@@ -616,8 +624,6 @@ var legend = L.control({position: 'bottomleft'});
 	};
     legend.addTo(map);
 
-map.setMaxZoom(18)
-
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
 fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
@@ -644,11 +650,23 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
       }
     }
 
+    const colorMap = {
+      corfey: 'rgba(0, 23, 250, 0.4)',
+      knesebeck: 'rgba(254, 49, 130, 0.4)',
+      neumann: 'rgba(213, 131, 48, 0.4)',
+      harrach: 'rgba(253, 23, 0, 0.4)',
+      pitzler: 'rgba(241, 211, 87, 0.6)',
+      sturm: 'rgba(176, 176, 176, 0.6)'
+    }
+
     // builds a marker cluster by filtering the data and setting options
     const buildCluster = (data, id, name) => {
       var cluster = L.markerClusterGroup({
         iconCreateFunction: iconCreateFunctionFor(id),
-        disableClusteringAtZoom: 14
+        disableClusteringAtZoom: 16,
+        polygonOptions: {
+          color: colorMap[id] || 'gray'
+        }
       })
       var opts = {
         onEachFeature: onEachFeature,
@@ -661,7 +679,10 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
     }
 
     //Add Marker Cluster (Layer Group) Travelogues to overlayMaps
-    overlayMaps[translation["baseLayer"][lang]] = buildCluster(data, 'all', 'All')
+    const all = buildCluster(data, 'all', 'All')
+    overlayMaps[translation["baseLayer"][lang]] = all
+    all.addTo(map)
+
     overlayMaps["Pitzler"] = buildCluster(data, 'pitzler', 'Pitzler')
     overlayMaps["Harrach"] = buildCluster(data, 'harrach', 'Harrach')
     overlayMaps["Corfey"] = buildCluster(data, 'corfey', 'Corfey')
@@ -670,12 +691,6 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
     overlayMaps["Neumann"] = buildCluster(data, 'neumann', 'Neumann')
 
     //Add layer control to map
-    const control = L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-
-    // workaround: click initial active layer control checkbox, simply adding that
-    // layer to the map gitches out
-    control._layerControlInputs[8].checked = true
-    control._onInputClick()
-
+    const control = L.control.layers(baseMaps, overlayMaps, {collapsed:false})
+    control.addTo(map)
 });
-
