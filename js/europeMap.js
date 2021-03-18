@@ -628,80 +628,81 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-let control = null
-fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
+const controlPromise = 
+  fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
-  .then(data => {
 
-    // returns a function to render the marker cluster icons
-    const iconCreateFunctionFor = (name) => {
-      return (cluster) => {
-        var childCount = cluster.getChildCount();
+function buildControl(data) {
+  // returns a function to render the marker cluster icons
+  const iconCreateFunctionFor = (name) => {
+    return (cluster) => {
+      var childCount = cluster.getChildCount();
 
-        var c = ' marker-cluster-';
-        if (childCount < 10) {
-          c += 'small';
-        } else if (childCount < 100) {
-          c += 'medium';
-        } else {
-          c += 'large';
-        }
+      var c = ' marker-cluster-';
+      if (childCount < 10) {
+        c += 'small';
+      } else if (childCount < 100) {
+        c += 'medium';
+      } else {
+        c += 'large';
+      }
 
-        c += ' marker-cluster-' + name
+      c += ' marker-cluster-' + name
 
-        return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+      return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+    }
+  }
+
+  const colorMap = {
+    corfey: 'rgba(0, 23, 250, 0.4)',
+    knesebeck: 'rgba(254, 49, 130, 0.4)',
+    neumann: 'rgba(213, 131, 48, 0.4)',
+    harrach: 'rgba(253, 23, 0, 0.4)',
+    pitzler: 'rgba(241, 211, 87, 0.6)',
+    sturm: 'rgba(176, 176, 176, 0.6)'
+  }
+
+  // builds a marker cluster by filtering the data and setting options
+  const buildCluster = (data, id, name) => {
+    var cluster = L.markerClusterGroup({
+      iconCreateFunction: iconCreateFunctionFor(id),
+      disableClusteringAtZoom: 16,
+      polygonOptions: {
+        color: colorMap[id] || 'gray'
+      }
+    })
+    var opts = {
+      onEachFeature: onEachFeature,
+      filter: function(feature, layer) {
+        return feature.properties.visitor == name;
       }
     }
+    L.geoJSON(data, opts).addTo(cluster)
+    return cluster
+  }
 
-    const colorMap = {
-      corfey: 'rgba(0, 23, 250, 0.4)',
-      knesebeck: 'rgba(254, 49, 130, 0.4)',
-      neumann: 'rgba(213, 131, 48, 0.4)',
-      harrach: 'rgba(253, 23, 0, 0.4)',
-      pitzler: 'rgba(241, 211, 87, 0.6)',
-      sturm: 'rgba(176, 176, 176, 0.6)'
-    }
+  //Add Marker Cluster (Layer Group) Travelogues to overlayMaps
+  const all = buildCluster(data, 'all', 'All')
+  overlayMaps[translation["baseLayer"][lang]] = all
+  all.addTo(map)
 
-    // builds a marker cluster by filtering the data and setting options
-    const buildCluster = (data, id, name) => {
-      var cluster = L.markerClusterGroup({
-        iconCreateFunction: iconCreateFunctionFor(id),
-        disableClusteringAtZoom: 16,
-        polygonOptions: {
-          color: colorMap[id] || 'gray'
-        }
-      })
-      var opts = {
-        onEachFeature: onEachFeature,
-        filter: function(feature, layer) {
-          return feature.properties.visitor == name;
-        }
-      }
-      L.geoJSON(data, opts).addTo(cluster)
-      return cluster
-    }
+  overlayMaps["Pitzler"] = buildCluster(data, 'pitzler', 'Pitzler')
+  overlayMaps["Harrach"] = buildCluster(data, 'harrach', 'Harrach')
+  overlayMaps["Corfey"] = buildCluster(data, 'corfey', 'Corfey')
+  overlayMaps["Knesebeck"] = buildCluster(data, 'knesebeck', 'Knesebeck')
+  overlayMaps["Sturm"] = buildCluster(data, 'sturm', 'Sturm')
+  overlayMaps["Neumann"] = buildCluster(data, 'neumann', 'Neumann')
 
-    //Add Marker Cluster (Layer Group) Travelogues to overlayMaps
-    const all = buildCluster(data, 'all', 'All')
-    overlayMaps[translation["baseLayer"][lang]] = all
-    all.addTo(map)
+  //Add layer control to map
+  const control = L.control.layers(baseMaps, overlayMaps, {collapsed:false})
+  control.addTo(map)
 
-    overlayMaps["Pitzler"] = buildCluster(data, 'pitzler', 'Pitzler')
-    overlayMaps["Harrach"] = buildCluster(data, 'harrach', 'Harrach')
-    overlayMaps["Corfey"] = buildCluster(data, 'corfey', 'Corfey')
-    overlayMaps["Knesebeck"] = buildCluster(data, 'knesebeck', 'Knesebeck')
-    overlayMaps["Sturm"] = buildCluster(data, 'sturm', 'Sturm')
-    overlayMaps["Neumann"] = buildCluster(data, 'neumann', 'Neumann')
-
-    //Add layer control to map
-    control = L.control.layers(baseMaps, overlayMaps, {collapsed:false})
-    control.addTo(map)
-});
-
+  return control
+}
 
 // Remove historic contours on higher zoom levels. We can set this up only once
 // both maps have been loaded
-Promise.all([francePromise, hrePromise]).then(data => {
+function hideHistoric(control) {
   const threshold = 10
   let active = true
   let layers = {
@@ -734,5 +735,11 @@ Promise.all([francePromise, hrePromise]).then(data => {
       }
     }
   })
-  
+}
+
+// wait for all requests to return, then set up the control panel
+Promise.all([francePromise, hrePromise, controlPromise]).then(data => {
+  const [franceData, hreData, controlData] = data
+  const control = buildControl(controlData)
+  hideHistoric(control)
 })
