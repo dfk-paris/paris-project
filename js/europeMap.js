@@ -536,7 +536,8 @@ var overlayMaps = overlayNames(lang);
 
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
+const francePromise = 
+  fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
   .then(response => response.json())
   .then(data => {
     var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -545,7 +546,8 @@ fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
   });
 
 //France Polygon
-fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
+const hrePromise =
+  fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
@@ -626,6 +628,7 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
+let control = null
 fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
   .then(data => {
@@ -691,6 +694,45 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.g
     overlayMaps["Neumann"] = buildCluster(data, 'neumann', 'Neumann')
 
     //Add layer control to map
-    const control = L.control.layers(baseMaps, overlayMaps, {collapsed:false})
+    control = L.control.layers(baseMaps, overlayMaps, {collapsed:false})
     control.addTo(map)
 });
+
+
+// Remove historic contours on higher zoom levels. We can set this up only once
+// both maps have been loaded
+Promise.all([francePromise, hrePromise]).then(data => {
+  const threshold = 10
+  let active = true
+  let layers = {
+    [franceLabel]: overlayMaps[franceLabel],
+    [hreLabel]: overlayMaps[hreLabel]
+  }
+  let selected = {
+    [franceLabel]: false,
+    [hreLabel]: false
+  }
+
+  map.on('zoomend', (event) => {
+    // console.log(map._zoom, active, selected)
+
+    if (map._zoom >= threshold && active) {
+      for (const label of [franceLabel, hreLabel]) {
+        selected[label] = map.hasLayer(layers[label])
+        control.removeLayer(layers[label])
+        map.removeLayer(layers[label])
+        active = false
+      }
+    }
+
+    if (map._zoom < threshold && !active) {
+      for (const label of [franceLabel, hreLabel]) {
+        control.addOverlay(layers[label], label)
+        if (selected[label]) {map.addLayer(layers[label])}
+
+        active = true
+      }
+    }
+  })
+  
+})
