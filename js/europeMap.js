@@ -536,7 +536,7 @@ var overlayMaps = overlayNames(lang);
 
 
 //France Polygon
-const francePromise = 
+let francePromise = 
   fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
   .then(response => response.json())
   .then(data => {
@@ -546,7 +546,7 @@ const francePromise =
   });
 
 //France Polygon
-const hrePromise =
+let hrePromise =
   fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
   .then(response => response.json())
   .then(data => {
@@ -628,7 +628,7 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-const controlPromise = 
+let controlPromise = 
   fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
 
