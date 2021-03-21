@@ -1,6 +1,18 @@
 //Map for Paris Project
 //Victor Westrich
 
+let base_url = 'http://localhost:4000/paris-project'
+if (document.location.href.match(/localhost:3001/)) {
+  base_url = 'http://localhost:3001/exist/rest/db/apps/sade-architrave/templates/itinerary'
+}
+if (document.location.href.match(/architrave.eu\/dev/)) {
+  base_url = 'https://architrave.eu/dev/itinerary'
+} else {
+  if (document.location.href.match(/architrave.eu\/dev/)) {
+    base_url = 'https://architrave.eu/itinerary'
+  }
+}
+
 //Prerequisites
 //Language Dictionary
 //Translation for Legend
@@ -455,8 +467,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"",
-          "<b>Tous les voyageurs</b>":"",
-	  "<b>Paris 1778</b>":""
+          "<b>Tous les voyageurs</b>":""
         };
         return overlayMaps
     }
@@ -468,8 +479,7 @@ function overlayNames(lang) {
 	  "Knesebeck":"",
           "Sturm":"",
           "Neumann":"",
-          "<b>Alle Reisende</b>":"",
-	  "<b>Paris 1778</b>":""
+          "<b>Alle Reisende</b>":""
         };
         return overlayMaps
     }
@@ -480,7 +490,7 @@ var overlayMaps = overlayNames(lang);
 
 
 //Image Overlay
-var imageUrl = 'https://github.com/dfk-paris/paris-project/raster/9_plan_de_paris_1733.png', // @Moritz please check source
+var imageUrl = `${base_url}/raster/9_plan_de_paris_1733.png`,
     imageBounds = [[48.890,2.41], [48.820,2.278]]; //new for 9_plan_de_paris_1733.png 
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7);
 map.fitBounds(imageBounds);
@@ -503,117 +513,113 @@ d === "Harrach" ? '#ff0000' :
 
 //Get Icon For Legend
 function getIcon(d) {
-return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
-d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
-d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
-d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-d === "parcs et jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-d === "autres lieux" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
-d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
-d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
-d === "Militäreinrichtungen" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
-d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
-d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-d === "Parks und Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-d === "Andere Orte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
-d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
-'https://vwestric.github.io/paris-project/svg/circle.svg';
+return d === "édifices domestiques" ? `${base_url}/svg/house.svg` :
+d === "constructions militaires" ? `${base_url}/svg/military.svg` :
+d === "édifices religieux" ? `${base_url}/svg/spiritual.svg` :
+d === "infrastructure" ? `${base_url}/svg/bridge.svg` :
+d === "édifices publics" ? `${base_url}/svg/public.svg` :
+d === "parcs et jardins" ? `${base_url}/svg/garden.svg` :
+d === "autres lieux" ? `${base_url}/svg/marker.svg` :
+d === "autres" ? `${base_url}/svg/circle.svg` :
+d === "Wohngebäude" ? `${base_url}/svg/house.svg` :
+d === "Militäreinrichtungen" ? `${base_url}/svg/military.svg` :
+d === "Religöse Gebäude" ? `${base_url}/svg/spiritual.svg` :
+d === "Infrastruktur" ? `${base_url}/svg/bridge.svg` :
+d === "Öffentliche Gebäude" ? `${base_url}/svg/public.svg` :
+d === "Parks und Gärten" ? `${base_url}/svg/garden.svg` :
+d === "Andere Orte" ? `${base_url}/svg/marker.svg` :
+d === "Sonstige" ? `${base_url}/svg/circle.svg` :
+`${base_url}/svg/circle.svg`;
 }
 
 
 
 var legend = L.control({position: 'bottomleft'});
-    legend.onAdd = function (map) {
+legend.onAdd = function (map) {
+  var div = L.DomUtil.create('div', 'info legend'),
+  labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
+  symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
+  travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
+  icons = [
+     translation["symbolsLabel"][lang]["public"],
+     translation["symbolsLabel"][lang]["religious"],
+           translation["symbolsLabel"][lang]["domestic"],
+     translation["symbolsLabel"][lang]["infrastructure"],
+           translation["symbolsLabel"][lang]["military"],
+     translation["symbolsLabel"][lang]["garden"],
+     translation["symbolsLabel"][lang]["geographic"],
+           translation["symbolsLabel"][lang]["miscellaneous"],
+           ]
 
-    var div = L.DomUtil.create('div', 'info legend'),
-    labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
-    symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
-    travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
-    icons = [
-	     translation["symbolsLabel"][lang]["public"],
-	     translation["symbolsLabel"][lang]["religious"],
-             translation["symbolsLabel"][lang]["domestic"],
-	     translation["symbolsLabel"][lang]["infrastructure"],
-             translation["symbolsLabel"][lang]["military"],
-	     translation["symbolsLabel"][lang]["garden"],
-	     translation["symbolsLabel"][lang]["geographic"],
-             translation["symbolsLabel"][lang]["miscellaneous"],
-             ]
-
-    for (var i = 0; i < travelers.length; i++) {
+  for (var i = 0; i < travelers.length; i++) {
     div.innerHTML +=
         labels.push(
             '<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
-    }
+  }
 
-    for (var i = 0; i < icons.length; i++) {
+  for (var i = 0; i < icons.length; i++) {
     div.innerHTML +=
         symbols.push(
             '<img src="' + getIcon(icons[i]) + '" width=15 height=15> ' + icons[i]);
-    }
+  }
 
-    div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
+  div.innerHTML = labels.join('<br>') + '<br>' + symbols.join('<br>');
 
-    return div;
-    };
-    legend.addTo(map);
+  return div;
+}
+legend.addTo(map)
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-fetch('https://vwestric.github.io/paris-project/geojson/visitsParisGeolocated.geojson')
+fetch(`${base_url}/geojson/visitsParisGeolocated.geojson`)
   .then(response => response.json())
   .then(data => {
 
-//Layer Group Cities for overlayMaps
-//Base Group
-var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="All";
-    }})]).addTo(map);
+  //Layer Group Cities for overlayMaps
+  //Base Group
+  var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="All";
+      }})]).addTo(map);
 
-//Sturm Group
-var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Sturm";
-    }})]);
+  //Sturm Group
+  var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Sturm";
+      }})]);
 
-//Knesebeck Group
-var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Knesebeck";
-    }})]);
+  //Knesebeck Group
+  var knesebeck = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Knesebeck";
+      }})]);
 
-//Corfey Group
-var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Corfey";
-    }})]);
+  //Corfey Group
+  var corfey = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Corfey";
+      }})]);
 
-//Pitzler Group
-var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Pitzler";
-    }})]);
+  //Pitzler Group
+  var pitzler = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Pitzler";
+      }})]);
 
-//Neumann Group
-var neumann = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Neumann";
-    }})]);
+  //Neumann Group
+  var neumann = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Neumann";
+      }})]);
 
-//Harrach Group
-var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
-        return feature.properties.visitor=="Harrach";
-    }})]);
+  //Harrach Group
+  var harrach = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
+          return feature.properties.visitor=="Harrach";
+      }})]);
 
-//Add Layer Group Travelogues to overlayMaps
-overlayMaps[translation["baseLayer"][lang]] = all
-overlayMaps["Sturm"] = sturm
-overlayMaps["Knesebeck"] = knesebeck
-overlayMaps["Corfey"] = corfey
-overlayMaps["Pitzler"] = pitzler
-overlayMaps["Neumann"] = neumann
-overlayMaps["Harrach"] = harrach
+  //Add Layer Group Travelogues to overlayMaps
+  overlayMaps[translation["baseLayer"][lang]] = all
+  overlayMaps["Sturm"] = sturm
+  overlayMaps["Knesebeck"] = knesebeck
+  overlayMaps["Corfey"] = corfey
+  overlayMaps["Pitzler"] = pitzler
+  overlayMaps["Neumann"] = neumann
+  overlayMaps["Harrach"] = harrach
 
-
-//Add layer control to map
-L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
-
-
+  //Add layer control to map
+  L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 });
