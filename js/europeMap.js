@@ -86,28 +86,28 @@ function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
 	  "Pitzler":"",
-	  "Harrach":"",	
+	  "Harrach":"",
 	  "Corfey":"",
 	  "Knesebeck":"",
           "Sturm":"",
-          "Neumann":"",   
+          "Neumann":"",
           "<b>Tous les voyageurs</b>":"",
           "<b>France 1700</b>":"",
-          "<b>Saint-Empire 1700</b>":""    
+          "<b>Saint-Empire 1700</b>":""
         };
         return overlayMaps
     }
     else if (lang==="de"){
         var overlayMaps = {
 	  "Pitzler":"",
-	  "Harrach":"",	
+	  "Harrach":"",
 	  "Corfey":"",
 	  "Knesebeck":"",
           "Sturm":"",
-          "Neumann":"",          
+          "Neumann":"",
           "<b>Alle Reisende</b>":"",
           "<b>HRR 1700</b>":"",
-          "<b>Frankreich 1700</b>":""    
+          "<b>Frankreich 1700</b>":""
         };
         return overlayMaps
     }
@@ -142,10 +142,18 @@ var hrrStyle = {
     "opacity": 0.65
 };
 
+var parismapStyle = {
+    "color": "#FFFFFF",
+    "weight": 1,
+    "opacity": 0.65
+};
+
+
+
 //Marker Function
 function setMarker(type, color) {
 
-    if (type=="domestic") {  
+    if (type=="domestic") {
         var icon = `
         <svg xmlns="http://www.w3.org/2000/svg"
          width="246.914mm" height="246.914mm"
@@ -406,8 +414,8 @@ function setMarker(type, color) {
      viewBox="0 0 365 560">
     <path id="Geographic"
         fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="17"
-        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
-	   C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9
+	   C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8
            c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
     </svg>`;
 
@@ -523,6 +531,7 @@ var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.
 //Overlay Name
 var franceLabel = overlayName("france", lang);
 var hreLabel = overlayName("hrr", lang);
+var parismapLabel = overlayName("parismap", lang);
 
 //Layer Groups
 //Base Maps Container
@@ -536,7 +545,7 @@ var overlayMaps = overlayNames(lang);
 
 
 //France Polygon
-let francePromise = 
+let francePromise =
   fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
   .then(response => response.json())
   .then(data => {
@@ -545,13 +554,23 @@ let francePromise =
 
   });
 
-//France Polygon
+//Empire Polygon
 let hrePromise =
   fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
     overlayMaps[hreLabel] = hrr
+
+  });
+
+//Paris Polygon
+let parismapPromise =
+  fetch('https://github.com/dfk-paris/paris-project/geojson/parismap.geojson') // @Anne change
+  .then(response => response.json())
+  .then(data => {
+    var parismap = L.layerGroup([L.geoJSON(data, {style: parismapStyle})]);
+    overlayMaps[hreLabel] = parismap
 
   });
 
@@ -609,13 +628,13 @@ var legend = L.control({position: 'bottomleft'});
              ]
 
     for (var i = 0; i < travelers.length; i++) {
-	div.innerHTML += 
+	div.innerHTML +=
 		labels.push(
 			'<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
 	}
 
 	for (var i = 0; i < icons.length; i++) {
-	div.innerHTML += 
+	div.innerHTML +=
 		symbols.push(
 			'<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
 	}
@@ -628,7 +647,7 @@ var legend = L.control({position: 'bottomleft'});
 
 //Fetch Data
 //In the actual Map, Data would be Fetched via this Request
-let controlPromise = 
+let controlPromise =
   fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
   .then(response => response.json())
 
@@ -732,6 +751,49 @@ function hideHistoric(control) {
         if (selected[label]) {map.addLayer(layers[label])}
 
         active = true
+      }
+    }
+  })
+}
+
+// wait for all requests to return, then set up the control panel
+Promise.all([francePromise, hrePromise, controlPromise]).then(data => {
+  const [franceData, hreData, controlData] = data
+  const control = buildControl(controlData)
+  hideHistoric(control)
+})
+
+// Show shape of Historical Paris Map on higher zoom levels.
+
+function showParis(control) {
+  const threshold = 10
+  let active = true
+  let layers = {
+    [parismapLabel]: overlayMaps[parismapLabel]
+  }
+  //let selected = {
+  //  [franceLabel]: false,
+  //  [hreLabel]: false
+  //}
+
+  map.on('zoomend', (event) => {
+    // console.log(map._zoom, active, selected)
+
+    if (map._zoom >= threshold && active) {
+      for (const label of [parismapLabel]) {
+        //selected[label] = map.hasLayer(layers[label])
+        control.removeLayer(layers[label])
+        map.removeLayer(layers[label])
+        active = true
+      }
+    }
+
+    if (map._zoom < threshold && !active) {
+      for (const label of [parismapLabel]) {
+        control.addOverlay(layers[label], label)
+        if (selected[label]) {map.addLayer(layers[label])}
+
+        active = false
       }
     }
   })
