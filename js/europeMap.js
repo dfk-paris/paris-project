@@ -1,5 +1,17 @@
 //Map for Paris Project
-//Victor Westrich
+//Victor Westrich, Moritz Schepp
+
+let base_url = 'http://localhost:4000/paris-project'
+if (document.location.href.match(/localhost:3001/)) {
+  base_url = 'http://localhost:3001/exist/rest/db/apps/sade-architrave/templates/itinerary'
+}
+if (document.location.href.match(/architrave.eu\/dev/)) {
+  base_url = 'https://architrave.eu/dev/itinerary'
+} else {
+  if (document.location.href.match(/architrave.eu\/dev/)) {
+    base_url = 'https://architrave.eu/itinerary'
+  }
+}
 
 //Prerequisites
 //Language Dictionary
@@ -546,7 +558,7 @@ var overlayMaps = overlayNames(lang);
 
 //France Polygon
 let francePromise =
-  fetch('https://vwestric.github.io/paris-project/geojson/france1700.geojson')
+  fetch(`${base_url}/geojson/france1700.geojson`)
   .then(response => response.json())
   .then(data => {
     var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -556,7 +568,7 @@ let francePromise =
 
 //Empire Polygon
 let hrePromise =
-  fetch('https://vwestric.github.io/paris-project/geojson/hrr1700.geojson')
+  fetch(`${base_url}/geojson/hrr1700.geojson`)
   .then(response => response.json())
   .then(data => {
     var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
@@ -566,13 +578,8 @@ let hrePromise =
 
 //Paris Polygon
 let parismapPromise =
-  fetch('https://github.com/dfk-paris/paris-project/geojson/parismap.geojson') // @Anne change
+  fetch(`${base_url}/geojson/parismap.geojson`) // @Anne change
   .then(response => response.json())
-  .then(data => {
-    var parismap = L.layerGroup([L.geoJSON(data, {style: parismapStyle})]);
-    overlayMaps[hreLabel] = parismap
-
-  });
 
 //Legend
 //Get Color For Legend
@@ -734,8 +741,6 @@ function hideHistoric(control) {
   }
 
   map.on('zoomend', (event) => {
-    // console.log(map._zoom, active, selected)
-
     if (map._zoom >= threshold && active) {
       for (const label of [franceLabel, hreLabel]) {
         selected[label] = map.hasLayer(layers[label])
@@ -761,4 +766,24 @@ Promise.all([francePromise, hrePromise, controlPromise]).then(data => {
   const [franceData, hreData, controlData] = data
   const control = buildControl(controlData)
   hideHistoric(control)
+})
+
+// wait for paris map boundary data, then add layer to map and attach zoom
+// handler
+parismapPromise.then(data => {
+  const threshold = 10
+  var parismap = L.layerGroup([L.geoJSON(data, {style: parismapStyle})]);
+  let active = false
+
+  map.on('zoomend', (event) => {
+    if (map._zoom > threshold && !active) {
+      map.addLayer(parismap)
+      active = true
+    }
+
+    if (map._zoom <= threshold && !active) {
+      map.removeLayer(parismap)
+      active = false
+    }
+  })
 })
