@@ -72,7 +72,7 @@ var lang = language()
 //Marker Function
 function setMarker(type, color) {
 
-    if (type=="domestic") {  
+    if (type=="domestic") {
         var icon = `
         <svg xmlns="http://www.w3.org/2000/svg"
          width="246.914mm" height="246.914mm"
@@ -333,8 +333,8 @@ function setMarker(type, color) {
      viewBox="0 0 365 560">
     <path id="Geographic"
         fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="17"
-        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
-	   C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9
+	   C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8
            c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
     </svg>`;
 
@@ -450,26 +450,26 @@ function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
 	  "Pitzler":"",
-	  "Harrach":"",	
+	  "Harrach":"",
 	  "Corfey":"",
 	  "Knesebeck":"",
           "Sturm":"",
-          "Neumann":"", 
+          "Neumann":"",
           "<b>Tous les voyageurs</b>":"",
-	  "<b>Paris 1778</b>":""  
+	  "<b>Paris 1778</b>":""
         };
         return overlayMaps
     }
     else if (lang==="de"){
         var overlayMaps = {
 	  "Pitzler":"",
-	  "Harrach":"",	
+	  "Harrach":"",
 	  "Corfey":"",
 	  "Knesebeck":"",
           "Sturm":"",
-          "Neumann":"", 
+          "Neumann":"",
           "<b>Alle Reisende</b>":"",
-	  "<b>Paris 1778</b>":""  
+	  "<b>Paris 1778</b>":""
         };
         return overlayMaps
     }
@@ -480,14 +480,14 @@ var overlayMaps = overlayNames(lang);
 
 
 //Image Overlay
-var imageUrl = 'https://vwestric.github.io/paris-project/raster/ParisGrey.png',
-    imageBounds = [[48.887,2.287], [48.826,2.405]];
+var imageUrl = 'https://github.com/dfk-paris/paris-project/raster/9_plan_de_paris_1733.png', // @Moritz please check source
+    imageBounds = [[48.890,2.41], [48.820,2.278]]; //new for 9_plan_de_paris_1733.png 
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7);
-map.fitBounds(imageBounds);  
+map.fitBounds(imageBounds);
 imageOverlay.setStyle({
       opacity: 0.7
     })
-overlayMaps["<b>Paris 1735</b>"] = imageOverlay
+overlayMaps["<b>Paris 1733</b>"] = imageOverlay
 
 //Legend
 //Get Color For Legend
@@ -543,13 +543,13 @@ var legend = L.control({position: 'bottomleft'});
              ]
 
     for (var i = 0; i < travelers.length; i++) {
-    div.innerHTML += 
+    div.innerHTML +=
         labels.push(
             '<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
     }
 
     for (var i = 0; i < icons.length; i++) {
-    div.innerHTML += 
+    div.innerHTML +=
         symbols.push(
             '<img src="' + getIcon(icons[i]) + '" width=15 height=15> ' + icons[i]);
     }
@@ -571,7 +571,7 @@ fetch('https://vwestric.github.io/paris-project/geojson/visitsParisGeolocated.ge
 var all = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="All";
     }})]).addTo(map);
-	
+
 //Sturm Group
 var sturm = L.layerGroup([L.geoJSON(data, {onEachFeature: onEachFeature, filter:function(feature, layer) {
         return feature.properties.visitor=="Sturm";
@@ -617,4 +617,3 @@ L.control.layers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
 
 });
-
