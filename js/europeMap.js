@@ -155,9 +155,9 @@ var hrrStyle = {
 };
 
 var parismapStyle = {
-    "color": "#FFFFFF",
+    "color": "#808080",
     "weight": 1,
-    "opacity": 0.65
+    "opacity": 0.5
 };
 
 
