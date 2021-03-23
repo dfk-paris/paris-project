@@ -3,13 +3,13 @@
 
 let base_url = 'http://localhost:4000/paris-project'
 if (document.location.href.match(/localhost:3001/)) {
-  base_url = 'http://localhost:3001/exist/rest/db/apps/sade-architrave/templates/itinerary'
+  base_url = '/exist/apps/sade-architrave/templates/itinerary'
 }
 if (document.location.href.match(/architrave.eu\/dev/)) {
-  base_url = 'https://architrave.eu/dev/itinerary'
+  base_url = '/templates/itinerary'
 } else {
-  if (document.location.href.match(/architrave.eu\/dev/)) {
-    base_url = 'https://architrave.eu/itinerary'
+  if (document.location.href.match(/architrave.eu/)) {
+    base_url = '/templates/itinerary'
   }
 }
 
