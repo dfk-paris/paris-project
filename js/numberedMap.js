@@ -17,7 +17,7 @@ var translation = {
             "infrastructure":"infrastructure",
             "military":"constructions militaires",
             "garden":"parcs et jardins",
-            "geographic":"autres lieux",
+            "geographic":"lieux",
             "miscellaneous":"autres"
 
         },
@@ -96,26 +96,26 @@ function overlayNames(lang) {
     if (lang==="fra") {
         var overlayMaps = {
       "Pitzler":"",
-      "Harrach":"", 
+      "Harrach":"",
       "Corfey":"",
       "Knesebeck":"",
-          "Neumann":"",   
+          "Neumann":"",
           "<b>Tous les voyageurs</b>":"",
           "<b>France 1700</b>":"",
-          "<b>Saint-Empire 1700</b>":""    
+          "<b>Saint-Empire 1700</b>":""
         };
         return overlayMaps
     }
     else if (lang==="de"){
         var overlayMaps = {
       "Pitzler":"",
-      "Harrach":"", 
+      "Harrach":"",
       "Corfey":"",
       "Knesebeck":"",
-          "Neumann":"",          
+          "Neumann":"",
           "<b>Alle Reisende</b>":"",
           "<b>HRR 1700</b>":"",
-          "<b>Frankreich 1700</b>":""    
+          "<b>Frankreich 1700</b>":""
         };
         return overlayMaps
     }
@@ -168,7 +168,7 @@ function numberedMarker(svg) {
 
 function setMarker(type, color) {
 
-    if (type=="domestic") {  
+    if (type=="domestic") {
         var icon = `
         <svg xmlns="http://www.w3.org/2000/svg"
          width="246.914mm" height="246.914mm"
@@ -429,8 +429,8 @@ function setMarker(type, color) {
      viewBox="0 0 365 560">
     <path id="Geographic"
         fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="17"
-        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9   
-       C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8   
+        d="M182.9,551.7c0,0.1,0.2,0.3,0.2,0.3S358.3,283,358.3,194.6c0-130.1-88.8-186.7-175.4-186.9
+       C96.3,7.9,7.5,64.5,7.5,194.6c0,88.4,175.3,357.4,175.3,357.4S182.9,551.7,182.9,551.7z M122.2,187.2c0-33.6,27.2-60.8,60.8-60.8
            c33.6,0,60.8,27.2,60.8,60.8S216.5,248,182.9,248C149.4,248,122.2,220.8,122.2,187.2z"/>
     </svg>`;
 
@@ -622,13 +622,13 @@ var legend = L.control({position: 'bottomleft'});
              ]
 
     for (var i = 0; i < travelers.length; i++) {
-    div.innerHTML += 
+    div.innerHTML +=
         labels.push(
             '<i style="background:' + getColor(travelers[i]) + '""></i> ' + travelers[i]);
     }
 
     for (var i = 0; i < icons.length; i++) {
-    div.innerHTML += 
+    div.innerHTML +=
         symbols.push(
             '<img src="' + getIcon(icons[i]) + '" width=17 height=17> ' + icons[i]);
     }
@@ -692,7 +692,7 @@ overlayMaps[translation["baseLayer"][lang]] = all
     overlayMaps["Pitzler"] = pitzler
     overlayMaps["Neumann"] = neumann
     overlayMaps["Harrach"] = harrach
-	    
+
     });
 
     //Fetch Data for Actual Icons
@@ -737,6 +737,3 @@ overlayMaps[translation["baseLayer"][lang]] = all
     });
 
 });
-
-
-

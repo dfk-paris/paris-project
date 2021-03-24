@@ -30,7 +30,7 @@ var translation = {
             "infrastructure":"infrastructure",
             "military":"constructions militaires",
             "garden":"parcs et jardins",
-            "geographic":"autres lieux",
+            "geographic":"lieux",
             "miscellaneous":"autres"
 
         },
@@ -491,7 +491,7 @@ var overlayMaps = overlayNames(lang);
 
 //Image Overlay
 var imageUrl = `${base_url}/raster/9_plan_de_paris_1733.png`,
-    imageBounds = [[48.890,2.41], [48.820,2.278]]; //new for 9_plan_de_paris_1733.png 
+    imageBounds = [[48.890,2.41], [48.820,2.278]]; //new for 9_plan_de_paris_1733.png
 var imageOverlay = L.imageOverlay(imageUrl, imageBounds, opacity=0.7);
 map.fitBounds(imageBounds);
 imageOverlay.setStyle({

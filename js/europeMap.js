@@ -29,7 +29,7 @@ var translation = {
             "infrastructure":"infrastructure",
             "military":"constructions militaires",
             "garden":"parcs et jardins",
-            "geographic":"autres lieux",
+            "geographic":"lieux",
             "miscellaneous":"autres"
 
         },
