@@ -586,9 +586,9 @@ let parismapPromise =
 function getColor(d) {
 return d === "Sturm" ? '#00cc00' :
 d === "Knesebeck" ? '#ff0066' :
-d === "Corfey" ? '#000099' :
+d === "Corfey" ? '#6699FF' :
 d === "Pitzler" ? '#ffcc00' :
-d === "Neumann" ? '#ff9900' :
+d === "Neumann" ? '#cc6600' :
 d === "Harrach" ? '#ff0000' :
 'black';
 }
@@ -680,9 +680,9 @@ function buildControl(data) {
   }
 
   const colorMap = {
-    corfey: 'rgba(0, 23, 250, 0.4)',
+    corfey: 'rgba(102, 153, 255, 0.4)',
     knesebeck: 'rgba(254, 49, 130, 0.4)',
-    neumann: 'rgba(213, 131, 48, 0.4)',
+    neumann: 'rgba(204, 102, 0, 0.4)',
     harrach: 'rgba(253, 23, 0, 0.4)',
     pitzler: 'rgba(241, 211, 87, 0.6)',
     sturm: 'rgba(176, 176, 176, 0.6)'

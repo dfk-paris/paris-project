@@ -504,9 +504,9 @@ overlayMaps["<b>Paris 1733</b>"] = imageOverlay
 function getColor(d) {
 return d === "Sturm" ? '#00cc00' :
 d === "Knesebeck" ? '#ff0066' :
-d === "Corfey" ? '#000099' :
+d === "Corfey" ? '#6699FF' :
 d === "Pitzler" ? '#ffcc00' :
-d === "Neumann" ? '#ff9900' :
+d === "Neumann" ? '#cc6600' :
 d === "Harrach" ? '#ff0000' :
 'black';
 }
