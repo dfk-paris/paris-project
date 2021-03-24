@@ -519,7 +519,7 @@ d === "édifices religieux" ? `${base_url}/svg/spiritual.svg` :
 d === "infrastructure" ? `${base_url}/svg/bridge.svg` :
 d === "édifices publics" ? `${base_url}/svg/public.svg` :
 d === "parcs et jardins" ? `${base_url}/svg/garden.svg` :
-d === "autres lieux" ? `${base_url}/svg/marker.svg` :
+d === "lieux" ? `${base_url}/svg/marker.svg` :
 d === "autres" ? `${base_url}/svg/circle.svg` :
 d === "Wohngebäude" ? `${base_url}/svg/house.svg` :
 d === "Militäreinrichtungen" ? `${base_url}/svg/military.svg` :

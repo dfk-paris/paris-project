@@ -588,7 +588,7 @@ d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spir
 d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
 d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
 d === "parcs et jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-d === "autres lieux" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
+d === "lieux" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
 d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
 d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
 d === "Militäreinrichtungen" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
