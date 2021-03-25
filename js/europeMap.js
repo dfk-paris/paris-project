@@ -2,15 +2,15 @@
 //Victor Westrich, Moritz Schepp
 
 function europeMap(elementId) {
-  let base_url = 'http://localhost:4000/paris-project'
+  let baseUrl = 'http://localhost:4000/paris-project'
   if (document.location.href.match(/localhost:3001/)) {
-    base_url = '/exist/apps/sade-architrave/templates/itinerary'
+    baseUrl = '/exist/apps/sade-architrave/templates/itinerary'
   }
   if (document.location.href.match(/architrave.eu\/dev/)) {
-    base_url = '/templates/itinerary'
+    baseUrl = '/templates/itinerary'
   } else {
     if (document.location.href.match(/architrave.eu/)) {
-      base_url = '/templates/itinerary'
+      baseUrl = '/templates/itinerary'
     }
   }
 
@@ -559,7 +559,7 @@ function europeMap(elementId) {
 
   //France Polygon
   let francePromise =
-    fetch(`${base_url}/geojson/france1700.geojson`)
+    fetch(`${baseUrl}/geojson/france1700.geojson`)
     .then(response => response.json())
     .then(data => {
       var france = L.layerGroup([L.geoJSON(data, {style: franceStyle})]);
@@ -569,7 +569,7 @@ function europeMap(elementId) {
 
   //Empire Polygon
   let hrePromise =
-    fetch(`${base_url}/geojson/hrr1700.geojson`)
+    fetch(`${baseUrl}/geojson/hrr1700.geojson`)
     .then(response => response.json())
     .then(data => {
       var hrr = L.layerGroup([L.geoJSON(data, {style: hrrStyle})]);
@@ -579,7 +579,7 @@ function europeMap(elementId) {
 
   //Paris Polygon
   let parismapPromise =
-    fetch(`${base_url}/geojson/parismap.geojson`) // @Anne change
+    fetch(`${baseUrl}/geojson/parismap.geojson`) // @Anne change
     .then(response => response.json())
 
   //Legend
@@ -596,23 +596,23 @@ function europeMap(elementId) {
 
   //Get Icon For Legend
   function getIcon(d) {
-  return d === "édifices domestiques" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
-  d === "constructions militaires" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
-  d === "édifices religieux" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
-  d === "infrastructure" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-  d === "édifices publics" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-  d === "parcs et jardins" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-  d === "lieux" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
-  d === "autres" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
-  d === "Wohngebäude" ? 'https://vwestric.github.io/paris-project/svg/house.svg' :
-  d === "Militäreinrichtungen" ? 'https://vwestric.github.io/paris-project/svg/military.svg' :
-  d === "Religöse Gebäude" ? 'https://vwestric.github.io/paris-project/svg/spiritual.svg' :
-  d === "Infrastruktur" ? 'https://vwestric.github.io/paris-project/svg/bridge.svg' :
-  d === "Öffentliche Gebäude" ? 'https://vwestric.github.io/paris-project/svg/public.svg' :
-  d === "Parks und Gärten" ? 'https://vwestric.github.io/paris-project/svg/garden.svg' :
-  d === "Andere Orte" ? 'https://vwestric.github.io/paris-project/svg/marker.svg' :
-  d === "Sonstige" ? 'https://vwestric.github.io/paris-project/svg/circle.svg' :
-  'https://vwestric.github.io/paris-project/svg/circle.svg';
+  return d === "édifices domestiques" ? `${baseUrl}/svg/house.svg` :
+  d === "constructions militaires" ? `${baseUrl}/svg/military.svg` :
+  d === "édifices religieux" ? `${baseUrl}/svg/spiritual.svg` :
+  d === "infrastructure" ? `${baseUrl}/svg/bridge.svg` :
+  d === "édifices publics" ? `${baseUrl}/svg/public.svg` :
+  d === "parcs et jardins" ? `${baseUrl}/svg/garden.svg` :
+  d === "lieux" ? `${baseUrl}/svg/marker.svg` :
+  d === "autres" ? `${baseUrl}/svg/circle.svg` :
+  d === "Wohngebäude" ? `${baseUrl}/svg/house.svg` :
+  d === "Militäreinrichtungen" ? `${baseUrl}/svg/military.svg` :
+  d === "Religöse Gebäude" ? `${baseUrl}/svg/spiritual.svg` :
+  d === "Infrastruktur" ? `${baseUrl}/svg/bridge.svg` :
+  d === "Öffentliche Gebäude" ? `${baseUrl}/svg/public.svg` :
+  d === "Parks und Gärten" ? `${baseUrl}/svg/garden.svg` :
+  d === "Andere Orte" ? `${baseUrl}/svg/marker.svg` :
+  d === "Sonstige" ? `${baseUrl}/svg/circle.svg` :
+  `${baseUrl}/svg/circle.svg`;
   }
 
 
@@ -656,7 +656,7 @@ function europeMap(elementId) {
   //Fetch Data
   //In the actual Map, Data would be Fetched via this Request
   let controlPromise =
-    fetch('https://vwestric.github.io/paris-project/geojson/visitsEuropeGeolocated.geojson')
+    fetch(`${baseUrl}/geojson/visitsEuropeGeolocated.geojson`)
     .then(response => response.json())
 
   function buildControl(data) {
