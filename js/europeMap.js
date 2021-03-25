@@ -660,37 +660,37 @@ function europeMap(elementId) {
     .then(response => response.json())
 
   function buildControl(data) {
-    // returns a function to render the marker cluster icons
-    const iconCreateFunctionFor = (name) => {
-      return (cluster) => {
-        var childCount = cluster.getChildCount();
-
-        var c = ' marker-cluster-';
-        if (childCount < 10) {
-          c += 'small';
-        } else if (childCount < 100) {
-          c += 'medium';
-        } else {
-          c += 'large';
-        }
-
-        c += ' marker-cluster-' + name
-
-        return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
-      }
-    }
-
-    const colorMap = {
-      corfey: 'rgba(102, 153, 255, 0.4)',
-      knesebeck: 'rgba(254, 49, 130, 0.4)',
-      neumann: 'rgba(204, 102, 0, 0.4)',
-      harrach: 'rgba(253, 23, 0, 0.4)',
-      pitzler: 'rgba(241, 211, 87, 0.6)',
-      sturm: 'rgba(176, 176, 176, 0.6)'
-    }
-
     // builds a marker cluster by filtering the data and setting options
     const buildCluster = (data, id, name) => {
+      // returns a function to render the marker cluster icons
+      const iconCreateFunctionFor = (name) => {
+        return (cluster) => {
+          var childCount = cluster.getChildCount();
+
+          var c = ' marker-cluster-';
+          if (childCount < 10) {
+            c += 'small';
+          } else if (childCount < 100) {
+            c += 'medium';
+          } else {
+            c += 'large';
+          }
+
+          c += ' marker-cluster-' + name
+
+          return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+        }
+      }
+      
+      const colorMap = {
+        corfey: 'rgba(102, 153, 255, 0.4)',
+        knesebeck: 'rgba(254, 49, 130, 0.4)',
+        neumann: 'rgba(204, 102, 0, 0.4)',
+        harrach: 'rgba(253, 23, 0, 0.4)',
+        pitzler: 'rgba(241, 211, 87, 0.6)',
+        sturm: 'rgba(176, 176, 176, 0.6)'
+      }
+
       var cluster = L.markerClusterGroup({
         iconCreateFunction: iconCreateFunctionFor(id),
         disableClusteringAtZoom: 16,
