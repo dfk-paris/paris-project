@@ -53,7 +53,7 @@ class ParisMap extends BaseMap {
 
     //Paris 1733 Overlay
     let paris1733 = L.tileLayer(`${baseUrl}/raster/Tiles/{z}/{x}/{y}.png`, {
-      minZoom: 6,
+      minZoom: 3,
       maxZoom: 16,
       opacity: 0.7,
       bounds: [[48.890,2.41], [48.820,2.278]],
