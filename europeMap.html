@@ -59,11 +59,11 @@
     </style>
 </head>
 <body>
-    <div id="mapid">
-        <script src="js/europeMap.js"></script>
-        <script type="text/javascript">
-          let map = europeMap('mapid')
-        </script>
-    </div>
+    <div id="mapid"></div>
+    <script type="module">
+      import {EuropeMap} from './js/europeMap.js'
+      let map = new EuropeMap('mapid')
+      map.build()
+    </script>
 </body>
 </html>

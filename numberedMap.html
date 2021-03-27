@@ -59,12 +59,11 @@
     </style>
 </head>
 <body>
-    <div id="mapid">
-        <script src="js/numberedMap.js"></script>
-        <script type="text/javascript">
-          let map = numberedMap('mapid')
-        </script>
-    </div>
+    <div id="mapid"></div>
+    <script type="module">
+      import {NumberedMap} from './js/numberedMap.js'
+      let map = new NumberedMap('mapid')
+      map.build()
+    </script>
 </body>
- </html>
-
+</html>

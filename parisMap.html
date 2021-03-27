@@ -57,11 +57,11 @@
     </style>
 </head>
 <body>
-    <div id="mapid">
-        <script src="js/parisMap.js"></script>
-        <script type="text/javascript">
-          let map = parisMap('mapid')
-        </script>
-    </div>
+    <div id="mapid"></div>
+    <script type="module">
+      import {ParisMap} from './js/bundle.js'
+      let map = new ParisMap('mapid')
+      map.build()
+    </script>
 </body>
 </html>
