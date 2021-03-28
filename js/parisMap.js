@@ -63,7 +63,7 @@ class ParisMap extends BaseMap {
 
     //Fetch Data
     //In the actual Map, Data would be Fetched via this Request
-    const controlPromise = 
+    const controlPromise =
     fetch(`${baseUrl}/geojson/visitsParisGeolocated.geojson`)
       .then(response => response.json())
 
