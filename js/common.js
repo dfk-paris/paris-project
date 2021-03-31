@@ -67,7 +67,7 @@ const translation = {
         "public":"édifices publics",
         "religious":"édifices religieux",
         "domestic":"édifices domestiques",
-  //      "monuments":"nomuments",
+        "monuments":"monuments",
         "infrastructure":"infrastructure",
         "military":"constructions militaires",
         "garden":"parcs et jardins",
@@ -79,7 +79,7 @@ const translation = {
         "public":"Öffentliche Gebäude",
         "religious":"Religöse Gebäude",
         "domestic":"Wohngebäude",
-  //      "monuments":"Monumente",
+        "monuments":"Monumente",
         "infrastructure":"Infrastruktur",
         "military":"Militäreinrichtungen",
         "garden":"Parks und Gärten",
@@ -160,23 +160,23 @@ function setMarker(type, color) {
       popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
     })
 
-//} else if (type=="monuments") {
-//      var icon = `<svg xmlns="http://www.w3.org/2000/svg"
-//         width="37.5562mm" height="17.7202mm"
-//        viewBox="0 0 142 67">
-//       <path id="monuments"
-//           fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
-//           d="M M560 448h-16V96H32v352H16.02 c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16H176c8.84 0 16-7.16 16-16V320c0-53.02 42.98-96 96-96s96 42.98 96 96l.02 160v16c0 8.84 7.16 16 16 16H560c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm0-448H16C7.16 0 0 7.16 0 16v32c0 8.84 7.16 16 16 16h544c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z  Z" />
-//       </svg>`
-//
-//    var svgURL = "data:image/svg+xml;base64," + btoa(icon)
-//
-//     return L.icon({
-//     iconUrl: svgURL,
-//      iconSize:     [17, 17], // size of the icon
-//      iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
-//      popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
-//    })
+} else if (type=="monuments") {
+     var icon = `<svg xmlns="http://www.w3.org/2000/svg"
+        width="37.5562mm" height="17.7202mm"
+       viewBox="0 0 142 67">
+      <path id="monuments"
+          fill="${color}" fill-opacity="0.8" stroke="black" stroke-width="7"
+          d="M M560 448h-16V96H32v352H16.02 c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16H176c8.84 0 16-7.16 16-16V320c0-53.02 42.98-96 96-96s96 42.98 96 96l.02 160v16c0 8.84 7.16 16 16 16H560c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm0-448H16C7.16 0 0 7.16 0 16v32c0 8.84 7.16 16 16 16h544c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z  Z" />
+      </svg>`
+
+   var svgURL = "data:image/svg+xml;base64," + btoa(icon)
+
+    return L.icon({
+    iconUrl: svgURL,
+     iconSize:     [17, 17], // size of the icon
+     iconAnchor:   [17, 17], // point of the icon which will correspond to marker's location
+     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+   })
 
   } else if (type=="military") {
     var icon = `
@@ -472,7 +472,7 @@ function getIcon(baseUrl, d) {
   return d === "édifices publics" ? `${baseUrl}/svg/public.svg` :
   d === "édifices religieux" ? `${baseUrl}/svg/spiritual.svg` :
   d === "édifices domestiques" ? `${baseUrl}/svg/house.svg` :
-//  d === "monuments" ? `${baseUrl}/svg/monuments.svg` :
+  d === "monuments" ? `${baseUrl}/svg/monuments.svg` :
   d === "infrastructure" ? `${baseUrl}/svg/bridge.svg` :
   d === "constructions militaires" ? `${baseUrl}/svg/military.svg` :
   d === "parcs et jardins" ? `${baseUrl}/svg/garden.svg` :
@@ -482,13 +482,13 @@ function getIcon(baseUrl, d) {
   d === "Öffentliche Gebäude" ? `${baseUrl}/svg/public.svg` :
   d === "Religöse Gebäude" ? `${baseUrl}/svg/spiritual.svg` :
   d === "Wohngebäude" ? `${baseUrl}/svg/house.svg` :
-//  d === "Monumente" ? `${baseUrl}/svg/monuments.svg` :
+  d === "Monumente" ? `${baseUrl}/svg/monuments.svg` :
   d === "Infrastruktur" ? `${baseUrl}/svg/bridge.svg` :
   d === "Militäreinrichtungen" ? `${baseUrl}/svg/military.svg` :
   d === "Parks und Gärten" ? `${baseUrl}/svg/garden.svg` :
   d === "Orte" ? `${baseUrl}/svg/marker.svg` :
   d === "Sonstige" ? `${baseUrl}/svg/circle.svg` :
-  `${baseUrl}/svg/circle.svg` // @Moritz doppelt?
+  `${baseUrl}/svg/circle.svg`
 }
 
 const colorMap = {
@@ -523,7 +523,7 @@ function buildLegend() {
       translation["symbolsLabel"][lang]["public"],
       translation["symbolsLabel"][lang]["religious"],
       translation["symbolsLabel"][lang]["domestic"],
-  //    translation["symbolsLabel"][lang]["monuments"],
+      translation["symbolsLabel"][lang]["monuments"],
       translation["symbolsLabel"][lang]["infrastructure"],
       translation["symbolsLabel"][lang]["military"],
       translation["symbolsLabel"][lang]["garden"],
