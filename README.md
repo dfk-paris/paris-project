@@ -3,16 +3,6 @@
 This repository contains the code and the dtaa for the maps in
 https://architrave.eu.
 
-## Maps
-
-# Development
-## jekyll
-## webpack
-
-# Deployment
-## jekyll
-## webpack
-
 ## Development
 
 The repository includes a jekyll app to demo the map functionality. To use it,
