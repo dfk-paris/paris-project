@@ -24,18 +24,17 @@ Then the demo page is available at
 ## Deployment
 
 A webpack configuration is included to produce a bundled version of the
-JavaScript code for deployment. Install nodejs (v12) and run
+JavaScript code for deployment. To use it, install nodejs (v12) and run
 
 ```bash
 npm install
 npm run build
 ```
 
-And find the bundle in `dist/main.js`.
+... then find the bundle in `dist/main.js`.
 
 The target application is an eXist-db application. Deployment is manual and
-involves copying the files from this repository to the eXist-db platform
-manually.
+involves copying the files from this repository to the eXist-db platform.
 
 ## Data Crunching
 
