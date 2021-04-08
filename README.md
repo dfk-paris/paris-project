@@ -36,7 +36,10 @@ Then the demo page is available at
 A webpack configuration is included to produce a bundled version of the
 JavaScript code for deployment. Install nodejs (v12) and run
 
-    npm run build
+```bash
+npm install
+npm run build
+```
 
 And find the bundle in `dist/main.js`.
 
