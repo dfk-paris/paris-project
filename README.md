@@ -1,7 +1,20 @@
-# Architrave Maps
+# ARCHITRAVE Maps
 
-This repository contains the code and the dtaa for the maps in
-https://architrave.eu.
+This repository contains the code and the data for the visualizations at
+[https://architrave.eu](https://architrave.eu).
+
+The visualizations were created as part of the collaborative research project "*ARCHITRAVE Kunst und Architektur in Paris und Versailles im Spiegel deutscher Reiseberichte des Barock / Art and Architecture in Paris and Versailles in the Mirror of German Travelogues of the Baroque Period*", funded by the DFG and the ANR (FRAL 2016 program). 
+
+The conceptualization of the visualizations was done in two steps. The first one was focused on the design and prototyping. It was maintained by V. Westrich ([https://github.com/vwestric/](https://github.com/vwestric/)). The second one included the implementation and the final launch and was performed by DFK Paris under the responsibility of A. Klammt in collaboration with M. Schepp (Wendig).
+
+All geodata are part of the scientific work of the mentioned research project. For the presentation on the website, the data were converted from TEI-XML and CSV formats into GeoJSON files. These GeoJSON files can be used within the license of this repository. 
+
+To cite them correctly, please use:
+
+<!-- hier sollten wir dann einfach die Zitation von heiDATA einsetzen. Also etwa so:
+Arnoux, Mathilde, 2020, "OwnReality. To Each His Own Reality [Research Data]", https://doi.org/10.11588/data/ZMIHMY, heiDATA, V2, UNF:6:X76d8KoGv90iVhPYxFovpg== [fileUNF] -->
+
+      
 
 ## Development
 
@@ -57,12 +70,14 @@ directory where it will be picked up from by the maps.
 * "export" via TextGridLab (German only, without Sturm)
 * use results to replace architrave-data/data/input/editions/*
 
-### How to get new register csv
+<!--### How to get new register csv
 
 * visit the team's register google sheet
 * download as .ods
 * open the ods and "save a copy" as .csv (field delimiter: |, string delimiter: ")
-* use result to replace architrave-data/data/input/PlacesRegister_current.csv
+* use result to replace architrave-data/data/input/PlacesRegister_current.csv -->
+
+<!-- Ich kann mir gerade nicht vorstellen, dass es die Google Spreadsheets öffentlich zugänglich geben wird. Idealerweise müssten sie eigentlich mit in das Textgridrepo.-->
 
 ### How to get new register xml
 
