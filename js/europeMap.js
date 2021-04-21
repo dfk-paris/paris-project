@@ -35,13 +35,13 @@ class EuropeMap extends BaseMap {
     var franceStyle = {
         "color": "#013896",
         "weight": 1,
-        "opacity": 0.65
+        "opacity": 0
     };
 
     var hrrStyle = {
         "color": "#860018",
         "weight": 1,
-        "opacity": 0.65
+        "opacity": 0
     };
 
     var parismapStyle = {
