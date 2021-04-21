@@ -10,7 +10,7 @@ class BaseMap {
   // Remove historic contours on higher zoom levels. We can set this up only once
   // both maps have been loaded
   hideHistoric(map, control, franceLabel, hreLabel, overlayMaps) {
-    const threshold = 10
+    const threshold = 7
     let active = true
     let layers = {
       [franceLabel]: overlayMaps[franceLabel],
