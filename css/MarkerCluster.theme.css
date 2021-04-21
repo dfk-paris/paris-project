@@ -115,3 +115,61 @@
 .marker-cluster span {
   line-height: 30px;
   }
+
+
+/* numberedMap itinerary grids */
+
+.arch-itinerary-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: gray;
+  border-radius: 10px;
+  opacity: 0.65;
+}
+
+.arch-itinerary-grid > div {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+
+  margin-top: 5px;
+  margin-left: 5px;
+
+  padding-top: 4px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.arch-itinerary-grid > div:nth-child(2 + 3n) {
+  margin-left: 5px;
+}
+
+.arch-itinerary-grid > div:last-child {
+  margin-bottom: 5px;
+}
+
+.arch-itinerary-grid > div[visitor='Pitzler'] {
+  background-color: rgba(241, 211, 87, 0.6);
+}
+
+.arch-itinerary-grid > div[visitor='Harrach'] {
+  background-color: rgba(253, 23, 0, 0.4);
+}
+
+.arch-itinerary-grid > div[visitor='Corfey'] {
+  background-color: rgba(102, 153, 255, 0.4);
+}
+
+.arch-itinerary-grid > div[visitor='Knesebeck'] {
+  background-color: rgba(254, 49, 130, 0.4);
+}
+
+.arch-itinerary-grid > div[visitor='Neumann'] {
+  background-color: rgba(213, 131, 48, 0.4);
+}

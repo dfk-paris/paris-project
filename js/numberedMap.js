@@ -15,10 +15,20 @@ import {
 } from './common.js'
 
 class NumberedMap extends BaseMap{
+
+
   constructor(elementId) {
     super(elementId)
 
-    this.onEachFeatureNumbered = this.onEachFeatureNumbered.bind(this)
+    this.boxes = null
+    this.state = {
+      overlays: {},
+      mapping: {}
+    }
+    this.inputs = []
+    // this.onEachFeatureNumbered = this.onEachFeatureNumbered.bind(this)
+    this.updateNumbers = this.updateNumbers.bind(this)
+    this.updateBoxes = this.updateBoxes.bind(this)
   }
 
   build() {
@@ -106,14 +116,11 @@ class NumberedMap extends BaseMap{
       .then(response => response.json())
       
     itineraryPromise.then(data => {
-      const state = {
-        overlays: {},
-        mapping: {}
-      }
+      this.itinerary = data
 
       // the actual geographic icons (gray)
       var all = L.layerGroup([
-        L.geoJSON(data, {
+        L.geoJSON(this.itinerary, {
           onEachFeature: onEachFeature,
           filter: function(feature, layer) {
             return feature.properties.visitor=="All"
@@ -121,57 +128,37 @@ class NumberedMap extends BaseMap{
         })
       ]).addTo(this.map)
 
-      // the rounded boxes
-      let boxes = null
-      const updateBoxes = () => {
-        if (boxes) {
-          this.map.removeLayer(boxes)
-          boxes = null
-        }
-
-        // are any overlays active?
-        const activeOverlays = Object.keys(state.overlays).filter((e) => state.overlays[e])
-        if (activeOverlays.length == 0) {
-          return
-        }
-
-        boxes = L.geoJSON(data, {
-          onEachFeature: function(feature, layer) {
-            const key = `${feature.geometry.coordinates[0]}-${feature.geometry.coordinates[1]}`
-            const r = state.mapping[key].filter((e) => activeOverlays.includes(e.visitor))
-            // console.log(r)
-
-            let html = ''
-            if (r) {
-              html = r.map((e) => e.num).join(', ')
-            }
-
-            const icon = L.divIcon({
-              className: 'my-div-icon',
-              html: html
-            })
-            layer.setIcon(icon)
-          }
-        })
-        boxes.addTo(this.map)
-      }
-
       //Add Layer Group to overlayMaps
       overlayMaps[translation["baseLayer"][lang]] = all
 
       numberedPromise.then(data => {
-        // create a map of nums and visitors by coordinates
-        for (const e of data.features) {
+        this.numbers = data
+
+        // group nums and visitors by coordinates
+        for (const e of this.numbers.features) {
           const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
 
-          state.mapping[key] = state.mapping[key] || []
-          state.mapping[key].push({
+          this.state.mapping[key] = this.state.mapping[key] || []
+          this.state.mapping[key].push({
             num: e.properties.labelNum,
             visitor: e.properties.visitor
           })
         }
 
-        console.log(data, state.mapping)
+        // we will also make sure that each coordinate pair is only shown once
+        const found = {}
+        this.numbers.features = this.numbers.features.filter(e => {
+          const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
+          
+          if (found[key]) {
+            return false
+          } else {
+            found[key] = true
+            return true
+          }
+        })
+
+        console.log(this.numbers)
         //Layer Group Cities for overlayMaps
         //Knesebeck Group
         // var knesebeck = L.layerGroup([
@@ -277,16 +264,8 @@ class NumberedMap extends BaseMap{
         //overlayMaps["Neumann"] = neumann
         //overlayMaps["Harrach"] = harrach
 
-        const inputs = []
-        const updateNumbers = (event) => {
-          for (const input of inputs) {
-            const name = input.getAttribute('name')
-            const active = input.checked
-            state.overlays[name] = active
-          }
-
-          updateBoxes()
-        }
+        // so we can access it within callbacks
+        const instance = this
 
         L.Control.NumberedMapControl = L.Control.Layers.extend({
           initialize: function(baseMaps, overlayMaps, options) {
@@ -297,6 +276,8 @@ class NumberedMap extends BaseMap{
 
             // here, we add our own layer controls
             const original = widget.querySelector('.leaflet-control-layers-overlays')
+            // if we don't wrap the inputs, they will be removed when the map is
+            // updated by Control.Layers
             const checkboxes = document.createElement('div')
             original.before(checkboxes)
 
@@ -305,7 +286,7 @@ class NumberedMap extends BaseMap{
               input.setAttribute('type', 'checkbox')
               input.setAttribute('name', name)
               input.classList.add('leaflet-control-layers-selector')
-              input.addEventListener('change', updateNumbers)
+              input.addEventListener('change', instance.updateNumbers)
 
               const span = document.createElement('span')
               span.append(' ' + name)
@@ -316,19 +297,13 @@ class NumberedMap extends BaseMap{
               const label = document.createElement('label')
               label.append(div)
 
-              inputs.push(input)
+              instance.inputs.push(input)
               checkboxes.append(label)
             }
 
             return widget
           }
         })
-
-        L.control.numberedMapControl = function(baseMaps, overlayMaps, options) {
-          return new L.Control.NumberedMapControl(baseMaps, overlayMaps, options)
-        }
-
-        console.log(overlayMaps)
 
         //Add layer control to map
         const control = new L.Control.NumberedMapControl(
@@ -394,56 +369,133 @@ class NumberedMap extends BaseMap{
     // }
   }
 
-  numberedMarker(color, num) {
-    let x = 0
-    let y = 100
-    let fontSize = '125px'
-
-    if (num < 100) {
-    //   x = 7
-    //   y = 220
-      fontSize = '195px'
+  updateNumbers(event) {
+    for (const input of this.inputs) {
+      const name = input.getAttribute('name')
+      const active = input.checked
+      this.state.overlays[name] = active
     }
 
-    if (num < 10) {
-    //   x = 80
-    //   y = 225
-    }
-
-    const svg = `<svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 100 100"
-    >
-      <circle cx="50" cy="50" r="25" fill="${color}" stroke="${color}" stroke-width="1" />
-      <text
-        x="${x}"
-        y="${y}"
-        font-family="Verdana"
-        font-size="${fontSize}"
-        font-weight="bold"
-        fill="black"
-      >${num}</text>
-    </svg>`
-
-    var svgURL = "data:image/svg+xml;base64," + btoa(svg);
-    // console.log(svg)
-    return L.icon({
-      iconUrl: svgURL,
-      iconSize:     [20, 20], // size of the icon
-      iconAnchor:   [18, 38], // point of the icon which will correspond to marker's location
-      popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
-    })
+    this.updateBoxes()
   }
+
+  updateBoxes() {
+    if (this.boxes) {
+      this.map.removeLayer(this.boxes)
+      this.boxes = null
+    }
+
+    // are any overlays active?
+    const activeOverlays = Object.keys(this.state.overlays).filter((e) => this.state.overlays[e])
+    if (activeOverlays.length == 0) {
+      return
+    }
+
+    const instance = this
+
+    this.boxes = L.geoJSON(this.numbers, {
+      onEachFeature: function(feature, layer) {
+        const key = `${feature.geometry.coordinates[0]}-${feature.geometry.coordinates[1]}`
+        const r = instance.
+          state.mapping[key].
+          filter((e) => activeOverlays.includes(e.visitor)).
+          sort((a, b) => {
+            const visitors = ['Pitzler', 'Harrach', 'Corfey', 'Knesebeck', 'Neumann']
+            const aVisitor = visitors.indexOf(a.visitor)
+            const bVisitor = visitors.indexOf(b.visitor)
+
+            return aVisitor - bVisitor
+          })
+
+        if (!r || !r.length) {
+          const icon = L.divIcon({
+            className: 'none-icon'
+          })
+          layer.setIcon(icon)
+          return
+        }
+
+
+
+        const html = r.map(e => {
+          return `<div visitor="${e.visitor}">${e.num}</div>`
+        }).join('')
+
+        const tileSize = 20
+        const gutter = 5
+
+        const iconSize = [
+          Math.min(r.length, 3) * (tileSize + gutter) + gutter,
+          Math.ceil(r.length / 3) * (tileSize + gutter) + gutter
+        ]
+
+        console.log(iconSize)
+
+        const icon = L.divIcon({
+          className: 'arch-itinerary-grid',
+          html: html,
+          iconSize: iconSize,
+          iconAnchor: [
+            iconSize[0] / 2 + 10,
+            iconSize[1] + 25
+          ]
+        })
+        layer.setIcon(icon)
+      }
+    })
+    this.boxes.addTo(this.map)
+  }
+
+  // numberedMarker(color, num) {
+  //   let x = 0
+  //   let y = 100
+  //   let fontSize = '125px'
+
+  //   if (num < 100) {
+  //   //   x = 7
+  //   //   y = 220
+  //     fontSize = '195px'
+  //   }
+
+  //   if (num < 10) {
+  //   //   x = 80
+  //   //   y = 225
+  //   }
+
+  //   const svg = `<svg
+  //     xmlns="http://www.w3.org/2000/svg"
+  //     viewBox="0 0 100 100"
+  //   >
+  //     <circle cx="50" cy="50" r="25" fill="${color}" stroke="${color}" stroke-width="1" />
+  //     <text
+  //       x="${x}"
+  //       y="${y}"
+  //       font-family="Verdana"
+  //       font-size="${fontSize}"
+  //       font-weight="bold"
+  //       fill="black"
+  //     >${num}</text>
+  //   </svg>`
+
+  //   var svgURL = "data:image/svg+xml;base64," + btoa(svg);
+  //   // console.log(svg)
+  //   return L.icon({
+  //     iconUrl: svgURL,
+  //     iconSize:     [20, 20], // size of the icon
+  //     iconAnchor:   [18, 38], // point of the icon which will correspond to marker's location
+  //     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
+  //   })
+  // }
 
   //OnEachFeature Function
-  onEachFeatureNumbered(feature, layer) {
-    if (lang === 'fra' || lang === 'de') {
-      layer.setIcon(this.numberedMarker(
-        feature.properties.color,
-        feature.properties.labelNum
-      ))
-    }
-  }
+  // onEachFeatureNumbered(feature, layer) {
+  //   if (lang === 'fra' || lang === 'de') {
+  //     layer.setIcon(this.numberedMarker(
+  //       feature.properties.color,
+  //       feature.properties.labelNum
+  //     ))
+  //   }
+  // }
 
   //Function to Define Overlay Name
   overlayName(type, lang) {
