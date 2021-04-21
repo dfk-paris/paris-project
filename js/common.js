@@ -68,7 +68,7 @@ const translation = {
         "religious":"édifices religieux",
         "domestic":"édifices domestiques",
         "monuments":"monuments",
-        "infrastructure":"infrastructure",
+        "infrastructure":"infrastructures",
         "military":"constructions militaires",
         "garden":"parcs et jardins",
         "geographic":"villes et lieux géographiques",
