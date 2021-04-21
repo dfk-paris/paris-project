@@ -158,6 +158,7 @@ def numberedFeatureCollection(data):
                     geoData[subValue[0]]["geo"]["lat"]
                 ]
                 Point["properties"]["label"] = numberedIcon(key, int(subValue[1]))
+                Point["properties"]["labelNum"] = int(subValue[1])
                 Point["properties"]["id"] = subValue[0]
 
                 featureCollection["features"].append(Point)

@@ -55,31 +55,10 @@
         },
         "type": "domestic"
     },
-    "textgrid:3pff4": {
-        "geo": {
-            "lat": 48.8653622,
-            "long": 2.3408421
-        },
-        "type": "domestic"
-    },
     "textgrid:3pff5": {
         "geo": {
             "lat": 48.85542,
             "long": 2.358401
-        },
-        "type": "domestic"
-    },
-    "textgrid:3q1cz": {
-        "geo": {
-            "lat": 48.864092,
-            "long": 2.340055
-        },
-        "type": "domestic"
-    },
-    "textgrid:3pff6": {
-        "geo": {
-            "lat": 48.868623,
-            "long": 2.348219
         },
         "type": "domestic"
     },
@@ -183,8 +162,8 @@
     },
     "textgrid:3rc2x": {
         "geo": {
-            "lat": 48.866347,
-            "long": 2.338851
+            "lat": 48.86647330941285,
+            "long": 2.339254696490514
         },
         "type": "domestic"
     },
@@ -557,7 +536,7 @@
             "lat": 48.799932,
             "long": 2.329762
         },
-        "type": "public"
+        "type": "infrastructure"
     },
     "textgrid:3pfh7": {
         "geo": {
@@ -652,8 +631,8 @@
     },
     "textgrid:3pfhm": {
         "geo": {
-            "lat": 48.8572,
-            "long": 2.3368
+            "lat": 48.857222,
+            "long": 2.336944
         },
         "type": "public"
     },
@@ -1173,7 +1152,7 @@
             "lat": 48.560611,
             "long": 2.714979
         },
-        "type": ""
+        "type": "domestic"
     },
     "textgrid:3pfkj": {
         "geo": {
@@ -1201,12 +1180,12 @@
             "lat": 48.8428,
             "long": 2.4358
         },
-        "type": "domestic"
+        "type": "interior"
     },
     "textgrid:3rc32": {
         "geo": {
-            "lat": 48.8424,
-            "long": 2.43636
+            "lat": 48.84235,
+            "long": 2.436358
         },
         "type": "religious"
     },
@@ -1791,13 +1770,6 @@
         },
         "type": "garden"
     },
-    "textgrid:3pfnx": {
-        "geo": {
-            "lat": 48.855388,
-            "long": 2.337642
-        },
-        "type": "public"
-    },
     "textgrid:3qksf": {
         "geo": {
             "lat": 48.80102,
@@ -1842,8 +1814,8 @@
     },
     "textgrid:3pfp2": {
         "geo": {
-            "lat": 48.86373,
-            "long": 2.33712
+            "lat": 48.863384,
+            "long": 2.336438
         },
         "type": "domestic"
     },
@@ -1896,20 +1868,6 @@
         },
         "type": "interior"
     },
-    "textgrid:3r32t": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
-    "textgrid:3r31w": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
     "textgrid:3r31t": {
         "geo": {
             "lat": 48.86102,
@@ -1931,27 +1889,6 @@
         },
         "type": "interior"
     },
-    "textgrid:3r319": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
-    "textgrid:3r318": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
-    "textgrid:3r317": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
     "textgrid:3r316": {
         "geo": {
             "lat": 48.86102,
@@ -1966,21 +1903,7 @@
         },
         "type": "interior"
     },
-    "textgrid:3r315": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
     "textgrid:3r314": {
-        "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
-        },
-        "type": "interior"
-    },
-    "textgrid:3r30p": {
         "geo": {
             "lat": 48.86102,
             "long": 2.33587
@@ -2010,8 +1933,8 @@
     },
     "textgrid:3rc3h": {
         "geo": {
-            "lat": 48.86102,
-            "long": 2.33587
+            "lat": 48.860614,
+            "long": 2.337694
         },
         "type": "domestic"
     },
@@ -2052,8 +1975,8 @@
     },
     "textgrid:3q1ds": {
         "geo": {
-            "lat": 48.86373,
-            "long": 2.33712
+            "lat": 48.863578,
+            "long": 2.336431
         },
         "type": "interior"
     },
@@ -2199,15 +2122,15 @@
     },
     "textgrid:3pfdt": {
         "geo": {
-            "lat": 48.8623,
-            "long": 2.331
+            "lat": 48.863,
+            "long": 2.33205
         },
         "type": "domestic"
     },
     "textgrid:3rc3m": {
         "geo": {
-            "lat": 48.8623,
-            "long": 2.331
+            "lat": 48.86233,
+            "long": 2.33103
         },
         "type": "domestic"
     },
@@ -3123,8 +3046,15 @@
     },
     "textgrid:3pfsm": {
         "geo": {
-            "lat": 48.804857,
-            "long": 2.120268
+            "lat": 48.804839,
+            "long": 2.120272
+        },
+        "type": "interior"
+    },
+    "textgrid:3r313": {
+        "geo": {
+            "lat": 48.804806,
+            "long": 2.120333
         },
         "type": "interior"
     },
@@ -3277,8 +3207,8 @@
     },
     "textgrid:3pft0": {
         "geo": {
-            "lat": 48.804346,
-            "long": 2.11666
+            "lat": 48.804111,
+            "long": 2.116861
         },
         "type": "garden"
     },
@@ -3326,15 +3256,15 @@
     },
     "textgrid:3q0ks": {
         "geo": {
-            "lat": 48.80551,
-            "long": 2.117684
+            "lat": 48.805937,
+            "long": 2.118902
         },
         "type": "garden"
     },
     "textgrid:3q0kt": {
         "geo": {
-            "lat": 48.80551,
-            "long": 2.117684
+            "lat": 48.804698,
+            "long": 2.118152
         },
         "type": "garden"
     },
@@ -3382,8 +3312,8 @@
     },
     "textgrid:3rc3b": {
         "geo": {
-            "lat": 48.803207,
-            "long": 2.119117
+            "lat": 48.803019,
+            "long": 2.118866
         },
         "type": "garden"
     },
@@ -3405,13 +3335,6 @@
         "geo": {
             "lat": 48.806039,
             "long": 2.120766
-        },
-        "type": "garden"
-    },
-    "textgrid:3qks2": {
-        "geo": {
-            "lat": 48.804806,
-            "long": 2.120333
         },
         "type": "garden"
     },
@@ -3478,6 +3401,13 @@
         },
         "type": "interior"
     },
+    "textgrid:3r30r": {
+        "geo": {
+            "lat": 48.81452,
+            "long": 2.104666
+        },
+        "type": "interior"
+    },
     "textgrid:3r32r": {
         "geo": {
             "lat": 48.81452,
@@ -3529,8 +3459,8 @@
     },
     "textgrid:3r30b": {
         "geo": {
-            "lat": 48.80293,
-            "long": 2.13094
+            "lat": 48.803167,
+            "long": 2.131954
         },
         "type": "domestic"
     },
@@ -3571,8 +3501,8 @@
     },
     "textgrid:3pfv0": {
         "geo": {
-            "lat": 48.860691,
-            "long": 2.097981
+            "lat": 48.8625,
+            "long": 2.0992
         },
         "type": "garden"
     },
@@ -3840,7 +3770,7 @@
             "lat": 52.370946,
             "long": 9.728687
         },
-        "type": "public"
+        "type": "infrastructure"
     },
     "textgrid:3rhkd": {
         "geo": {
@@ -4252,6 +4182,13 @@
         "geo": {
             "lat": 43.33904,
             "long": -1.78938
+        },
+        "type": "geographic"
+    },
+    "textgrid:3qkq5": {
+        "geo": {
+            "lat": 43.363056,
+            "long": -1.698889
         },
         "type": "geographic"
     },
@@ -4887,8 +4824,8 @@
     },
     "textgrid:3pg1w": {
         "geo": {
-            "lat": 51.69167,
-            "long": 4.43889
+            "lat": 51.691955,
+            "long": 4.439926
         },
         "type": "geographic"
     },
@@ -5503,17 +5440,10 @@
     },
     "textgrid:3q1f9": {
         "geo": {
-            "lat": 43.676663,
-            "long": 4.629837
+            "lat": 43.676847,
+            "long": 4.629357
         },
         "type": "religious"
-    },
-    "textgrid:3q0mz": {
-        "geo": {
-            "lat": 43.6725,
-            "long": 4.616389
-        },
-        "type": "monuments"
     },
     "textgrid:3q0n0": {
         "geo": {
@@ -5759,6 +5689,13 @@
             "long": -0.57768
         },
         "type": "religious"
+    },
+    "textgrid:3ph9g": {
+        "geo": {
+            "lat": 44.837778,
+            "long": -0.579722
+        },
+        "type": "domestic"
     },
     "textgrid:3ph9f": {
         "geo": {
@@ -6220,7 +6157,7 @@
             "lat": 46.158169,
             "long": -1.153649
         },
-        "type": "infrastructure"
+        "type": "monuments"
     },
     "textgrid:3ph9r": {
         "geo": {
@@ -6263,6 +6200,13 @@
             "long": 3.04457
         },
         "type": "military"
+    },
+    "textgrid:3r32p": {
+        "geo": {
+            "lat": 50.640971,
+            "long": 3.04457
+        },
+        "type": "religious"
     },
     "textgrid:3pfzs": {
         "geo": {
@@ -6698,6 +6642,13 @@
         },
         "type": "domestic"
     },
+    "textgrid:3ph90": {
+        "geo": {
+            "lat": 43.18098,
+            "long": 3.00414
+        },
+        "type": "religious"
+    },
     "textgrid:3q0pb": {
         "geo": {
             "lat": 43.83378,
@@ -6718,13 +6669,6 @@
             "long": 4.356125
         },
         "type": "public"
-    },
-    "textgrid:3q1fr": {
-        "geo": {
-            "lat": 43.837195,
-            "long": 4.361145
-        },
-        "type": "domestic"
     },
     "textgrid:3q1fq": {
         "geo": {
@@ -6759,7 +6703,7 @@
             "lat": 43.843073,
             "long": 4.349343
         },
-        "type": "public"
+        "type": "infrastructure"
     },
     "textgrid:3qkp5": {
         "geo": {
@@ -6903,8 +6847,8 @@
     },
     "textgrid:3qkrc": {
         "geo": {
-            "lat": 44.25494,
-            "long": 4.64736
+            "lat": 44.259167,
+            "long": 4.6525
         },
         "type": "infrastructure"
     },
@@ -7022,8 +6966,8 @@
     },
     "textgrid:3pfh0": {
         "geo": {
-            "lat": 48.9354,
-            "long": 2.35991
+            "lat": 48.93571,
+            "long": 2.360226
         },
         "type": "religious"
     },
@@ -7340,7 +7284,7 @@
             "lat": 47.397463,
             "long": 0.685863
         },
-        "type": "infrastructure"
+        "type": "monuments"
     },
     "textgrid:3ph31": {
         "geo": {
@@ -7818,13 +7762,6 @@
         },
         "type": "garden"
     },
-    "textgrid:3q1hk": {
-        "geo": {
-            "lat": 52.09,
-            "long": 4.28472
-        },
-        "type": "garden"
-    },
     "textgrid:3px94": {
         "geo": {
             "lat": 51.58656,
@@ -8021,13 +7958,6 @@
         },
         "type": "geographic"
     },
-    "textgrid:3q1cg": {
-        "geo": {
-            "lat": 36.744211,
-            "long": 3.077863
-        },
-        "type": "geographic"
-    },
     "textgrid:3qkmn": {
         "geo": {
             "lat": 43.38871,
@@ -8114,8 +8044,8 @@
     },
     "textgrid:3r2zt": {
         "geo": {
-            "lat": 48.547325,
-            "long": 7.840394
+            "lat": 48.574673,
+            "long": 7.814551
         },
         "type": "military"
     },
@@ -8294,6 +8224,13 @@
         },
         "type": "infrastructure"
     },
+    "textgrid:3rc2p": {
+        "geo": {
+            "lat": 43.12253,
+            "long": 5.92881
+        },
+        "type": "religious"
+    },
     "textgrid:3rc2r": {
         "geo": {
             "lat": 52.156111,
@@ -8334,7 +8271,7 @@
             "lat": 50.8462,
             "long": 4.35255
         },
-        "type": "domestic"
+        "type": "other"
     },
     "textgrid:3rc39": {
         "geo": {
@@ -8454,5 +8391,215 @@
             "long": 14.760936
         },
         "type": "geographic"
+    },
+    "textgrid:3vvc9": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3vvcb": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3vvcc": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3vvcd": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3qks0": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3ph2n": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26k": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26m": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26n": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "domestic"
+    },
+    "textgrid:3w26p": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26q": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26r": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26s": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26t": {
+        "geo": {
+            "lat": 48.83784,
+            "long": 2.21873
+        },
+        "type": "interior"
+    },
+    "textgrid:3w26v": {
+        "geo": {
+            "lat": 50.8467,
+            "long": 4.35313
+        },
+        "type": "other"
+    },
+    "textgrid:3w26w": {
+        "geo": {
+            "lat": 50.749302,
+            "long": 2.253202
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w26z": {
+        "geo": {
+            "lat": 50.559119,
+            "long": 4.086421
+        },
+        "type": "geographic"
+    },
+    "textgrid:3w270": {
+        "geo": {
+            "lat": 51.0275,
+            "long": 4.357222
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w279": {
+        "geo": {
+            "lat": 51.034351,
+            "long": 2.374383
+        },
+        "type": "military"
+    },
+    "textgrid:3w27b": {
+        "geo": {
+            "lat": 51.0442,
+            "long": 2.31039
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w27f": {
+        "geo": {
+            "lat": 49.420909,
+            "long": 2.831988
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w3fz": {
+        "geo": {
+            "lat": 49.420791,
+            "long": 2.832085
+        },
+        "type": "other"
+    },
+    "textgrid:3w3g5": {
+        "geo": {
+            "lat": 48.402122,
+            "long": 2.699947
+        },
+        "type": "interior"
+    },
+    "textgrid:3w3gw": {
+        "geo": {
+            "lat": 44.862762,
+            "long": -0.548373
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w3gz": {
+        "geo": {
+            "lat": 43.5999,
+            "long": 1.4504
+        },
+        "type": "other"
+    },
+    "textgrid:3w3h2": {
+        "geo": {
+            "lat": 43.225,
+            "long": 3.006111
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w3hb": {
+        "geo": {
+            "lat": 43.590278,
+            "long": 7.127222
+        },
+        "type": "military"
+    },
+    "textgrid:3w3hd": {
+        "geo": {
+            "lat": 49.416905,
+            "long": 2.840793
+        },
+        "type": "infrastructure"
+    },
+    "textgrid:3w3hg": {
+        "geo": {
+            "lat": 48.804857,
+            "long": 2.120268
+        },
+        "type": "interior"
+    },
+    "textgrid:3w4n1": {
+        "geo": {
+            "lat": 43.1815,
+            "long": 2.9999
+        },
+        "type": "religious"
     }
 }
