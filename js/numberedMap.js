@@ -114,9 +114,14 @@ class NumberedMap extends BaseMap{
     const controlPromise = 
       fetch(`${baseUrl}/geojson/visitsEuropeGeolocated.geojson`)
       .then(response => response.json())
-      
-    itineraryPromise.then(data => {
-      this.itinerary = data
+
+    const allPromise = Promise.all(
+      [itineraryPromise, numberedPromise, controlPromise]
+    )
+
+    allPromise.then(data => {
+      [this.itinerary, this.numbers, this.control] = data
+      const instance = this
 
       // the actual geographic icons (gray)
       var all = L.layerGroup([
@@ -127,87 +132,83 @@ class NumberedMap extends BaseMap{
           }
         })
       ]).addTo(this.map)
-
-      //Add Layer Group to overlayMaps
       overlayMaps[translation["baseLayer"][lang]] = all
 
-      numberedPromise.then(data => {
-        this.numbers = data
+      // group nums and visitors by coordinates
+      for (const e of this.numbers.features) {
+        const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
 
-        // group nums and visitors by coordinates
-        for (const e of this.numbers.features) {
-          const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
-
-          this.state.mapping[key] = this.state.mapping[key] || []
-          this.state.mapping[key].push({
-            num: e.properties.labelNum,
-            visitor: e.properties.visitor
-          })
-        }
-
-        // we will also make sure that each coordinate pair is only shown once
-        const found = {}
-        this.numbers.features = this.numbers.features.filter(e => {
-          const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
-          
-          if (found[key]) {
-            return false
-          } else {
-            found[key] = true
-            return true
-          }
+        this.state.mapping[key] = this.state.mapping[key] || []
+        this.state.mapping[key].push({
+          num: e.properties.labelNum,
+          visitor: e.properties.visitor
         })
+      }
+
+      // we will also make sure that each coordinate pair is only shown once
+      const found = {}
+      this.numbers.features = this.numbers.features.filter(e => {
+        const key = `${e.geometry.coordinates[0]}-${e.geometry.coordinates[1]}`
+        
+        if (found[key]) {
+          return false
+        } else {
+          found[key] = true
+          return true
+        }
       })
 
-      controlPromise.then(data => {
-        // so we can access it within callbacks
-        const instance = this
+      // define and add a customized control
+      L.Control.NumberedMapControl = L.Control.Layers.extend({
+        initialize: function(baseMaps, overlayMaps, options) {
+          L.Control.Layers.prototype.initialize.call(this, baseMaps, overlayMaps, options)
+        },
+        onAdd: function(map) {
+          const widget = L.Control.Layers.prototype.onAdd.call(this, map)
 
-        L.Control.NumberedMapControl = L.Control.Layers.extend({
-          initialize: function(baseMaps, overlayMaps, options) {
-            L.Control.Layers.prototype.initialize.call(this, baseMaps, overlayMaps, options)
-          },
-          onAdd: function(map) {
-            const widget = L.Control.Layers.prototype.onAdd.call(this, map)
+          // here, we add our own layer controls
+          const original = widget.querySelector('.leaflet-control-layers-overlays')
+          // if we don't wrap the inputs, they will be removed when the map is
+          // updated by Control.Layers
+          const checkboxes = document.createElement('div')
+          original.before(checkboxes)
 
-            // here, we add our own layer controls
-            const original = widget.querySelector('.leaflet-control-layers-overlays')
-            // if we don't wrap the inputs, they will be removed when the map is
-            // updated by Control.Layers
-            const checkboxes = document.createElement('div')
-            original.before(checkboxes)
+          for (const name of ['Pitzler', 'Harrach', 'Corfey', 'Knesebeck', 'Neumann']) {
+            const input = document.createElement('input')
+            input.setAttribute('type', 'checkbox')
+            input.setAttribute('name', name)
+            input.classList.add('leaflet-control-layers-selector')
+            input.addEventListener('change', instance.updateNumbers)
 
-            for (const name of ['Pitzler', 'Harrach', 'Corfey', 'Knesebeck', 'Neumann']) {
-              const input = document.createElement('input')
-              input.setAttribute('type', 'checkbox')
-              input.setAttribute('name', name)
-              input.classList.add('leaflet-control-layers-selector')
-              input.addEventListener('change', instance.updateNumbers)
+            const span = document.createElement('span')
+            span.append(' ' + name)
 
-              const span = document.createElement('span')
-              span.append(' ' + name)
+            const div = document.createElement('div')
+            div.append(input, span)
 
-              const div = document.createElement('div')
-              div.append(input, span)
+            const label = document.createElement('label')
+            label.append(div)
 
-              const label = document.createElement('label')
-              label.append(div)
-
-              instance.inputs.push(input)
-              checkboxes.append(label)
-            }
-
-            return widget
+            instance.inputs.push(input)
+            checkboxes.append(label)
           }
-        })
 
-        //Add layer control to map
-        const control = new L.Control.NumberedMapControl(
-          baseMaps,
-          overlayMaps,
-          {collapsed: false}
-        ).addTo(this.map)
-        this.hideHistoric(this.map, control, franceLabel, hreLabel, overlayMaps)
+          return widget
+        }
+      })
+
+      //Add layer control to map
+      const control = new L.Control.NumberedMapControl(
+        baseMaps,
+        overlayMaps,
+        {collapsed: false}
+      ).addTo(this.map)
+      this.hideHistoric(this.map, control, franceLabel, hreLabel, overlayMaps)
+
+      // make sure the control is rerendered with our customizations whenever
+      // the map is zoomed
+      this.map.addEventListener('zoomend', event => {
+        this.updateNumbers()
       })
     })
   }
@@ -359,4 +360,3 @@ class NumberedMap extends BaseMap{
 export {
   NumberedMap
 }
- {}
