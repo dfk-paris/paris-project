@@ -102,7 +102,7 @@ class EuropeMap extends BaseMap {
 
     //Paris Polygon
     let parismapPromise =
-      fetch(`${baseUrl}/geojson/parismap.geojson`) // @Anne change
+      fetch(`${baseUrl}/geojson/parismap.geojson`)
       .then(response => response.json())
 
     //Fetch Data
