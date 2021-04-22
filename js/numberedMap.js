@@ -261,10 +261,23 @@ class NumberedMap extends BaseMap{
           return
         }
 
-
-
         const html = r.map(e => {
-          return `<div visitor="${e.visitor}">${e.num}</div>`
+          let style = ''
+
+          // color saturation according to nums
+          const color = {
+            'Pitzler': `hsla(48, ${77 + e.num}%, 49%, 0.6)`,
+            'Harrach': `hsla(6, ${54 + e.num}%, 47%, 0.6)`,
+            'Corfey': `hsla(220, ${40 + e.num / 2}%, 70%, 0.6)`,
+            'Knesebeck': `hsla(336, ${52 + e.num}%, 59%, 0.6)`,
+            'Neumann': `hsla(30, ${52 + e.num}%, 51%, 0.6)`
+          }[e.visitor]
+          style = (color ? `style="background-color: ${color}"` : '')
+
+          return `<div
+            visitor="${e.visitor}"
+            ${style}
+          >${e.num}</div>`
         }).join('')
 
         const tileSize = 20
@@ -274,8 +287,6 @@ class NumberedMap extends BaseMap{
           Math.min(r.length, 3) * (tileSize + gutter) + gutter,
           Math.ceil(r.length / 3) * (tileSize + gutter) + gutter
         ]
-
-        console.log(iconSize)
 
         const icon = L.divIcon({
           className: 'arch-itinerary-grid',
