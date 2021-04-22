@@ -157,113 +157,9 @@ class NumberedMap extends BaseMap{
             return true
           }
         })
-
-        console.log(this.numbers)
-        //Layer Group Cities for overlayMaps
-        //Knesebeck Group
-        // var knesebeck = L.layerGroup([
-        //   L.geoJSON(data, {
-        //     onEachFeature: this.onEachFeatureNumbered,
-        //     filter: function(feature, layer) {
-        //       return feature.properties.visitor=="Knesebeck";
-        //     }
-        //   })
-        // ])
-
-        // //Corfey Group
-        // var corfey = L.layerGroup([
-        //   L.geoJSON(data, {
-        //     onEachFeature: this.onEachFeatureNumbered,
-        //     filter: function(feature, layer) {
-        //       return feature.properties.visitor=="Corfey";
-        //     }
-        //   })
-        // ])
-
-        // //Pitzler Group
-        // var pitzler = L.layerGroup([
-        //   L.geoJSON(data, {
-        //     onEachFeature: this.onEachFeatureNumbered,
-        //     filter: function(feature, layer) {
-        //       return feature.properties.visitor=="Pitzler";
-        //     }
-        //   })
-        // ])
-
-        // //Neumann Group
-        // var neumann = L.layerGroup([
-        //   L.geoJSON(data, {
-        //     onEachFeature: this.onEachFeatureNumbered,
-        //     filter: function(feature, layer) {
-        //       return feature.properties.visitor=="Neumann";
-        //     }
-        //   })
-        // ])
-
-        // //Harrach Group
-        // var harrach = L.layerGroup([
-        //   L.geoJSON(data, {
-        //     onEachFeature: this.onEachFeatureNumbered,
-        //     filter: function(feature, layer) {
-        //       return feature.properties.visitor=="Harrach";
-        //     }
-        //   })
-        // ])
-
-        //Add Layer Group Travelogues to overlayMaps
-        // overlayMaps["Knesebeck"] = knesebeck
-        // overlayMaps["Corfey"] = corfey
-        // overlayMaps["Pitzler"] = pitzler
-        // overlayMaps["Neumann"] = neumann
-        // overlayMaps["Harrach"] = harrach
-        // overlayMaps["Harrach"] = buildCluster(data, 'harrach', 'Harrach')
       })
 
       controlPromise.then(data => {
-        //Layer Group Cities for overlayMaps
-        //Knesebeck Group
-        // overlayMaps["Knesebeck"].addLayer(L.geoJSON(data, {
-        //   onEachFeature: onEachFeature,
-        //   filter:function(feature, layer) {
-        //     return feature.properties.visitor=="Knesebeck"
-        //   }
-        // }))
-
-        // overlayMaps["Corfey"].addLayer(L.geoJSON(data, {
-        //   onEachFeature: onEachFeature,
-        //   filter:function(feature, layer) {
-        //     return feature.properties.visitor=="Corfey"
-        //   }
-        // }))
-
-        // overlayMaps["Pitzler"].addLayer(L.geoJSON(data, {
-        //   onEachFeature: onEachFeature,
-        //   filter:function(feature, layer) {
-        //     return feature.properties.visitor=="Pitzler"
-        //   }
-        // }))
-
-        // overlayMaps["Neumann"].addLayer(L.geoJSON(data, {
-        //   onEachFeature: onEachFeature,
-        //   filter:function(feature, layer) {
-        //     return feature.properties.visitor=="Neumann"
-        //   }
-        // }))
-
-        // overlayMaps["Harrach"].addLayer(L.geoJSON(data, {
-        //   onEachFeature: onEachFeature,
-        //   filter:function(feature, layer) {
-        //     return feature.properties.visitor=="Harrach"
-        //   }
-        // }))
-
-        //Update Layer Groups
-        //overlayMaps["Knesebeck"] = knesebeck
-        //overlayMaps["Corfey"] = corfey
-        //overlayMaps["Pitzler"] = pitzler
-        //overlayMaps["Neumann"] = neumann
-        //overlayMaps["Harrach"] = harrach
-
         // so we can access it within callbacks
         const instance = this
 
@@ -314,69 +210,19 @@ class NumberedMap extends BaseMap{
         this.hideHistoric(this.map, control, franceLabel, hreLabel, overlayMaps)
       })
     })
-
-    // const buildCluster = (data, id, name) => {
-    //   // returns a function to render the marker cluster icons
-    //   const iconCreateFunctionFor = (name) => {
-    //     return (cluster) => {
-    //       var childCount = cluster.getChildCount();
-
-    //       let label = cluster.getAllChildMarkers().map(data => {
-    //         // data burried in html string
-    //         const l = data.feature.properties.label
-    //         if (l) {
-    //           const m = l.match(/(\d+)<\/text>[\s\n]*<\/svg>$/m)
-    //           return m[1]
-    //         } else {
-    //           console.log(data)
-    //           return 'x'
-    //         }
-    //       }).join(', ')
-
-    //       var c = ' marker-cluster-';
-    //       if (childCount < 10) {
-    //         c += 'small';
-    //       } else if (childCount < 100) {
-    //         c += 'medium';
-    //       } else {
-    //         c += 'large';
-    //       }
-
-    //       c += ' marker-cluster-' + name
-
-    //       return new L.DivIcon({ html: '<div><span>' + label + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
-    //     }
-    //   }
-
-    //   var cluster = L.markerClusterGroup({
-    //     iconCreateFunction: iconCreateFunctionFor(id),
-    //     disableClusteringAtZoom: 16,
-    //     maxClusterRadius: 1,
-    //     polygonOptions: {
-    //       color: colorMap[id] || 'gray'
-    //     }
-    //   })
-      
-    //   var opts = {
-    //     onEachFeature: this.onEachFeatureNumbered,
-    //     filter: function(feature, layer) {
-    //       return feature.properties.visitor == name;
-    //     }
-    //   }
-
-    //   L.geoJSON(data, opts).addTo(cluster)
-    //   return cluster
-    // }
   }
 
   updateNumbers(event) {
+    let hasActiveItineraries = false
     for (const input of this.inputs) {
       const name = input.getAttribute('name')
       const active = input.checked
       this.state.overlays[name] = active
+      hasActiveItineraries = hasActiveItineraries || active
     }
 
     this.updateBoxes()
+    this.ensureMarkers(hasActiveItineraries)
   }
 
   updateBoxes() {
@@ -446,56 +292,19 @@ class NumberedMap extends BaseMap{
     this.boxes.addTo(this.map)
   }
 
-  // numberedMarker(color, num) {
-  //   let x = 0
-  //   let y = 100
-  //   let fontSize = '125px'
+  ensureMarkers(hasActiveItineraries) {
+    const input = this.map._container.
+      querySelectorAll('.leaflet-control-layers-overlays input')[0]
 
-  //   if (num < 100) {
-  //   //   x = 7
-  //   //   y = 220
-  //     fontSize = '195px'
-  //   }
-
-  //   if (num < 10) {
-  //   //   x = 80
-  //   //   y = 225
-  //   }
-
-  //   const svg = `<svg
-  //     xmlns="http://www.w3.org/2000/svg"
-  //     viewBox="0 0 100 100"
-  //   >
-  //     <circle cx="50" cy="50" r="25" fill="${color}" stroke="${color}" stroke-width="1" />
-  //     <text
-  //       x="${x}"
-  //       y="${y}"
-  //       font-family="Verdana"
-  //       font-size="${fontSize}"
-  //       font-weight="bold"
-  //       fill="black"
-  //     >${num}</text>
-  //   </svg>`
-
-  //   var svgURL = "data:image/svg+xml;base64," + btoa(svg);
-  //   // console.log(svg)
-  //   return L.icon({
-  //     iconUrl: svgURL,
-  //     iconSize:     [20, 20], // size of the icon
-  //     iconAnchor:   [18, 38], // point of the icon which will correspond to marker's location
-  //     popupAnchor:  [-3, -17] // point from which the popup should open relative to the iconAnchor
-  //   })
-  // }
-
-  //OnEachFeature Function
-  // onEachFeatureNumbered(feature, layer) {
-  //   if (lang === 'fra' || lang === 'de') {
-  //     layer.setIcon(this.numberedMarker(
-  //       feature.properties.color,
-  //       feature.properties.labelNum
-  //     ))
-  //   }
-  // }
+    if (hasActiveItineraries) {
+      if (!input.checked) {
+        input.click()
+      }
+      input.setAttribute('disabled', 'true')
+    } else {
+      input.removeAttribute('disabled')
+    }
+  }
 
   //Function to Define Overlay Name
   overlayName(type, lang) {
@@ -526,11 +335,6 @@ class NumberedMap extends BaseMap{
       return overlayMaps
     } else if (lang==="de"){
       var overlayMaps = {
-        "Pitzler":"",
-        "Harrach":"",
-        "Corfey":"",
-        "Knesebeck":"",
-        "Neumann":"",
         "<b>Alle Reisende</b>":"",
         "<b>HRR 1700</b>":"",
         "<b>Frankreich 1700</b>":""
@@ -544,3 +348,4 @@ class NumberedMap extends BaseMap{
 export {
   NumberedMap
 }
+ {}
