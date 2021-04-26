@@ -525,7 +525,6 @@ function buildLegend() {
       "geographic",
       "miscellaneous"
     ]
-    // let icons = categories.map(e => translation["symbolsLabel"][lang][e])
 
     for (let i = 0; i < travelers.length; i++) {
       div.innerHTML +=

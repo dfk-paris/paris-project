@@ -306,7 +306,7 @@ class NumberedMap extends BaseMap{
           html: html,
           iconSize: iconSize,
           iconAnchor: [
-            iconSize[0] / 2 + 10,
+            iconSize[0] / 2 + 8,
             iconSize[1] + 25
           ]
         })
