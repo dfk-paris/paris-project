@@ -11,6 +11,7 @@ import {
   lang,
   onEachFeature,
   setMarker,
+  synopticUrl,
   translation
 } from './common.js'
 
@@ -141,7 +142,9 @@ class NumberedMap extends BaseMap{
         this.state.mapping[key] = this.state.mapping[key] || []
         this.state.mapping[key].push({
           num: e.properties.labelNum,
-          visitor: e.properties.visitor
+          visitor: e.properties.visitor,
+          edition: e.properties.edition,
+          page: e.properties.page
         })
       }
 
@@ -274,11 +277,21 @@ class NumberedMap extends BaseMap{
             'Neumann': `hsla(30, ${52 + e.num}%, 51%, 0.6)`
           }[e.visitor]
           style = (color ? `style="background-color: ${color}"` : '')
+          const translation = {
+            '34zmq': '3czfj',
+            '3ptwg': '3r0fv',
+            '3qr4f': '3r3nn',
+            '34znb': '350mg',
+            '3c0m2': '3czn9'
+          }[e.edition]
+          const href = `${synopticUrl}?edition=${e.edition}&translation=${translation}&page=${e.page}&lang=de`
 
-          return `<div
+          return `<a
             visitor="${e.visitor}"
+            href="${href}"
+            target="_blank"
             ${style}
-          >${e.num}</div>`
+          >${e.num}</a>`
         }).join('')
 
         const tileSize = 20

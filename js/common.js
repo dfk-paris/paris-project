@@ -43,16 +43,21 @@ class BaseMap {
 }
 
 let baseUrl = 'http://localhost:4000/paris-project'
+let synopticUrl = 'https://architrave.eu/dev/view.html'
+
 if (document.location.href.match(/localhost:3001/)) {
   baseUrl = '/exist/apps/sade-architrave/templates/itinerary'
 }
+
 if (document.location.href.match(/architrave.eu\/dev/)) {
   baseUrl = '/templates/itinerary'
 } else {
   if (document.location.href.match(/architrave.eu/)) {
     baseUrl = '/templates/itinerary'
+    synopticUrl = 'https://architrave.eu/view.html'
   }
 }
+
 
 //Language Dictionary
 //Translation for Legend
@@ -638,5 +643,6 @@ export {
   lang,
   onEachFeature,
   translation,
-  setMarker
+  setMarker,
+  synopticUrl
 }

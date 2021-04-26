@@ -130,7 +130,8 @@
   opacity: 0.8;
 }
 
-.arch-itinerary-grid > div {
+.arch-itinerary-grid > a {
+  display: block;
   box-sizing: border-box;
   width: 20px;
   height: 20px;
@@ -144,37 +145,38 @@
   color: white;
   font-weight: bold;
   font-size: 0.8em;
+  text-decoration: none;
 }
 
-.arch-itinerary-grid > div:nth-child(2 + 3n) {
+.arch-itinerary-grid > a:nth-child(2 + 3n) {
   margin-left: 5px;
 }
 
-.arch-itinerary-grid > div:last-child {
+.arch-itinerary-grid > a:last-child {
   margin-bottom: 5px;
 }
 
-.arch-itinerary-grid > div[visitor='Pitzler'] {
+.arch-itinerary-grid > a[visitor='Pitzler'] {
   /*background-color: rgba(241, 211, 87, 0.6);*/
   background-color: rgba(240, 194, 12, 0.6);
 }
 
-.arch-itinerary-grid > div[visitor='Harrach'] {
+.arch-itinerary-grid > a[visitor='Harrach'] {
   /*background-color: rgba(253, 23, 0, 0.4);*/
   background-color: rgba(241, 23, 0, 0.6);
 }
 
-.arch-itinerary-grid > div[visitor='Corfey'] {
+.arch-itinerary-grid > a[visitor='Corfey'] {
   /*background-color: rgba(102, 153, 255, 0.4);*/
   background-color: rgba(102, 153, 255, 0.6);
 }
 
-.arch-itinerary-grid > div[visitor='Knesebeck'] {
+.arch-itinerary-grid > a[visitor='Knesebeck'] {
   /*background-color: rgba(254, 49, 130, 0.4);*/
   background-color: rgba(254, 49, 130, 0.6);
 }
 
-.arch-itinerary-grid > div[visitor='Neumann'] {
+.arch-itinerary-grid > a[visitor='Neumann'] {
   /*background-color: rgba(213, 131, 48, 0.4);*/
   background-color: rgba(213, 131, 48, 0.6);
 }

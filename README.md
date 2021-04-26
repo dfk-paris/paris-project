@@ -60,6 +60,10 @@ cd architrave-data
 pyenv shell 3.6.9
 pip install geopy bs4
 python main.py
+
+# and then to actually use the new data in the maps:
+cd ..
+cp architrave-data/data/output/*.geojson geojson/
 ```
 
 The geojson in architrave-data/data/output can then be copied to the `geojson/`

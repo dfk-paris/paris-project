@@ -106,23 +106,22 @@ def lines(filePath):
     from config import Config
     from operator import itemgetter
 
-    #Variables
-
     #Data
     doc = Config.useful.crawler_xml(filePath)
 
     #Execution
     #Get all Passing Bys
-    passingBys = [
-                    [passingBy["ref"].replace("plc:", ""), int(passingBy["n"])]
-                    for passingBy
-                    in doc.find_all("placeName", {"subtype": "passingBy"})
-                ]
+    elements = doc.find_all("placeName", {"subtype": "passingBy"})
+    passingBys = [build_line(element) for element in elements]
 
     #Sort and return
     return sorted(passingBys, key=itemgetter(1))
 
+def build_line(element):
+  ref = element["ref"].replace("plc:", "")
+  num = int(element["n"])
+  page = int(element.find_previous('pb')['n'])
 
+  return [ref, num, page]
 
-
-
+import ipdb
