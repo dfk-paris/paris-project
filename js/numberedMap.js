@@ -7,7 +7,6 @@ import {
   buildLegend,
   colorMap,
   getColor,
-  getIcon,
   lang,
   onEachFeature,
   setMarker,

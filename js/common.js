@@ -68,29 +68,29 @@ const translation = {
   },
   "symbolsLabel": {
     "fra": {
-        "Symbols":"Symboles",
-        "public":"édifices publics",
-        "religious":"édifices religieux",
-        "domestic":"édifices domestiques",
-        "monuments":"monuments",
-        "infrastructure":"infrastructures",
-        "military":"constructions militaires",
-        "garden":"parcs et jardins",
-        "geographic":"villes et lieux géographiques",
-        "miscellaneous":"autres"
-      },
-      "de":{
-        "Symbols":"Symbole",
-        "public":"Öffentliche Gebäude",
-        "religious":"Religöse Gebäude",
-        "domestic":"Wohngebäude",
-        "monuments":"Monumente",
-        "infrastructure":"Infrastruktur",
-        "military":"Militäreinrichtungen",
-        "garden":"Parks und Gärten",
-        "geographic":"Orte",
-        "miscellaneous":"Sonstige"
-      }
+      "Symbols":"Symboles",
+      "public":"Édifices publics",
+      "religious":"Édifices religieux",
+      "domestic":"Édifices domestiques",
+      "monuments":"Monuments",
+      "infrastructure":"Infrastructures",
+      "military":"Constructions militaires",
+      "garden":"Parcs et jardins",
+      "geographic":"Lieux géographiques",
+      "miscellaneous":"Autres lieux"
+    },
+    "de": {
+      "Symbols":"Symbole",
+      "public":"Öffentliche Gebäude",
+      "religious":"Religiöse Gebäude",
+      "domestic":"Wohngebäude",
+      "monuments":"Monumente",
+      "infrastructure":"Infrastruktur",
+      "military":"Militäreinrichtungen",
+      "garden":"Parks und Gärten",
+      "geographic":"Geographische Orte",
+      "miscellaneous":"Andere Orte"
+    }
   },
   "baseLayer": {
     "fra": "<b>Tous les voyageurs</b>",
@@ -472,28 +472,18 @@ function getColor(d) {
   'black'
 }
 
-//Get Icon For Legend
-function getIcon(baseUrl, d) {
-  return d === "édifices publics" ? `${baseUrl}/svg/public.svg` :
-  d === "édifices religieux" ? `${baseUrl}/svg/spiritual.svg` :
-  d === "édifices domestiques" ? `${baseUrl}/svg/house.svg` :
-  d === "monuments" ? `${baseUrl}/svg/monuments.svg` :
-  d === "infrastructure" ? `${baseUrl}/svg/bridge.svg` :
-  d === "constructions militaires" ? `${baseUrl}/svg/military.svg` :
-  d === "parcs et jardins" ? `${baseUrl}/svg/garden.svg` :
-  d === "villes et lieux géographiques" ? `${baseUrl}/svg/marker.svg` :
-  d === "autres" ? `${baseUrl}/svg/circle.svg` :
-
-  d === "Öffentliche Gebäude" ? `${baseUrl}/svg/public.svg` :
-  d === "Religöse Gebäude" ? `${baseUrl}/svg/spiritual.svg` :
-  d === "Wohngebäude" ? `${baseUrl}/svg/house.svg` :
-  d === "Monumente" ? `${baseUrl}/svg/monuments.svg` :
-  d === "Infrastruktur" ? `${baseUrl}/svg/bridge.svg` :
-  d === "Militäreinrichtungen" ? `${baseUrl}/svg/military.svg` :
-  d === "Parks und Gärten" ? `${baseUrl}/svg/garden.svg` :
-  d === "Orte" ? `${baseUrl}/svg/marker.svg` :
-  d === "Sonstige" ? `${baseUrl}/svg/circle.svg` :
-  `${baseUrl}/svg/circle.svg`
+function iconFor(category) {
+  return {
+    "public": `${baseUrl}/svg/public.svg`,
+    "religious": `${baseUrl}/svg/spiritual.svg`,
+    "domestic": `${baseUrl}/svg/house.svg`,
+    "monuments": `${baseUrl}/svg/monuments.svg`,
+    "infrastructure": `${baseUrl}/svg/bridge.svg`,
+    "military": `${baseUrl}/svg/military.svg`,
+    "garden": `${baseUrl}/svg/garden.svg`,
+    "geographic": `${baseUrl}/svg/marker.svg`,
+    "miscellaneous": `${baseUrl}/svg/circle.svg`
+  }[category] || `${baseUrl}/svg/circle.svg`
 }
 
 const colorMap = {
@@ -524,18 +514,18 @@ function buildLegend() {
     labels = ['<strong>'+ translation["legendLabel"][lang] +'</strong>'],
     symbols = ['<strong>'+ translation["symbolsLabel"][lang]["Symbols"]+'</strong>'],
     travelers = ["Pitzler","Harrach","Corfey","Knesebeck","Sturm","Neumann"];
-    let icons = [
-      translation["symbolsLabel"][lang]["public"],
-      translation["symbolsLabel"][lang]["religious"],
-      translation["symbolsLabel"][lang]["domestic"],
-      translation["symbolsLabel"][lang]["monuments"],
-      translation["symbolsLabel"][lang]["infrastructure"],
-      translation["symbolsLabel"][lang]["military"],
-      translation["symbolsLabel"][lang]["garden"],
-      translation["symbolsLabel"][lang]["geographic"],
-
-      translation["symbolsLabel"][lang]["miscellaneous"]
+    const categories = [
+      "public",
+      "religious",
+      "domestic",
+      "monuments",
+      "infrastructure",
+      "military",
+      "garden",
+      "geographic",
+      "miscellaneous"
     ]
+    // let icons = categories.map(e => translation["symbolsLabel"][lang][e])
 
     for (let i = 0; i < travelers.length; i++) {
       div.innerHTML +=
@@ -544,10 +534,16 @@ function buildLegend() {
         )
     }
 
-    for (let i = 0; i < icons.length; i++) {
+    for (const c of categories) {
+      const label = translation["symbolsLabel"][lang][c]
+
       div.innerHTML +=
         symbols.push(
-          '<img src="' + getIcon(baseUrl, icons[i]) + '" width=15 height=15> ' + icons[i]
+          `<img
+            src="${iconFor(c)}/svg/marker.svg"
+            width="15"
+            height="15"
+          /> ${label}`
         )
     }
 
@@ -639,7 +635,6 @@ export {
   buildLegend,
   colorMap,
   getColor,
-  getIcon,
   lang,
   onEachFeature,
   translation,
