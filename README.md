@@ -7,12 +7,9 @@ The visualizations were created as part of the collaborative research project "*
 
 The conceptualization of the visualizations was done in two steps. The first one was focused on the design and prototyping. It was maintained by V. Westrich ([https://github.com/vwestric/](https://github.com/vwestric/)). The second one included the implementation and the final launch and was performed by DFK Paris under the responsibility of A. Klammt in collaboration with M. Schepp (Wendig).
 
-All geodata are part of the scientific work of the mentioned research project. For the presentation on the website, the data were converted from TEI-XML and CSV formats into GeoJSON files. These GeoJSON files can be used within the license of this repository. 
+All geodata are part of the scientific work of the forementioned research project. For the presentation on the website, the data were converted from TEI-XML and CSV formats into GeoJSON files. These GeoJSON files can be used within the license of this repository. 
 
-To cite them correctly, please use:
-
-<!-- hier sollten wir dann einfach die Zitation von heiDATA einsetzen. Also etwa so:
-Arnoux, Mathilde, 2020, "OwnReality. To Each His Own Reality [Research Data]", https://doi.org/10.11588/data/ZMIHMY, heiDATA, V2, UNF:6:X76d8KoGv90iVhPYxFovpg== [fileUNF] -->
+To cite them correctly, please use: Ziegler, Hendrik; Pioch, Alexandra, 2021, "ARCHITRAVE [research data & software]", https://doi.org/10.11588/data/AT1QUR, heiDATA, DRAFT VERSION 
 
       
 
