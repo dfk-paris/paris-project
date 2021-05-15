@@ -43,18 +43,19 @@ class BaseMap {
 }
 
 let baseUrl = 'http://localhost:4000/paris-project'
-let synopticUrl = 'https://architrave.eu/dev/view.html'
+let synopticUrl = 'https://architrave.eu/view.html'
 
 if (document.location.href.match(/localhost:3001/)) {
   baseUrl = '/exist/apps/sade-architrave/templates/itinerary'
+  synopticUrl = '/exist/apps/sade-architrave/view.html'
 }
 
 if (document.location.href.match(/architrave.eu\/dev/)) {
-  baseUrl = '/templates/itinerary'
+  baseUrl = '/dev/templates/itinerary'
+  synopticUrl = 'https://architrave.eu/dev/view.html'
 } else {
   if (document.location.href.match(/architrave.eu/)) {
     baseUrl = '/templates/itinerary'
-    synopticUrl = 'https://architrave.eu/view.html'
   }
 }
 
@@ -539,7 +540,7 @@ function buildLegend() {
       div.innerHTML +=
         symbols.push(
           `<img
-            src="${iconFor(c)}/svg/marker.svg"
+            src="${iconFor(c)}"
             width="15"
             height="15"
           /> ${label}`

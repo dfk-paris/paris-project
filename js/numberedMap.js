@@ -15,8 +15,6 @@ import {
 } from './common.js'
 
 class NumberedMap extends BaseMap{
-
-
   constructor(elementId) {
     super(elementId)
 
@@ -34,7 +32,7 @@ class NumberedMap extends BaseMap{
   build() {
     //Map
     //Init Map
-    this.map = L.map('mapid').setView([48.856667, 2.351667], 5)
+    this.map = L.map(this.elementId).setView([48.856667, 2.351667], 5)
 
     const legend = buildLegend()
     legend.addTo(this.map)
