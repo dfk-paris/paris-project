@@ -267,11 +267,11 @@ class NumberedMap extends BaseMap{
 
           // color saturation according to nums
           const color = {
-            'Pitzler': `hsla(48, ${77 + e.num}%, 49%, 0.6)`,
-            'Harrach': `hsla(6, ${54 + e.num}%, 47%, 0.6)`,
-            'Corfey': `hsla(220, ${40 + e.num / 2}%, 70%, 0.6)`,
-            'Knesebeck': `hsla(336, ${52 + e.num}%, 59%, 0.6)`,
-            'Neumann': `hsla(30, ${52 + e.num}%, 51%, 0.6)`
+            'Pitzler': `hsla(48, ${77 + e.num}%, ${49 - e.num}%, 0.6)`,
+            'Harrach': `hsla(6, ${54 + e.num}%, ${47 - e.num}%, 0.6)`,
+            'Corfey': `hsla(220, ${40 + e.num / 2}%, ${70 - e.num / 5}%, 0.6)`,
+            'Knesebeck': `hsla(336, ${52 + e.num}%, ${59 - e.num / 2}%, 0.6)`,
+            'Neumann': `hsla(30, ${52 + e.num}%, ${51 - e.num / 2}%, 0.6)`
           }[e.visitor]
           style = (color ? `style="background-color: ${color}"` : '')
           const translation = {
