@@ -986,7 +986,7 @@
                         <placeName xml:lang="fra">Genua / Gênes (Italien / Italie)</placeName>
                     </death>
                 </person>
-                <person xml:id="textgrid:3pg68" type="identified" subtype="">
+                <person xml:id="textgrid:3pg68" type="identified" subtype="Others">
                     <idno xml:base="https://viaf.org/viaf/69749562" type="viaf"/>
                     <persName xml:lang="de">Braque, Familie</persName>
                     <persName xml:lang="fra">Braque, famille</persName>
@@ -3042,7 +3042,7 @@
                     <occupation type="category" xml:lang="fra">peintre</occupation>
                     <occupation type="category" xml:lang="de">Maler</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/30365' target='_blank'&gt;https://rkd.nl/explore/artists/30365&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/30365' target='_blank'&gt;https://rkd.nl/explore/artists/30365&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/30365' target='_blank'&gt;https://rkd.nl/explore/artists/30365&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1488?</date>
                         <date xml:lang="fra">1488?</date>
@@ -6293,7 +6293,7 @@
                     <occupation type="category" xml:lang="de">Kupferstichverleger</occupation>
                     <occupation type="category" xml:lang="de">Zeichner</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Fondateur d’une dynastie de graveurs ; frère aîné de Raphaël I Sadeler (1561-1632).&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/69218' target='_blank'&gt;https://rkd.nl/explore/artists/69218&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Begründer einer Dynastie an Kupferstechern; älterer Bruder von Raphaël (I.) Sadeler (1561-1632).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/69218' target='_blank'&gt;https://rkd.nl/explore/artists/69218&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Begründer einer Dynastie an Kupferstechern; älterer Bruder von Raphaël (I.) Sadeler (1561-1632).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/69218' target='_blank'&gt;https://rkd.nl/explore/artists/69218&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1550</date>
                         <date xml:lang="fra">1550</date>
@@ -6318,7 +6318,7 @@
                     <occupation type="category" xml:lang="de">Kupferstecher</occupation>
                     <occupation type="category" xml:lang="de">Ikonograph des Herzogs von Bayern</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Frère cadet de Jan (ou Johan) I Sadeler (1550-1600).&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/69220' target='_blank'&gt;https://rkd.nl/explore/artists/69220&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Jüngerer Bruder von Jan / Johan (I.) Sadeler (1550-1600).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/69220' target='_blank'&gt;https://rkd.nl/explore/artists/69220&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Jüngerer Bruder von Jan / Johan (I.) Sadeler (1550-1600).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/69220' target='_blank'&gt;https://rkd.nl/explore/artists/69220&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1561</date>
                         <date xml:lang="fra">1561</date>
@@ -7602,7 +7602,7 @@
                     <occupation type="category" xml:lang="de">Erster Kammerdiener von Ludwig XIV.</occupation>
                     <occupation type="category" xml:lang="de">Intendant des Schlosses von Versailles</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Base biographique du Centre de recherche du château de Versailles : &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Biografische Datenbank des Centre de recherche du château de Versailles: &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Biografische Datenbank des Centre de recherche du château de Versailles: &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=17&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1626-06-09</date>
                         <date xml:lang="fra">1626-06-09</date>
@@ -8076,7 +8076,7 @@
                 <person xml:id="textgrid:3pggv" type="identified" subtype="Statesmen">
                     <idno xml:base="https://viaf.org/viaf/50064401" type="viaf"/>
                     <persName xml:lang="de">Harrach, Johann Joseph Philipp, Graf von</persName>
-                    <persName xml:lang="fra">Harrach, Aloys Thomas Raimund, comte de</persName>
+                    <persName xml:lang="fra">Harrach, Johann Joseph Philipp, comte de</persName>
                     <nationality xml:lang="fra">autrichienne</nationality>
                     <nationality xml:lang="de">österreichisch</nationality>
                     <occupation type="category" xml:lang="fra">feld-maréchal impérial</occupation>
@@ -9031,7 +9031,7 @@
                     <occupation type="category" xml:lang="fra">comte palatin de Birkenfeld de 1671 à 1717</occupation>
                     <occupation type="category" xml:lang="fra">duc de Deux-Ponts-Birkenfeld-Bischwiller</occupation>
                     <occupation type="category" xml:lang="de">Pfalzgraf von Pfalz-Birkenfeld-Bischweiler-Rappoltstein</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;Charlotte Glück-Christmann, Thomas Wiercinski et Bernhard Becker (dir.), &lt;i&gt;Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken&lt;/i&gt;, cat. expo. (Zweibrücken, Stadtmuseum, 29 août-14 novembre 2010), Deux-Ponts, Stadtmuseum, 2010, p. 200.&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;Charlotte Glück-Christmann, Thomas Wiercinski et Bernhard Becker (dir.), &lt;i&gt;Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken&lt;/i&gt;, cat. exp. (Zweibrücken, Stadtmuseum, 29 août-14 novembre 2010), Deux-Ponts, Stadtmuseum, 2010, p. 200.&lt;/p&gt;</note>
                     <note type="description" xml:lang="de">&lt;p&gt;Glück-Christmann, Charlotte (Hrsg.): Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken. Unter Mitarbeit von Thomas Wiercinski u. Bernhard Becker. Ausstellungskatalog (Zweibrücken, Stadtmuseum, 29. August - 14. November 2010). Zweibrücken, Stadtmuseum, 2010. S. 200.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1637-06-22</date>
@@ -9056,7 +9056,7 @@
                     <occupation type="category" xml:lang="de">Pfalzgraf von Pfalz-Birkenfeld-Bischweiler-Rappoltstein</occupation>
                     <occupation type="category" xml:lang="de">Herzog von Pfalz-Zweibrücken</occupation>
                     <occupation type="category" xml:lang="de">Generalleutnant der französischen Armee ab 1704</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;Charlotte Glück-Christmann, avec la collaboration de Thomas Wiercinski et Bernhard Becker (dir.), &lt;i&gt;Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken&lt;/i&gt;, cat. expo. (Zweibrücken, Stadtmuseum, 29 août-14 novembre 2010), Deux-Ponts, Stadtmuseum, 2010, p. 200.&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;Charlotte Glück-Christmann, avec la collaboration de Thomas Wiercinski et Bernhard Becker (dir.), &lt;i&gt;Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken&lt;/i&gt;, cat. exp. (Zweibrücken, Stadtmuseum, 29 août-14 novembre 2010), Deux-Ponts, Stadtmuseum, 2010, p. 200.&lt;/p&gt;</note>
                     <note type="description" xml:lang="de">&lt;p&gt;Glück-Christmann, Charlotte (Hrsg.): Die Wiege der Könige. 600 Jahre Herzogtum Pfalz-Zweibrücken. Unter Mitarbeit von Thomas Wiercinski u. Bernhard Becker. Ausstellungskatalog (Zweibrücken, Stadtmuseum, 29. August - 14. November 2010). Zweibrücken, Stadtmuseum, 2010. S. 200.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1674-11-04</date>
@@ -9399,7 +9399,7 @@
                     <occupation type="category" xml:lang="fra">ingénieur militaire</occupation>
                     <occupation type="category" xml:lang="de">Militäringenieur</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Fondateur de l’école néerlandaise de fortification ; il fait une partie de sa carrière au Danemark.&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/357746' target='_blank'&gt;https://rkd.nl/explore/artists/357746&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Begründer der niederländischen Manier des Festungsbaus; er machte einen Teil seiner Karriere in Dänemark.&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/357746' target='_blank'&gt;https://rkd.nl/explore/artists/357746&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Begründer der niederländischen Manier des Festungsbaus; er machte einen Teil seiner Karriere in Dänemark.&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/357746' target='_blank'&gt;https://rkd.nl/explore/artists/357746&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1624-04-09</date>
                         <date xml:lang="fra">1624-04-09</date>
@@ -9644,7 +9644,7 @@
                     <occupation type="category" xml:lang="fra">sculpteur</occupation>
                     <occupation type="category" xml:lang="de">Bildhauer</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Fils d’Erasmus Quellinus l’Ancien (1584-1640), frère cadet d’Erasmus Quellinus le Jeune (1607-1678) et oncle d’Artus Quellinus le Jeune (1625-1700).&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/65221' target='_blank'&gt;https://rkd.nl/explore/artists/65221&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Sohn von Erasmus Quellinus dem Älteren (1584-1640), jüngerer Bruder von Erasmus Quellinus dem Jüngeren (1607-1678) und Onkel von Artus Quellinus dem Jüngeren (1625-1700).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/65221' target='_blank'&gt;https://rkd.nl/explore/artists/65221&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Sohn von Erasmus Quellinus dem Älteren (1584-1640), jüngerer Bruder von Erasmus Quellinus dem Jüngeren (1607-1678) und Onkel von Artus Quellinus dem Jüngeren (1625-1700).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/65221' target='_blank'&gt;https://rkd.nl/explore/artists/65221&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1609-08-20</date>
                         <date xml:lang="fra">1609-08-20</date>
@@ -9665,7 +9665,7 @@
                     <occupation type="category" xml:lang="fra">sculpteur</occupation>
                     <occupation type="category" xml:lang="de">Bildhauer</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Cousin d’Erasmus Quellinus le Jeune (1607-1678) et d’Artus Quellinus l’Ancien (1609-1668).&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/206307' target='_blank'&gt;https://rkd.nl/explore/artists/206307&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Vetter von Erasmus Quellinus dem Jüngeren (1607-1678) und Artus Quellinus dem Älteren (1609-1668).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/206307' target='_blank'&gt;https://rkd.nl/explore/artists/206307&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Vetter von Erasmus Quellinus dem Jüngeren (1607-1678) und Artus Quellinus dem Älteren (1609-1668).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/206307' target='_blank'&gt;https://rkd.nl/explore/artists/206307&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1625-11</date>
                         <date xml:lang="fra">1625-11</date>
@@ -9756,8 +9756,8 @@
                     <occupation type="category" xml:lang="fra">peintre</occupation>
                     <occupation type="category" xml:lang="de">Bildhauer</occupation>
                     <occupation type="category" xml:lang="de">Maler</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;Brice mentionne cet artiste dans sa description de la capitale ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. I, p. 59-60. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Brice erwähnt diesen Künstler in seiner Beschreibung von Paris; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 1, S. 59f. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;Brice mentionne cet artiste dans sa description de la capitale ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. I, p. 59-60. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Brice erwähnt diesen Künstler in seiner Beschreibung von Paris; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 1, S. 59f. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de"/>
                         <date xml:lang="fra"/>
@@ -10023,7 +10023,7 @@
                 </person>
                 <person xml:id="textgrid:3q1kq" type="identified" subtype="Statesmen">
                     <idno xml:base="https://viaf.org/viaf/20407456" type="viaf"/>
-                    <persName xml:lang="de">Portland, Hans Willem Bentinck, Earl of Portland</persName>
+                    <persName xml:lang="de">Portland, Hans Willem Bentinck, Graf von</persName>
                     <persName xml:lang="fra">Portland, Hans Willem Bentinck, comte de</persName>
                     <nationality xml:lang="fra">néerlandaise (Provinces-Unies) ; anglaise</nationality>
                     <nationality xml:lang="de">niederländisch (Vereinigte Niederlande); englisch</nationality>
@@ -10434,9 +10434,9 @@
                         <placeName xml:lang="fra">Paris (Frankreich / France)</placeName>
                     </death>
                 </person>
-                <person xml:id="textgrid:3q1mf" type="identified" subtype="">
+                <person xml:id="textgrid:3q1mf" type="identified" subtype="Princes">
                     <idno xml:base="https://viaf.org/viaf/292820183" type="viaf"/>
-                    <persName xml:lang="de">Medici, Ferdinand I. de’, Großherzog der Toskana</persName>
+                    <persName xml:lang="de">Medici, Ferdinando I. de’, Großherzog der Toskana</persName>
                     <persName xml:lang="fra">Médicis, Ferdinand I&lt;sup&gt;er&lt;/sup&gt;, grand-duc de</persName>
                     <nationality xml:lang="fra">italienne</nationality>
                     <nationality xml:lang="de">italienisch</nationality>
@@ -10962,7 +10962,7 @@
                     <occupation type="category" xml:lang="de">Maler</occupation>
                     <occupation type="category" xml:lang="de">Zeichner</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Frère aîné de Gérard Audran (1640-1703).&lt;/p&gt; &lt;p&gt;Base biographique du Centre de recherche du château de Versailles : &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Älterer Bruder von Gérard Audran (1640-1703).&lt;/p&gt; &lt;p&gt;Biografische Datenbank des Centre de recherche du château de Versailles: &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Älterer Bruder von Gérard Audran (1640-1703).&lt;/p&gt; &lt;p&gt;Biografische Datenbank des Centre de recherche du château de Versailles: &lt;a href='http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56' target='_blank'&gt;http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&amp;ref=56&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1639-03-27</date>
                         <date xml:lang="fra">1639-03-27</date>
@@ -11606,7 +11606,7 @@
                     <occupation type="category" xml:lang="fra">peintre</occupation>
                     <occupation type="category" xml:lang="de">Maler</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Fils d’Erasmus Quellinus l’Ancien (1584-1640) et frère aîné d’Artus Quellinus l’Ancien (1609-1668).&lt;/p&gt; &lt;p&gt;Base de données RKDartists&amp; : &lt;a href='https://rkd.nl/explore/artists/65222' target='_blank'&gt;https://rkd.nl/explore/artists/65222&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Sohn von Erasmus Quellinus dem Älteren (1584-1640) und älterer Bruder von Artus Quellinus dem Älteren (1609-1668).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/65222' target='_blank'&gt;https://rkd.nl/explore/artists/65222&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Sohn von Erasmus Quellinus dem Älteren (1584-1640) und älterer Bruder von Artus Quellinus dem Älteren (1609-1668).&lt;/p&gt; &lt;p&gt;RKDartists&amp; Datenbank: &lt;a href='https://rkd.nl/explore/artists/65222' target='_blank'&gt;https://rkd.nl/explore/artists/65222&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">1607-11-19</date>
                         <date xml:lang="fra">1607-11-19</date>
@@ -12019,7 +12019,7 @@
                     <nationality xml:lang="fra">italienne</nationality>
                     <nationality xml:lang="de">italienisch</nationality>
                     <occupation type="category" xml:lang="fra">médailleur</occupation>
-                    <occupation type="category" xml:lang="fra">orfêvre</occupation>
+                    <occupation type="category" xml:lang="fra">orfèvre</occupation>
                     <occupation type="category" xml:lang="fra">sculpteur</occupation>
                     <occupation type="category" xml:lang="de">Medailleur</occupation>
                     <occupation type="category" xml:lang="de">Goldschmied</occupation>
@@ -13012,7 +13012,7 @@
                     <occupation type="category" xml:lang="fra">conseiller au parlement</occupation>
                     <occupation type="category" xml:lang="de">Parlamentsrat</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;Jean-Martin de La Salle-Canens fut reçu en tant que conseiller au parlement le 7 juillet 1689 et promu au rang de second président de la Première Chambre des enquêtes le 29 juillet 1706.&lt;/p&gt; &lt;p&gt;Jean-Numa Dast Le Vacher de Boisville, &lt;i&gt;Archives historiques du département de la Gironde. Liste générale et alphabétique des membres du parlement de Bordeaux depuis la fondation de cette cour souveraine en 1462 jusqu’à sa suppression en 1790, publiée d’après les documents inédits&lt;/i&gt;, Bordeaux, impr. de G. Gounouilhou, 1896, p. 38. &lt;a href='https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item' target='_blank'&gt;https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Jean-Martin de La Salle-Canenes wurde am 7. Juli 1689 Rat am Parlament von Bordeaux; am 29. Juli 1706 wurde er zum Zweiten Präsidenten der Ersten Berufungschungskammer befördert.&lt;/p&gt; &lt;p&gt;Dast Le Vacher de Boisville, Jean-Numa: Archives historiques du département de la Gironde, Liste générale et alphabétique des membres du parlement de Bordeaux depuis la fondation de cette cour souveraine en 1462 jusqu’à sa suppression en 1790, publiée d’après les documents inédits. Bordeaux, impr. de G. Gounouilhou, 1896. S. 38. &lt;a href='https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item' target='_blank'&gt;https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Jean-Martin de La Salle-Canenes wurde am 7. Juli 1689 Rat am Parlament von Bordeaux; am 29. Juli 1706 wurde er zum Zweiten Präsidenten der Ersten Berufungschungskammer befördert.&lt;/p&gt; &lt;p&gt;Dast Le Vacher de Boisville, Jean-Numa: Archives historiques du département de la Gironde, Liste générale et alphabétique des membres du parlement de Bordeaux depuis la fondation de cette cour souveraine en 1462 jusqu’à sa suppression en 1790, publiée d’après les documents inédits. Bordeaux, impr. de G. Gounouilhou, 1896. S. 38. &lt;a href='https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item' target='_blank'&gt;https://gallica.bnf.fr/ark:/12148/bpt6k341313/f77.item&lt;/a&gt;.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de"/>
                         <date xml:lang="fra"/>
@@ -13961,7 +13961,7 @@
                     <nationality xml:lang="de">französisch</nationality>
                     <occupation type="category" xml:lang="fra">directeur des travaux du château de Mannheim</occupation>
                     <occupation type="category" xml:lang="de">Baudirektor des Mannheimer Schlosses</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;Sur l’identification de cette personne et sa fonction dans le texte de Neumann, cf. Max H. von Freeden (éd.), &lt;i&gt;Quellen zur Geschichte des Barocks in Franken unter dem Einfluss des Hauses Schönborn&lt;/i&gt;, 1&lt;sup&gt;ère&lt;/sup&gt; partie en 2 vol. : &lt;i&gt;Die Zeit des Erzbischofs Lothar Franz und des Bischofs Johann Philipp Franz von Schönborn : 1693-1729&lt;/i&gt;, Wurtzbourg, F. Schöningh, 1955, vol. 2, n° 1017, p. 769, n. 3.&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;Sur l’identification de cette personne et sa fonction dans le texte de Neumann, cf. Max H. von Freeden (éd.), &lt;i&gt;Quellen zur Geschichte des Barocks in Franken unter dem Einfluss des Hauses Schönborn&lt;/i&gt;, 1&lt;sup&gt;re&lt;/sup&gt; partie en 2 vol. : &lt;i&gt;Die Zeit des Erzbischofs Lothar Franz und des Bischofs Johann Philipp Franz von Schönborn : 1693-1729&lt;/i&gt;, Wurtzbourg, F. Schöningh, 1955, vol. 2, n° 1017, p. 769, n. 3.&lt;/p&gt;</note>
                     <note type="description" xml:lang="de">&lt;p&gt;Zur Identifikation dieser Person und ihrer Funktion in Neumanns Text vgl. Freeden, Max H. von (Hrsg.): Quellen zur Geschichte des Barocks in Franken unter dem Einfluss des Hauses Schönborn, 1. Teil in 2 Bde.: Die Zeit des Erzbischofs Lothar Franz und des Bischofs Johann Philipp Franz von Schönborn 1693-1729. Würzburg, F. Schöningh, 1955. Hier Bd. 2, Nr. 1017, S. 769, Anm. 3.&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de">c. 1689</date>
@@ -14637,7 +14637,7 @@
                     <birth>
                         <date xml:lang="de">1697</date>
                         <date xml:lang="fra">1697</date>
-                        <placeName>Möckh? (Würzburg) / Möckh? (Wurtzbourg) (Deutschland / Allemagne)</placeName>
+                        <placeName>Würzburg / Wurtzbourg (Deutschland / Allemagne)</placeName>
                     </birth>
                     <death>
                         <date xml:lang="de">1756-11-12</date>
@@ -15172,8 +15172,8 @@
                     <nationality xml:lang="de"/>
                     <occupation type="category" xml:lang="fra">trésorerie de France</occupation>
                     <occupation type="category" xml:lang="de">Kämmerer von Frankreich</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;La fonction est donnée par Brice ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. II, p. 162. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n5/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n5/mode/2up&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Die Funktion ist die, die Germain Brice in einer Ausgabe seines Stadtführers angibt; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 2, S. 162. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n5/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n5/mode/2up&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;La fonction est donnée par Brice ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. II, p. 162.&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Die Funktion ist die, die Germain Brice in einer Ausgabe seines Stadtführers angibt; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 2, S. 162..&lt;/p&gt;</note>
                     <birth>
                         <date xml:lang="de"/>
                         <date xml:lang="fra"/>
@@ -15194,7 +15194,7 @@
                     <occupation type="category" xml:lang="fra">receveur général des finances à Poitiers</occupation>
                     <occupation type="category" xml:lang="de">Generalsteuereinnehmer des Steuerbezirks Poitiers</occupation>
                     <note type="description" xml:lang="fra">&lt;p&gt;La fonction est donnée par Brice ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, M. Brunet, 1706, t. I, p. 214-215. &lt;a href='bibliotheque-numerique.inha.fr/idviewer/5428/246' target='_blank'&gt;bibliotheque-numerique.inha.fr/idviewer/5428/246&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Die Funktion ist die, die Germain Brice in einer Ausgabe seines Stadtführers angibt; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, M. Brunet, 1706. Bd. 1, S. 214-215. &lt;a href='bibliotheque-numerique.inha.fr/idviewer/5428/246' target='_blank'&gt;bibliotheque-numerique.inha.fr/idviewer/5428/246&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">https://archive.org/details/bub_gb_QvBAAAAAcAAJ</note>
                     <birth>
                         <date xml:lang="de"/>
                         <date xml:lang="fra"/>
@@ -15466,7 +15466,7 @@
                         <placeName xml:lang="fra"/>
                     </death>
                 </person>
-                <person xml:id="textgrid:3qwdw" type="identified" subtype="">
+                <person xml:id="textgrid:3qwdw" type="identified" subtype="Artists">
                     <idno xml:base="" type="unknown"/>
                     <persName xml:lang="de">Ritter zu Groenesteyn, Heinrich Valentin von</persName>
                     <persName xml:lang="fra">Ritter zu Groenesteyn, Heinrich Valentin von</persName>
@@ -17161,7 +17161,7 @@
                         <placeName xml:lang="fra"/>
                     </death>
                 </person>
-                <person xml:id="textgrid:3vvcf" type="identified" subtype="">
+                <person xml:id="textgrid:3vvcf" type="identified" subtype="Statesmen">
                     <idno xml:base="https://data.biblissima.fr/w/Item:Q25907" type="unknown"/>
                     <persName xml:lang="de">Boucot, Claude-Nicolas</persName>
                     <persName xml:lang="fra">Boucot, Claude-Nicolas</persName>
@@ -17310,7 +17310,7 @@
                         <placeName xml:lang="fra"/>
                     </death>
                 </person>
-                <person xml:id="textgrid:3w3hn" type="identified" subtype="">
+                <person xml:id="textgrid:3w3hn" type="identified" subtype="Clerics">
                     <idno xml:base="https://viaf.org/viaf/89595978" type="viaf"/>
                     <persName xml:lang="de">Hilarius von Poitiers</persName>
                     <persName xml:lang="fra">Saint-Hilaire</persName>
@@ -17413,7 +17413,7 @@
                         <placeName xml:lang="fra"/>
                     </death>
                 </person>
-                <person xml:id="textgrid:3vvcs" type="identified" subtype="">
+                <person xml:id="textgrid:3vvcs" type="identified" subtype="Others">
                     <idno xml:base="" type="unknown"/>
                     <persName xml:lang="de">Silly, Markgraf von</persName>
                     <persName xml:lang="fra">Silly, marquis de</persName>
@@ -17432,7 +17432,7 @@
                         <placeName xml:lang="fra">Paris (Frankreich / France)</placeName>
                     </death>
                 </person>
-                <person xml:id="textgrid:3r301" type="identified" subtype="">
+                <person xml:id="textgrid:3r301" type="identified" subtype="Artists">
                     <idno xml:base="" type="unknown"/>
                     <persName xml:lang="de">Lemoine, Jean</persName>
                     <persName xml:lang="fra">Lemoine, Jean</persName>
@@ -17442,8 +17442,29 @@
                     <occupation type="category" xml:lang="fra">peintre</occupation>
                     <occupation type="category" xml:lang="de">Bildhauer</occupation>
                     <occupation type="category" xml:lang="de">Maler</occupation>
-                    <note type="description" xml:lang="fra">&lt;p&gt;Brice mentionne cet artiste dans sa description de la capitale ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. I, p. 59-60. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ&lt;/a&gt;&lt;/p&gt;</note>
-                    <note type="description" xml:lang="de">&lt;p&gt;Brice erwähnt diesen Künstler in seiner Beschreibung von Paris; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 1, S. 59f. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="fra">&lt;p&gt;Brice mentionne cet artiste dans sa description de la capitale ; cf. Germain Brice, &lt;i&gt;Description nouvelle de la ville de Paris&lt;/i&gt;, Paris, N. Legras, 1698, t. I, p. 59-60. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up&lt;/a&gt;&lt;/p&gt;</note>
+                    <note type="description" xml:lang="de">&lt;p&gt;Brice erwähnt diesen Künstler in seiner Beschreibung von Paris; vgl. Brice, Germain: Description nouvelle de la ville de Paris. Paris, N. Legras, 1698. Bd. 1, S. 59f. &lt;a href='https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up' target='_blank'&gt;https://archive.org/details/bub_gb_QvBAAAAAcAAJ/page/n73/mode/2up&lt;/a&gt;.&lt;/p&gt;</note>
+                    <birth>
+                        <date xml:lang="de"/>
+                        <date xml:lang="fra"/>
+                        <placeName/>
+                    </birth>
+                    <death>
+                        <date xml:lang="de"/>
+                        <date xml:lang="fra"/>
+                        <placeName xml:lang="fra"/>
+                    </death>
+                </person>
+                <person xml:id="textgrid:3w4n6" type="unidentified" subtype="">
+                    <idno xml:base="" type="unknown"/>
+                    <persName xml:lang="de">chanteuse à l’opéra de Paris</persName>
+                    <persName xml:lang="fra">Sängerin der Pariser Oper</persName>
+                    <nationality xml:lang="fra"/>
+                    <nationality xml:lang="de"/>
+                    <occupation type="category" xml:lang="fra">chanteuse</occupation>
+                    <occupation type="category" xml:lang="de">Sängerin</occupation>
+                    <note type="description" xml:lang="fra"/>
+                    <note type="description" xml:lang="de"/>
                     <birth>
                         <date xml:lang="de"/>
                         <date xml:lang="fra"/>
