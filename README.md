@@ -72,7 +72,6 @@ install [ruby](https://www.ruby-lang.org) and do
 ```bash
 gem install jekyll jekyll-theme-minimal
 cd paris-project
-git checkout gh-pages
 jekyll serve --livereload
 ```
 

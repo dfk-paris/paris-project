@@ -1844,7 +1844,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "textgrid:3pg0w",
+                "id": "textgrid:3w4n9",
                 "visitor": "Corfey",
                 "color": "#6699ff",
                 "type": "",
@@ -1856,8 +1856,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    4.891504,
-                    44.932896
+                    0.890278,
+                    44.111111
                 ]
             }
         },
@@ -4638,6 +4638,26 @@
                 "coordinates": [
                     4.40346,
                     51.21989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "textgrid:3pfvk",
+                "visitor": "Knesebeck",
+                "color": "#ff0066",
+                "type": "",
+                "label": "",
+                "labelNum": 67,
+                "edition": "3c0m2",
+                "page": 145
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.62571,
+                    51.96236
                 ]
             }
         },
