@@ -1,7 +1,7 @@
 # ARCHITRAVE Visualizations - Software
 Vers. 1.1
 
-date: 23/06/2021
+date: 12/10/2021
 
 ## Scope and content
 This repository contains the code and the data for the visualizations presented at
