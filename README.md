@@ -1,5 +1,5 @@
 # ARCHITRAVE Visualizations - Software
-Vers. 1.0
+Vers. 1.1
 
 date: 23/06/2021
 
