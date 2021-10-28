@@ -54,7 +54,7 @@ as geojson, install [pyenv](https://github.com/pyenv/pyenv) and use
 ```bash
 cd architrave-data
 pyenv shell 3.6.9
-pip install geopy bs4
+pip install geopy bs4 lxml
 python main.py
 
 # and then to actually use the new data in the maps:
